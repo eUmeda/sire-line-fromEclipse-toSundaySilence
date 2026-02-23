@@ -1,0 +1,192 @@
+/* ===== INDEX PAGE STYLES ===== */
+/* タイムラインページ専用 */
+
+/* Hero */
+.hero {
+  min-height:100vh; display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  text-align:center; padding:2rem; position:relative;
+  background:
+    radial-gradient(ellipse at 50% 20%, rgba(196,154,60,0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, rgba(196,154,60,0.04) 0%, transparent 40%),
+    var(--bg);
+}
+.hero-orn {
+  font-family:var(--f-head); color:var(--gold);
+  font-size:1.2rem; letter-spacing:0.5em; margin-bottom:1.5rem; opacity:0.6;
+}
+.hero h1 {
+  font-family:var(--f-display); font-size:clamp(2.5rem,7vw,5rem);
+  font-weight:900; color:var(--gold); letter-spacing:0.15em;
+  line-height:1.2; margin-bottom:0.5rem;
+  text-shadow:0 0 60px rgba(196,154,60,0.3);
+}
+.hero-sub {
+  font-family:var(--f-head); font-size:clamp(1rem,2.5vw,1.5rem);
+  font-weight:400; color:var(--text-sub); letter-spacing:0.3em; margin-bottom:2rem;
+}
+.hero-div {
+  display:flex; align-items:center; gap:1.5rem;
+  margin:2rem 0; width:min(80%,500px);
+}
+.hero-div::before, .hero-div::after {
+  content:''; flex:1; height:1px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent); opacity:0.4;
+}
+.hero-div span { color:var(--gold); font-size:0.9rem; opacity:0.6; }
+.hero-desc {
+  font-family:var(--f-jp); font-size:clamp(0.85rem,1.5vw,1rem);
+  font-weight:300; color:var(--text-sub); max-width:600px;
+  line-height:2; letter-spacing:0.05em;
+}
+.hero-years {
+  font-family:var(--f-head); font-size:clamp(0.8rem,1.2vw,0.95rem);
+  color:var(--text-muted); letter-spacing:0.4em; margin-top:2.5rem;
+}
+.scroll-ind {
+  position:absolute; bottom:2rem; left:50%; transform:translateX(-50%);
+  display:flex; flex-direction:column; align-items:center; gap:0.5rem;
+  color:var(--text-muted); font-family:var(--f-head);
+  font-size:0.65rem; letter-spacing:0.3em;
+}
+.scroll-ind .arrow {
+  width:1px; height:30px;
+  background:linear-gradient(180deg,var(--gold),transparent);
+}
+
+/* Legend */
+.legend-sec { padding:3rem 2rem; display:flex; justify-content:center; }
+.legend { display:flex; flex-wrap:wrap; justify-content:center; gap:1.5rem 2.5rem; max-width:900px; }
+.legend-item { display:flex; align-items:center; gap:0.6rem; }
+.legend-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+.legend-label { font-family:var(--f-jp); font-size:0.8rem; color:var(--text-sub); letter-spacing:0.05em; }
+
+/* Timeline */
+.tl-sec { padding:4rem 1rem 6rem; position:relative; }
+.tl { position:relative; max-width:1100px; margin:0 auto; }
+.tl::before {
+  content:''; position:absolute; left:50%; transform:translateX(-50%);
+  top:0; bottom:0; width:1px;
+  background:linear-gradient(180deg, transparent 0%, var(--gold-dark) 3%, var(--gold) 10%, var(--gold) 90%, var(--gold-dark) 97%, transparent 100%);
+  opacity:0.5;
+}
+.tl-item { position:relative; margin-bottom:2rem; }
+
+.tl-content { width:100%; }
+.tl-item:nth-child(odd) .tl-content { padding-right:calc(50% + 35px); padding-left:1rem; }
+.tl-item:nth-child(even) .tl-content { padding-left:calc(50% + 35px); padding-right:1rem; }
+.tl-item:nth-child(odd) .tl-card { margin-left:auto; text-align:right; }
+.tl-item:nth-child(even) .tl-card { margin-right:auto; text-align:left; }
+
+/* Node */
+.tl-node {
+  position:absolute; left:50%; top:20px; transform:translateX(-50%);
+  width:13px; height:13px; border-radius:50%;
+  border:2px solid var(--gold); background:var(--bg); z-index:2;
+  transition:all .3s ease;
+}
+.tl-item:hover .tl-node {
+  background:var(--gold); box-shadow:0 0 15px rgba(196,154,60,0.5);
+  transform:translateX(-50%) scale(1.3);
+}
+
+/* Connector */
+.tl-conn {
+  position:absolute; top:26px; height:1px;
+  background:var(--gold); opacity:0.3; z-index:1;
+}
+.tl-item:nth-child(odd) .tl-conn { right:50%; width:28px; margin-right:7px; }
+.tl-item:nth-child(even) .tl-conn { left:50%; width:28px; margin-left:7px; }
+
+/* Card */
+.tl-card {
+  max-width:440px; background:var(--bg-card);
+  border:1px solid rgba(196,154,60,0.1);
+  padding:1.5rem 1.8rem; position:relative;
+  transition:all .4s ease;
+}
+.tl-card:hover {
+  background:var(--bg-card-hover);
+  border-color:rgba(196,154,60,0.2);
+  transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(0,0,0,0.3);
+}
+.tl-card::before {
+  content:''; position:absolute; top:0; height:2px; width:50%; opacity:0.7;
+}
+.tl-item:nth-child(odd) .tl-card::before { right:0; left:auto; }
+.tl-item:nth-child(even) .tl-card::before { left:0; right:auto; }
+
+/* First & last emphasis */
+.tl-item:first-child .tl-card,
+.tl-item:last-child .tl-card {
+  border-color:rgba(196,154,60,0.25);
+  box-shadow:0 0 30px rgba(196,154,60,0.05);
+}
+.tl-item:first-child .tl-card::before,
+.tl-item:last-child .tl-card::before { height:3px; opacity:1; width:70%; }
+.tl-item:first-child .tl-node,
+.tl-item:last-child .tl-node {
+  width:17px; height:17px; background:var(--gold);
+  box-shadow:0 0 15px rgba(196,154,60,0.4);
+}
+
+/* Era colors */
+.e1 .tl-card::before{background:var(--era1)} .e1 .tl-node{border-color:var(--era1)} .e1:hover .tl-node{background:var(--era1);box-shadow:0 0 15px rgba(201,169,110,.5)} .e1 .tl-conn{background:var(--era1)} .e1 .card-yr{color:var(--era1)} .e1 .tl-card:hover{border-color:rgba(201,169,110,.25)}
+.e2 .tl-card::before{background:var(--era2)} .e2 .tl-node{border-color:var(--era2)} .e2:hover .tl-node{background:var(--era2);box-shadow:0 0 15px rgba(126,168,126,.5)} .e2 .tl-conn{background:var(--era2)} .e2 .card-yr{color:var(--era2)} .e2 .tl-card:hover{border-color:rgba(126,168,126,.25)}
+.e3 .tl-card::before{background:var(--era3)} .e3 .tl-node{border-color:var(--era3)} .e3:hover .tl-node{background:var(--era3);box-shadow:0 0 15px rgba(110,143,175,.5)} .e3 .tl-conn{background:var(--era3)} .e3 .card-yr{color:var(--era3)} .e3 .tl-card:hover{border-color:rgba(110,143,175,.25)}
+.e4 .tl-card::before{background:var(--era4)} .e4 .tl-node{border-color:var(--era4)} .e4:hover .tl-node{background:var(--era4);box-shadow:0 0 15px rgba(212,148,58,.5)} .e4 .tl-conn{background:var(--era4)} .e4 .card-yr{color:var(--era4)} .e4 .tl-card:hover{border-color:rgba(212,148,58,.25)}
+.e5 .tl-card::before{background:var(--era5)} .e5 .tl-node{border-color:var(--era5)} .e5:hover .tl-node{background:var(--era5);box-shadow:0 0 15px rgba(184,92,111,.5)} .e5 .tl-conn{background:var(--era5)} .e5 .card-yr{color:var(--era5)} .e5 .tl-card:hover{border-color:rgba(184,92,111,.25)}
+
+/* Card content */
+.card-gen {
+  font-family:var(--f-head); font-size:0.65rem;
+  letter-spacing:0.25em; color:var(--text-muted); text-transform:uppercase;
+  margin-bottom:0.3rem;
+}
+.card-name {
+  font-family:var(--f-head); font-size:clamp(1.2rem,2vw,1.5rem);
+  font-weight:700; color:var(--text); letter-spacing:0.08em;
+  line-height:1.3; margin-bottom:0.2rem;
+}
+.card-name a {
+  color:inherit; text-decoration:none;
+  border-bottom:1px solid transparent;
+  transition:color .3s ease, border-color .3s ease;
+}
+.card-name a:hover {
+  color:var(--gold);
+  border-bottom-color:var(--gold);
+}
+.card-yr {
+  font-family:var(--f-head); font-size:0.85rem;
+  font-weight:400; letter-spacing:0.15em; margin-bottom:0.8rem;
+}
+.card-desc {
+  font-family:var(--f-jp); font-size:0.85rem; font-weight:300;
+  color:var(--text-sub); line-height:1.9; letter-spacing:0.02em;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  .tl::before { left:20px; }
+  .tl-item:nth-child(odd), .tl-item:nth-child(even) {
+    transform: translateY(20px) translateX(20px);
+  }
+  .tl-item:nth-child(odd) .tl-content,
+  .tl-item:nth-child(even) .tl-content {
+    padding-left:55px; padding-right:1rem;
+  }
+  .tl-item:nth-child(odd) .tl-card,
+  .tl-item:nth-child(even) .tl-card {
+    text-align:left; margin-left:0; margin-right:0; max-width:100%;
+  }
+  .tl-node { left:20px; }
+  .tl-item:nth-child(odd) .tl-conn,
+  .tl-item:nth-child(even) .tl-conn {
+    left:20px; right:auto; width:28px; margin-left:7px; margin-right:0;
+  }
+  .tl-item:nth-child(odd) .tl-card::before,
+  .tl-item:nth-child(even) .tl-card::before { left:0; right:auto; }
+  .tl-card { padding:1.2rem 1.4rem; }
+}

@@ -1,0 +1,58 @@
+/* ===== SHARED DESIGN SYSTEM ===== */
+/* サイアーライン全ページ共通 */
+
+:root {
+  --bg: #0C0B0A;
+  --bg-card: #161412;
+  --bg-card-hover: #1C1A17;
+  --text: #E8E0D4;
+  --text-sub: #A89B8C;
+  --text-muted: #6B6156;
+  --gold: #C49A3C;
+  --gold-light: #D4B060;
+  --gold-dark: #8B6F2A;
+  --era1: #C9A96E;
+  --era2: #7EA87E;
+  --era3: #6E8FAF;
+  --era4: #D4943A;
+  --era5: #B85C6F;
+  --f-display: 'Cinzel Decorative', 'Cinzel', serif;
+  --f-head: 'Cinzel', serif;
+  --f-body: 'Cormorant Garamond', 'Noto Serif JP', serif;
+  --f-jp: 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; font-size:16px; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--f-body);
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Grain texture overlay */
+body::after {
+  content:'';
+  position:fixed; inset:0; z-index:9999;
+  pointer-events:none; opacity:0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+}
+
+/* Footer (shared) */
+.footer {
+  text-align:center; padding:4rem 2rem 3rem;
+  border-top:1px solid rgba(196,154,60,0.1);
+}
+.footer-orn {
+  font-family:var(--f-head); color:var(--gold);
+  font-size:0.9rem; letter-spacing:0.5em; opacity:0.4; margin-bottom:1.5rem;
+}
+.footer-text {
+  font-family:var(--f-jp); font-size:0.8rem; font-weight:300;
+  color:var(--text-muted); line-height:2; max-width:600px; margin:0 auto;
+}
