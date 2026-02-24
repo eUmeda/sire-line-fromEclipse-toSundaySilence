@@ -151,7 +151,23 @@ def build_all():
 
     path = build_index(env, all_horses)
     print(f"  Built {path.relative_to(ROOT)}")
-    print(f"\nDone. {len(all_horses)} horse pages + index.html generated.")
+
+    # Build companion horse pages (not included in timeline)
+    companion_count = 0
+    companion_path = DATA_DIR / "_companion_order.json"
+    if companion_path.exists():
+        companion_order = json.loads(companion_path.read_text(encoding="utf-8"))
+        for slug in companion_order:
+            data = load_horse(slug)
+            path = build_horse_page(env, data)
+            print(f"  Built {path.relative_to(ROOT)} (companion)")
+            companion_count += 1
+
+    parts = [f"{len(all_horses)} horse pages"]
+    if companion_count:
+        parts.append(f"{companion_count} companion pages")
+    parts.append("index.html")
+    print(f"\nDone. {' + '.join(parts)} generated.")
 
 
 def serve(port=8080):

@@ -1,0 +1,255 @@
+{
+  "id": "flying-childers",
+  "era": "e1",
+  "generation": "—",
+  "isCompanion": true,
+  "companionOf": {
+    "slug": "bartletts-childers",
+    "name": "Bartlett's Childers",
+    "relation": "全兄弟"
+  },
+  "nav": {
+    "prev": null,
+    "next": null
+  },
+  "eraLabel": "18世紀",
+  "name": "Flying Childers",
+  "dates": "c.1714 – 1741",
+  "epithet": "史上初の「最速」— 金の重さでも売れぬ無敗馬が、兄弟に託した血統の道",
+  "birthYear": 1714,
+  "cardDesc": "「空を飛ぶ馬」と呼ばれた18世紀最強の競走馬。全戦無敗を貫き、金の重さでも買えないと言われた。しかしサイアーラインは途絶え、走れなかった全兄弟Bartlett's Childersの系譜がEclipseへと繋がった。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1714年頃"
+    },
+    {
+      "label": "没年",
+      "value": "1741年（チャッツワース・ハウスにて、約27歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛（Bay）、流星・四白"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス（ヨークシャー州ドンカスター近郊）"
+    },
+    {
+      "label": "生産者",
+      "value": "Colonel Leonard Childers of Cantley Hall"
+    },
+    {
+      "label": "馬主",
+      "value": "2nd Duke of Devonshire"
+    },
+    {
+      "label": "体高",
+      "value": "約15.2ハンド（157cm）"
+    }
+  ],
+  "biography": [
+    "1714年頃、ヨークシャー州ドンカスター近郊のCantley HallでLeonard Childers大佐により生産された。父Darley Arabian、母Betty Leedes（by Old Careless）。同じ両親から2年後に生まれた全兄弟がBartlett's Childers——運動すると鼻血が止まらず、生涯一度もレースに出られなかった「Bleeding Childers」である。Flying Childersは正反対だった。デヴォンシャー公爵2世に購入され、1721年にニューマーケットでデビューすると、500ギニーの賭けレースでSpeedwellを一蹴した。",
+    "全戦全勝。約6-7戦すべてに勝利し、一度も敗北を知らなかった。1722年にはChaunterを6マイルの長距離戦で1,000ギニーの賭け金とともに打ち負かし、名馬Foxに対しては12ポンドのハンデを与えながら約4分の1マイルもの大差で圧勝した。ニューマーケットのラウンドコースを6分40秒で駆け抜けたタイムは当時超人的とされた。最後の2シーズンでは対戦相手が出走を辞退し、3度のウォークオーバー（不戦勝）が記録されている。デヴォンシャー公爵はこの馬に「体重と同じ重さの金貨」を提示されても売却を拒否したと伝えられる。",
+    "1723年に引退し、デヴォンシャー公爵のチャッツワース・ハウスで私有種牡馬として供用された。1730年と1736年にリーディングサイアーを獲得。息子Blazeはスタンダードブレッド（アメリカ標準種）の始祖Messengerの祖先となり、ハクニー種の基礎種牡馬Shalesの父にもなった。またSnipはOld Snapを通じて18世紀競馬に大きな足跡を残した。",
+    "しかし競馬史最大の皮肉がここにある。Flying Childersの直系父系は途絶えた。現代サラブレッドのサイアーラインを辿ると、Darley Arabianから先に繋がるのはFlying Childersではなく、一度も走れなかった弟Bartlett's Childersの方である。Bartlett's Childers → Squirt → Marske → Eclipse——走れなかった馬が血統の本流を繋ぎ、最速の馬の系譜は消えた。ドンカスター競馬場のFlying Childers Stakesにその名を留めるのみ。1741年、チャッツワースにて没。約27歳。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "6-7",
+      "wins": "6-7",
+      "seconds": "0",
+      "thirds": "0"
+    },
+    "unknownStats": [],
+    "narrative": "全戦全勝。対戦相手が出走を拒否する不戦勝が3回含まれる。18世紀初頭の記録のため正確な出走数は諸説ある。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1721 Speedwell戦（Newmarket, 500ギニー賭けレース）",
+          "1721 ラウンドコース・トライアル（Almanzor, Brown Betty撃破）",
+          "1722 Chaunter戦（Newmarket, 6マイル, 1,000ギニー）",
+          "1722 Fox戦（York, 12ポンドハンデ付与で4分の1マイル差圧勝）"
+        ]
+      },
+      {
+        "title": "種牡馬成績",
+        "items": [
+          "1730, 1736 英リーディングサイアー",
+          "Blaze — スタンダードブレッド種の祖先（Messenger系）",
+          "Snip — Old Snapの父"
+        ]
+      }
+    ],
+    "historicalNote": "※ 18世紀初頭の競走馬のため、記録は現存する史料に基づく推定値です"
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Darley Arabian",
+      "year": "c.1700",
+      "sireLine": true,
+      "link": "darley-arabian",
+      "sire": {
+        "name": "不詳",
+        "unknown": true,
+        "sire": {
+          "name": "不詳",
+          "unknown": true
+        },
+        "dam": {
+          "name": "不詳",
+          "unknown": true
+        }
+      },
+      "dam": {
+        "name": "不詳",
+        "unknown": true,
+        "sire": {
+          "name": "不詳",
+          "unknown": true
+        },
+        "dam": {
+          "name": "不詳",
+          "unknown": true
+        }
+      }
+    },
+    "dam": {
+      "name": "Betty Leedes",
+      "sire": {
+        "name": "Old Careless",
+        "sire": {
+          "name": "Spanker",
+          "sire": {
+            "name": "D'Arcy's Yellow Turk"
+          },
+          "dam": {
+            "name": "Old Morocco Mare",
+            "sire": {
+              "name": "Morocco Barb"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "Cream Cheeks",
+          "sire": {
+            "name": "Leedes Arabian"
+          },
+          "dam": {
+            "name": "Spanker Mare",
+            "sire": {
+              "name": "Spanker"
+            },
+            "dam": {
+              "name": "Old Morocco Mare"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Leedes Arabian Mare",
+        "sire": {
+          "name": "Leedes Arabian",
+          "sire": {
+            "name": "不詳",
+            "unknown": true
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true
+          }
+        },
+        "dam": {
+          "name": "Spanker Mare",
+          "sire": {
+            "name": "Spanker",
+            "sire": {
+              "name": "D'Arcy's Yellow Turk"
+            },
+            "dam": {
+              "name": "Old Morocco Mare"
+            }
+          },
+          "dam": {
+            "name": "Old Morocco Mare",
+            "sire": {
+              "name": "Morocco Barb"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      }
+    },
+    "note": "母Betty LeedesはSpanker 2×3のインブリード。Flying Childers自身はSpanker 3×4、Old Morocco Mare 4×4のインブリード。全兄弟Bartlett's Childers（1716年生）と同一の父母。"
+  },
+  "nameDisplayPed": "Flying Childers<br/><small>c.1714</small>",
+  "offspring": [
+    {
+      "name": "Blaze",
+      "year": "1733",
+      "desc": "スタンダードブレッド種の始祖Messengerの祖先。ハクニー種の基礎種牡馬Shalesの父"
+    },
+    {
+      "name": "Snip",
+      "year": "1736",
+      "desc": "Old Snapの父。18世紀の重要な種牡馬系統の起点"
+    },
+    {
+      "name": "Second",
+      "year": "1732",
+      "desc": "1737年にSultanとPartnerの両方を撃破"
+    },
+    {
+      "name": "Spanking Roger",
+      "year": "1732",
+      "desc": "落馬1回を除き全戦無敗"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Darley Arabian",
+      "year": "c.1700",
+      "current": false,
+      "slug": "darley-arabian"
+    },
+    {
+      "name": "Flying Childers",
+      "year": "c.1714",
+      "current": true,
+      "slug": null
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Flying Childers — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Flying_Childers"
+        },
+        {
+          "text": "Flying Childers — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/FlyingChilders.html"
+        },
+        {
+          "text": "Flying Childers Stakes — Doncaster Racecourse",
+          "url": "https://en.wikipedia.org/wiki/Flying_Childers_Stakes"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜関連馬 — Flying Childers"
+}

@@ -14,6 +14,14 @@
 
 <nav class="horse-nav">
   <a href="../index.html" class="nav-back">&#8592; Timeline</a>
+{%- if h.isCompanion|default(false) %}
+  <span class="nav-gen nav-companion">Related Horse</span>
+  <div class="prev-next">
+{%- if h.companionOf %}
+    <a href="{{ h.companionOf.slug }}.html">&#8592; {{ h.companionOf.name }}（{{ h.companionOf.relation }}）</a>
+{%- endif %}
+  </div>
+{%- else %}
   <div class="nav-gen">Generation {{ h.generation }}</div>
   <div class="prev-next">
 {%- if h.nav.prev %}
@@ -28,10 +36,15 @@
     <span style="color:var(--text-muted);font-size:0.8rem">End of Line</span>
 {%- endif %}
   </div>
+{%- endif %}
 </nav>
 
 <header class="horse-hero">
+{%- if h.isCompanion|default(false) %}
+  <div class="horse-era horse-companion-badge">関連馬 — {{ h.eraLabel }}</div>
+{%- else %}
   <div class="horse-era">{{ h.eraLabel }}</div>
+{%- endif %}
   <h1 class="horse-name">{{ h.name }}</h1>
   <p class="horse-dates">{{ h.dates }}</p>
   <p class="horse-epithet">{{ h.epithet }}</p>

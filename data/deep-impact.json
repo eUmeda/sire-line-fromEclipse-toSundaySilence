@@ -1,0 +1,297 @@
+{
+  "id": "deep-impact",
+  "era": "e6",
+  "generation": "—",
+  "isCompanion": true,
+  "companionOf": {
+    "slug": "black-tide",
+    "name": "Black Tide",
+    "relation": "全弟"
+  },
+  "nav": {
+    "prev": null,
+    "next": null
+  },
+  "eraLabel": "21世紀",
+  "name": "Deep Impact",
+  "dates": "2002 – 2019",
+  "epithet": "飛ぶように走った怪物 — 三冠馬にしてリーディングサイアー11年連続首位",
+  "birthYear": 2002,
+  "cardDesc": "セレクトセールで7,350万円、無敗の三冠馬にして種牡馬としてリーディングサイアー11年連続首位。全兄Black Tideの影で生まれた弟が、日本競馬史上最高の馬となった。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "2002年3月25日"
+    },
+    {
+      "label": "没年月日",
+      "value": "2019年7月30日（17歳・安楽死処分）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "日本（北海道・ノーザンファーム）"
+    },
+    {
+      "label": "生産者",
+      "value": "ノーザンファーム"
+    },
+    {
+      "label": "馬主",
+      "value": "金子真人ホールディングス"
+    },
+    {
+      "label": "調教師",
+      "value": "池江泰寿（栗東トレーニングセンター）"
+    }
+  ],
+  "biography": [
+    "2002年3月25日、北海道安平町のノーザンファームで生まれた。父Sunday Silence、母Wind in Her Hair（父Alzao）。1歳上の全兄Black Tideがセレクトセールで1億185万円だったのに対し、Deep Impactは7,350万円。金子真人が購入した。池江泰寿厩舎に入厩し、主戦騎手は武豊。2004年12月19日、阪神2000mの新馬戦を1馬身3/4差で快勝。翌2005年、弥生賞（G2）を経て皐月賞で初のG1制覇。東京優駿では5馬身差のレコード勝ち（2:23.3）。菊花賞も制して無敗の三冠馬となった。シンボリルドルフ以来21年ぶり、史上6頭目の偉業。",
+    "無敗伝説は2005年有馬記念で崩れた。ハーツクライが逃げの奇策に出て半馬身差で先着。中山2500mの小回りコースがDeep Impactの末脚を封じた。国内唯一の敗戦。2006年は天皇賞・春で世界レコード3:13.4を樹立（3200m）、宝塚記念を4馬身差で圧勝。海外遠征した凱旋門賞では3着入線するも、気管支拡張薬イプラトロピウムの陽性反応で失格処分。渡仏中に咳の治療で投与された薬剤が、敷き藁を通じて体内に残留したとされた。フランスでは禁止薬物だったが日本では禁止対象外という制度の狭間に落ちた悲劇だった。帰国後のジャパンカップ、有馬記念を連勝して引退。通算14戦12勝、G1を7勝。",
+    "社台スタリオンステーションで種牡馬入り。シンジケート総額51億円。初年度種付け料1,200万円、最高時4,000万円。2012年から2022年まで11年連続リーディングサイアー——空前絶後の記録。産駒からG1馬59頭。ジェンティルドンナ（G1×7、牝馬三冠、JC連覇、ドバイシーマクラシック）、コントレイル（無敗三冠。父子ともに無敗で三冠を達成した世界初の記録）、キズナ（東京優駿）、サトノダイヤモンド（菊花賞）、サクソンウォリアー（英2000ギニー）、オーギュストロダン（英ダービー）。日本・英国・フランス・アイルランドの4カ国でダービー馬を輩出した。",
+    "300年の時を隔てて、血統史は同じ物語を繰り返した。18世紀、Darley Arabianの2頭の息子——無敗のFlying Childersと、走れなかったBartlett's Childers。サイアーラインを繋いだのは走れなかった方だった。21世紀、Sunday Silenceの2頭の息子——三冠馬Deep Impactと、G2止まりのBlack Tide。本サイトが辿るサイアーラインを繋いでいるのはBlack Tideの方である（Black Tide → Kitasan Black → Equinox）。そして2006年に Deep Impactが樹立した天皇賞・春の世界レコードは、2017年に全兄Black Tideの息子キタサンブラックによって破られた。同じ血が、別の道を歩む。2019年7月30日、頸椎骨折のため安楽死処分。17歳。弥生賞はその年から「弥生賞ディープインパクト記念」と改称された。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "14",
+      "wins": "12",
+      "seconds": "1",
+      "thirds": "0"
+    },
+    "unknownStats": [],
+    "narrative": "14戦12勝。唯一の敗戦は2005年有馬記念の2着（ハーツクライに半馬身差）。2006年凱旋門賞は3着入線後に禁止薬物検出で失格。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "2005 皐月賞（G1, 中山）",
+          "2005 東京優駿〈日本ダービー〉（G1, 東京） — レコード 2:23.3",
+          "2005 菊花賞（G1, 京都） — 無敗の三冠達成",
+          "2006 天皇賞・春（G1, 京都） — 世界レコード 3:13.4",
+          "2006 宝塚記念（G1, 阪神）",
+          "2006 ジャパンカップ（G1, 東京）",
+          "2006 有馬記念（G1, 中山）"
+        ]
+      },
+      {
+        "title": "種牡馬成績",
+        "items": [
+          "2012-2022 リーディングサイアー 11年連続首位（JRA史上最長）",
+          "G1勝馬59頭（ジェンティルドンナ、コントレイル、キズナ、サクソンウォリアー等）",
+          "4カ国でダービー馬輩出（日本、英国、フランス、アイルランド）",
+          "シンジケート総額 51億円",
+          "2023-2024 ブルードメアサイアーランキング1位"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Sunday Silence",
+      "year": "1986",
+      "link": "sunday-silence",
+      "sireLine": true,
+      "sire": {
+        "name": "Halo",
+        "year": "1969",
+        "link": "halo",
+        "sireLine": true,
+        "sire": {
+          "name": "Hail to Reason",
+          "year": "1958",
+          "sireLine": true,
+          "link": "hail-to-reason",
+          "sire": {
+            "name": "Turn-to",
+            "year": "1951",
+            "sireLine": true,
+            "link": "turn-to"
+          },
+          "dam": {
+            "name": "Nothirdchance",
+            "year": "1948"
+          }
+        },
+        "dam": {
+          "name": "Cosmah",
+          "year": "1953",
+          "sire": {
+            "name": "Cosmic Bomb",
+            "year": "1944"
+          },
+          "dam": {
+            "name": "Almahmoud",
+            "year": "1947"
+          }
+        }
+      },
+      "dam": {
+        "name": "Wishing Well",
+        "year": "1975",
+        "sire": {
+          "name": "Understanding",
+          "year": "1963",
+          "sire": {
+            "name": "Promised Land"
+          },
+          "dam": {
+            "name": "Pretty Ways"
+          }
+        },
+        "dam": {
+          "name": "Mountain Flower",
+          "year": "1964",
+          "sire": {
+            "name": "Montparnasse"
+          },
+          "dam": {
+            "name": "Edelweiss"
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Wind in Her Hair",
+      "year": "1991",
+      "sire": {
+        "name": "Alzao",
+        "year": "1980",
+        "sire": {
+          "name": "Lyphard",
+          "year": "1969",
+          "sire": {
+            "name": "Northern Dancer",
+            "year": "1961"
+          },
+          "dam": {
+            "name": "Goofed"
+          }
+        },
+        "dam": {
+          "name": "Lady Rebecca",
+          "year": "1971",
+          "sire": {
+            "name": "Sir Ivor"
+          },
+          "dam": {
+            "name": "Donatella"
+          }
+        }
+      },
+      "dam": {
+        "name": "Burghclere",
+        "year": "1977",
+        "sire": {
+          "name": "Busted",
+          "year": "1963",
+          "sire": {
+            "name": "Crepello"
+          },
+          "dam": {
+            "name": "Sans le Sou"
+          }
+        },
+        "dam": {
+          "name": "Highclere",
+          "year": "1971",
+          "sire": {
+            "name": "Queen's Hussar"
+          },
+          "dam": {
+            "name": "Highlight"
+          }
+        }
+      }
+    },
+    "note": "母Wind in Her Hairは独オークス馬。母母Highclereは英1000ギニー・仏オークス馬（エリザベス女王II世の生産馬）。全兄Black Tide（2001年生）と同一の父母。"
+  },
+  "nameDisplayPed": "Deep Impact<br/><small>2002</small>",
+  "offspring": [
+    {
+      "name": "Gentildonna",
+      "year": "2009",
+      "desc": "G1×7。牝馬三冠、ジャパンカップ連覇、ドバイシーマクラシック"
+    },
+    {
+      "name": "Contrail",
+      "year": "2017",
+      "desc": "無敗の三冠馬。父子ともに無敗で三冠を達成した世界初の記録"
+    },
+    {
+      "name": "Kizuna",
+      "year": "2010",
+      "desc": "東京優駿（日本ダービー）。種牡馬として2024年リーディングサイアー"
+    },
+    {
+      "name": "Saxon Warrior",
+      "year": "2015",
+      "desc": "英2000ギニー（A・オブライエン厩舎）"
+    },
+    {
+      "name": "Auguste Rodin",
+      "year": "2019",
+      "desc": "英ダービー、愛ダービー"
+    },
+    {
+      "name": "Loves Only You",
+      "year": "2016",
+      "desc": "優駿牝馬（オークス）、BCフィリー&メアターフ（日本調教馬初のBC制覇）"
+    },
+    {
+      "name": "Fierement",
+      "year": "2015",
+      "desc": "菊花賞、天皇賞・春2回"
+    },
+    {
+      "name": "Saturnalia",
+      "year": "2016",
+      "desc": "皐月賞、ホープフルS"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Sunday Silence",
+      "year": "1986",
+      "current": false,
+      "slug": "sunday-silence"
+    },
+    {
+      "name": "Deep Impact",
+      "year": "2002",
+      "current": true,
+      "slug": null
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Deep Impact — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Deep_Impact_(horse)"
+        },
+        {
+          "text": "ディープインパクト — Wikipedia (JA)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%82%A4%E3%83%B3%E3%83%91%E3%82%AF%E3%83%88_(%E7%AB%B6%E8%B5%B0%E9%A6%AC)"
+        },
+        {
+          "text": "ディープインパクト — JBIS-Search",
+          "url": "https://www.jbis.jp/horse/0000742976/"
+        },
+        {
+          "text": "ディープインパクト — netkeiba",
+          "url": "https://db.netkeiba.com/horse/2002100816/"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜関連馬 — Deep Impact"
+}

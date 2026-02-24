@@ -293,6 +293,16 @@ a.lineage-node:hover .lineage-node-name { color:var(--gold); }
 .e5 .horse-era{color:var(--era5);border-color:rgba(184,92,111,.3)} .e5 .nav-gen{color:var(--era5)} .e5 .sec-title::after{background:var(--era5)}
 .e6 .horse-era{color:var(--era6);border-color:rgba(138,132,190,.3)} .e6 .nav-gen{color:var(--era6)} .e6 .sec-title::after{background:var(--era6)}
 
+/* Companion horse styles */
+.horse-companion-badge {
+  background: rgba(196,154,60,0.06);
+  font-style: italic;
+}
+.nav-companion {
+  font-style: italic;
+  letter-spacing: 0.15em;
+}
+
 /* Responsive */
 @media(max-width:768px){
   .horse-nav {
