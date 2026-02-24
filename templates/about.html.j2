@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About｜サイアーライン</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;900&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Noto+Serif+JP:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/shared.css">
+<style>
+.about-nav {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:1rem 2rem; border-bottom:1px solid rgba(196,154,60,0.1);
+  position:sticky; top:0; z-index:100;
+  background:rgba(12,11,10,0.95); backdrop-filter:blur(10px);
+}
+.about-nav a {
+  font-family:var(--f-head); font-size:0.8rem; color:var(--text-sub);
+  text-decoration:none; letter-spacing:0.1em; transition:color .3s ease;
+}
+.about-nav a:hover { color:var(--gold); }
+
+.about-hero {
+  text-align:center; padding:6rem 2rem 4rem;
+  background:
+    radial-gradient(ellipse at 50% 30%, rgba(196,154,60,0.06) 0%, transparent 50%),
+    var(--bg);
+}
+.about-hero h1 {
+  font-family:var(--f-display); font-size:clamp(1.8rem,4vw,2.8rem);
+  font-weight:700; color:var(--gold); letter-spacing:0.12em; margin-bottom:0.5rem;
+}
+.about-hero-div {
+  display:flex; align-items:center; gap:1.5rem;
+  margin:2rem auto; width:min(60%,300px);
+}
+.about-hero-div::before, .about-hero-div::after {
+  content:''; flex:1; height:1px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent); opacity:0.3;
+}
+.about-hero-div span { color:var(--gold); font-size:0.8rem; opacity:0.5; }
+
+.about-main {
+  max-width:680px; margin:0 auto; padding:0 2rem 4rem;
+}
+.about-section {
+  margin-bottom:3rem;
+}
+.about-section h2 {
+  font-family:var(--f-head); font-size:clamp(0.9rem,1.5vw,1.1rem);
+  font-weight:600; color:var(--gold); letter-spacing:0.15em;
+  text-transform:uppercase; margin-bottom:1.2rem;
+  padding-bottom:0.6rem;
+  border-bottom:1px solid rgba(196,154,60,0.15);
+}
+.about-section p {
+  font-family:var(--f-jp); font-size:0.9rem; font-weight:300;
+  color:var(--text-sub); line-height:2.2; letter-spacing:0.03em;
+  margin-bottom:1rem;
+}
+.about-section ul {
+  list-style:none; padding:0;
+}
+.about-section li {
+  font-family:var(--f-jp); font-size:0.85rem; font-weight:300;
+  color:var(--text-sub); line-height:2; letter-spacing:0.03em;
+  padding-left:1.2em; position:relative;
+}
+.about-section li::before {
+  content:'\25C6'; position:absolute; left:0;
+  color:var(--gold); opacity:0.5; font-size:0.6em; top:0.4em;
+}
+.about-section a {
+  color:var(--gold-light); text-decoration:none;
+  border-bottom:1px solid rgba(212,176,96,0.2);
+  transition:border-color .3s ease;
+}
+.about-section a:hover { border-bottom-color:var(--gold); }
+
+.about-stats {
+  display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem;
+  margin:1.5rem 0;
+}
+.about-stat {
+  text-align:center; padding:1.2rem 0.5rem;
+  border:1px solid rgba(196,154,60,0.1);
+}
+.about-stat-num {
+  display:block; font-family:var(--f-head); font-size:1.6rem;
+  font-weight:700; color:var(--gold); letter-spacing:0.05em;
+}
+.about-stat-label {
+  display:block; font-family:var(--f-jp); font-size:0.7rem;
+  color:var(--text-muted); letter-spacing:0.1em; margin-top:0.3rem;
+}
+
+@media(max-width:480px){
+  .about-stats { grid-template-columns:1fr; }
+  .about-main { padding:0 1.5rem 3rem; }
+}
+</style>
+</head>
+<body>
+
+<nav class="about-nav">
+  <a href="index.html">&#8592; Timeline</a>
+</nav>
+
+<header class="about-hero">
+  <h1>ABOUT</h1>
+  <div class="about-hero-div"><span>&#9670;</span></div>
+</header>
+
+<main class="about-main">
+
+  <section class="about-section">
+    <h2>このサイトについて</h2>
+    <p>
+      本サイトは、サラブレッド競走馬の父系（サイアーライン）を辿る系譜サイトです。
+      シリアの砂漠からイギリスへ渡ったDarley Arabianを起点に、
+      319年・28世代にわたって父から子へと受け継がれた血の物語を記録しています。
+    </p>
+    <div class="about-stats">
+      <div class="about-stat">
+        <span class="about-stat-num">28</span>
+        <span class="about-stat-label">メインライン</span>
+      </div>
+      <div class="about-stat">
+        <span class="about-stat-num">2</span>
+        <span class="about-stat-label">関連馬</span>
+      </div>
+      <div class="about-stat">
+        <span class="about-stat-num">319</span>
+        <span class="about-stat-label">年の系譜</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <h2>サイアーラインとは</h2>
+    <p>
+      サイアーライン（Sire Line）とは、父から息子、息子からさらにその息子へと続く直系父系の系譜です。
+      ヒトのY染色体が父系のみで継承されるように、
+      サラブレッドの父系もまた一本の線として辿ることができます。
+    </p>
+    <p>
+      三大始祖（Darley Arabian, Godolphin Arabian, Byerly Turk）のうち、
+      現代サラブレッドのY染色体の約95%はDarley Arabianに由来しています。
+      本サイトはそのDarley Arabianからの直系父系を、一頭ずつ辿ります。
+    </p>
+  </section>
+
+  <section class="about-section">
+    <h2>収録馬について</h2>
+    <p>
+      メインラインの28頭は、Darley Arabian（c.1700）からEquinox（2019）に至る
+      直系父系の一本道です。各世代から父系を継承した一頭を選び、
+      その馬の伝記・戦績・血統・代表産駒を記録しています。
+    </p>
+    <p>
+      関連馬として2頭を収録しています。
+      いずれもサイアーライン上の馬の全兄弟であり、
+      血統史上極めて重要な存在でありながら、
+      父系の継承者ではなかった馬たちです。
+    </p>
+    <ul>
+      <li>Flying Childers — Bartlett's Childersの全兄。18世紀最強の無敗馬</li>
+      <li>Deep Impact — Black Tideの全弟。無敗の三冠馬、日本競馬史上最高の種牡馬</li>
+    </ul>
+  </section>
+
+  <section class="about-section">
+    <h2>出典・参考文献</h2>
+    <p>
+      各馬の情報は、以下の公開情報源に基づいています。
+      18世紀以前の記録は、現存する史料に基づく推定値を含みます。
+    </p>
+    <ul>
+      <li>Wikipedia（英語版・日本語版）</li>
+      <li>Thoroughbred Heritage</li>
+      <li>JBIS-Search（Japan Bloodhorse Breeders' Information System）</li>
+      <li>netkeiba.com</li>
+      <li>American Classic Pedigrees</li>
+      <li>National Museum of Racing and Hall of Fame</li>
+    </ul>
+  </section>
+
+  <section class="about-section">
+    <h2>注意事項</h2>
+    <p>
+      本サイトの内容は一般に公開されている情報に基づいて作成されたものであり、
+      学術的な正確性を保証するものではありません。
+      特に18世紀以前の生年・没年・競走記録は、
+      史料の制約により推定値や伝承を含みます。
+    </p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-orn">&#9670; &#9670; &#9670;</div>
+  <p class="footer-text">サイアーライン｜Darley Arabian → Equinox</p>
+</footer>
+
+</body>
+</html>

@@ -122,10 +122,10 @@ def build_horse_page(env, horse_data):
     return output_path
 
 
-def build_index(env, all_horses):
+def build_index(env, all_horses, companions=None):
     """Render the index/timeline page."""
     template = env.get_template("index.html.j2")
-    html = template.render(horses=all_horses)
+    html = template.render(horses=all_horses, companions=companions or [])
     OUTPUT_INDEX.write_text(html, encoding="utf-8")
     return OUTPUT_INDEX
 
@@ -149,24 +149,33 @@ def build_all():
         path = build_horse_page(env, data)
         print(f"  Built {path.relative_to(ROOT)}")
 
-    path = build_index(env, all_horses)
-    print(f"  Built {path.relative_to(ROOT)}")
-
     # Build companion horse pages (not included in timeline)
     companion_count = 0
+    companions = []
     companion_path = DATA_DIR / "_companion_order.json"
     if companion_path.exists():
         companion_order = json.loads(companion_path.read_text(encoding="utf-8"))
         for slug in companion_order:
             data = load_horse(slug)
+            companions.append(data)
             path = build_horse_page(env, data)
             print(f"  Built {path.relative_to(ROOT)} (companion)")
             companion_count += 1
+
+    path = build_index(env, all_horses, companions)
+    print(f"  Built {path.relative_to(ROOT)}")
+
+    # Build about page
+    about_tmpl = env.get_template("about.html.j2")
+    about_html = about_tmpl.render()
+    (ROOT / "about.html").write_text(about_html, encoding="utf-8")
+    print(f"  Built about.html")
 
     parts = [f"{len(all_horses)} horse pages"]
     if companion_count:
         parts.append(f"{companion_count} companion pages")
     parts.append("index.html")
+    parts.append("about.html")
     print(f"\nDone. {' + '.join(parts)} generated.")
 
 
