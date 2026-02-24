@@ -594,6 +594,7 @@ function cancelPendingSend() {
 }
 
 function sendMessage() {
+  if (pendingTimer) return; // prevent duplicate sends during countdown
   const text = $chatInput.value.trim();
   if (!text) return;
   if (!currentData) { addSystemMsg('先にJSONデータを読み込んでください。'); return; }
