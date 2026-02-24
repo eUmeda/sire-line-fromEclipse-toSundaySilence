@@ -156,6 +156,21 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);height:
 .loading-dots::after{content:'';animation:dots 1.2s infinite}
 @keyframes dots{0%{content:''}25%{content:'.'}50%{content:'..'}75%{content:'...'}}
 
+/* ── Countdown cancel ── */
+.msg-countdown{
+  align-self:flex-end;background:rgba(201,169,110,.06);
+  border:1px dashed var(--gold-dim);color:var(--gold);
+  display:flex;align-items:center;gap:10px;
+}
+.msg-countdown .countdown-num{
+  font-family:var(--font-mono);font-size:1.1rem;font-weight:600;min-width:1.2em;text-align:center;
+}
+.msg-countdown .btn-cancel{
+  background:transparent;color:var(--text-dim);border:1px solid var(--border);
+  padding:3px 10px;font-size:.78rem;border-radius:var(--radius);cursor:pointer;
+}
+.msg-countdown .btn-cancel:hover{color:var(--red);border-color:var(--red)}
+
 /* ── Responsive ── */
 @media(max-width:900px){
   .main{grid-template-columns:1fr;grid-template-rows:40vh 1fr}
@@ -562,16 +577,70 @@ ${JSON.stringify(currentData, null, 2)}
   return JSON.parse(text);
 }
 
-/* ──────────── Send Message ──────────── */
-async function sendMessage() {
+/* ──────────── Send Message (with countdown cancel) ──────────── */
+const SEND_DELAY = 3; // seconds
+let pendingTimer = null;
+let pendingAbort = null;
+
+function cancelPendingSend() {
+  if (pendingTimer) {
+    clearInterval(pendingTimer);
+    pendingTimer = null;
+  }
+  if (pendingAbort) {
+    pendingAbort();
+    pendingAbort = null;
+  }
+}
+
+function sendMessage() {
   const text = $chatInput.value.trim();
   if (!text) return;
   if (!currentData) { addSystemMsg('先にJSONデータを読み込んでください。'); return; }
 
+  // Show user message with countdown
+  const escapedText = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const userMsg = addMsg('user', escapedText);
+
+  const countdownMsg = addMsg('countdown',
+    `<span class="countdown-num">${SEND_DELAY}</span>秒後に送信 <button class="btn-cancel">Esc / Cancel</button>`);
+  const $num = countdownMsg.querySelector('.countdown-num');
+  const $cancel = countdownMsg.querySelector('.btn-cancel');
+
   $chatInput.value = '';
   $chatInput.style.height = 'auto';
-  addMsg('user', text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'));
+  $btnSend.disabled = true;
+  let remaining = SEND_DELAY;
 
+  const cleanup = (cancelled) => {
+    clearInterval(pendingTimer);
+    pendingTimer = null;
+    pendingAbort = null;
+    countdownMsg.remove();
+    if (cancelled) {
+      userMsg.remove();
+      $chatInput.value = text; // restore original text
+      $btnSend.disabled = false;
+      addSystemMsg('送信をキャンセルしました。');
+    }
+  };
+
+  pendingAbort = () => cleanup(true);
+
+  $cancel.addEventListener('click', () => cancelPendingSend());
+
+  pendingTimer = setInterval(() => {
+    remaining--;
+    if (remaining > 0) {
+      $num.textContent = remaining;
+    } else {
+      cleanup(false);
+      doSend(text, escapedText);
+    }
+  }, 1000);
+}
+
+async function doSend(text, escapedHtml) {
   const loadingMsg = addMsg('ai', '<span class="loading-dots">考え中</span>');
   $btnSend.disabled = true;
 
@@ -611,6 +680,11 @@ async function sendMessage() {
 $btnSend.addEventListener('click', sendMessage);
 $chatInput.addEventListener('keydown', e => {
   if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+  if (e.key === 'Escape' && pendingAbort) { cancelPendingSend(); }
+});
+// Global Esc handler for when focus is elsewhere
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && pendingAbort) { cancelPendingSend(); }
 });
 
 // Auto-resize textarea
