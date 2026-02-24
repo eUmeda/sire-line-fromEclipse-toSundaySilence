@@ -19,14 +19,14 @@
   --font-mono:'JetBrains Mono',monospace;
   --radius:3px;
 }
-html{font-size:15px}
-body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-height:100vh;display:flex;flex-direction:column}
+html{font-size:15px;height:100%}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);height:100vh;display:flex;flex-direction:column;overflow:hidden}
 
 /* ── Toolbar ── */
 .toolbar{
   display:flex;align-items:center;gap:12px;padding:12px 20px;
   background:var(--bg2);border-bottom:1px solid var(--border);
-  position:sticky;top:0;z-index:100;
+  flex-shrink:0;z-index:100;
 }
 .toolbar-brand{font-family:var(--font-display);color:var(--gold);font-size:.85rem;letter-spacing:.15em;text-transform:uppercase;white-space:nowrap}
 .toolbar select{
@@ -45,11 +45,18 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-hei
 .btn-gold:hover{border-color:var(--gold);color:var(--gold-bright);background:rgba(201,169,110,.08)}
 .btn:disabled{opacity:.4;cursor:not-allowed}
 .toolbar-spacer{flex:1}
-.api-key-indicator{font-size:.75rem;color:var(--text-dim);cursor:pointer}
-.api-key-indicator:hover{color:var(--gold)}
+.toolbar-info{display:flex;align-items:center;gap:12px}
+.env-badge{
+  font-family:var(--font-mono);font-size:.65rem;padding:2px 8px;
+  border-radius:2px;text-transform:uppercase;letter-spacing:.05em;
+}
+.env-local{background:rgba(110,158,110,.15);color:var(--green);border:1px solid rgba(110,158,110,.3)}
+.env-pages{background:rgba(110,143,175,.15);color:var(--blue);border:1px solid rgba(110,143,175,.3)}
+.settings-link{font-size:.75rem;color:var(--text-dim);cursor:pointer}
+.settings-link:hover{color:var(--gold)}
 
 /* ── Main Layout ── */
-.main{display:grid;grid-template-columns:1fr 1fr;flex:1;overflow:hidden}
+.main{display:grid;grid-template-columns:1fr 1fr;flex:1;min-height:0;overflow:hidden}
 
 /* ── JSON Panel ── */
 .json-panel{
@@ -60,7 +67,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-hei
   padding:10px 16px;border-bottom:1px solid var(--border);
   font-family:var(--font-display);font-size:.72rem;letter-spacing:.12em;
   color:var(--text-dim);text-transform:uppercase;display:flex;align-items:center;gap:8px;
-  background:var(--bg2);
+  background:var(--bg2);flex-shrink:0;
 }
 .panel-header .badge{
   font-family:var(--font-mono);font-size:.7rem;color:var(--gold-dim);
@@ -109,7 +116,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-hei
 /* ── Chat Input ── */
 .chat-input-area{
   padding:12px 16px;border-top:1px solid var(--border);background:var(--bg2);
-  display:flex;gap:8px;
+  display:flex;gap:8px;flex-shrink:0;
 }
 .chat-input-area textarea{
   flex:1;background:var(--bg);color:var(--text);border:1px solid var(--border);
@@ -120,7 +127,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-hei
 .chat-input-area textarea:focus{outline:none;border-color:var(--gold-dim)}
 .chat-input-area textarea::placeholder{color:var(--text-dim)}
 
-/* ── API Key Modal ── */
+/* ── Settings Modal ── */
 .modal-overlay{
   position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:200;
   display:flex;align-items:center;justify-content:center;
@@ -128,17 +135,19 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-hei
 .modal-overlay.hidden{display:none}
 .modal{
   background:var(--bg2);border:1px solid var(--border);border-radius:4px;
-  padding:28px 32px;max-width:440px;width:90%;
+  padding:28px 32px;max-width:480px;width:90%;
 }
-.modal h2{font-family:var(--font-display);color:var(--gold);font-size:1rem;letter-spacing:.1em;margin-bottom:12px}
-.modal p{font-size:.85rem;color:var(--text-dim);margin-bottom:16px;line-height:1.5}
+.modal h2{font-family:var(--font-display);color:var(--gold);font-size:1rem;letter-spacing:.1em;margin-bottom:16px}
+.modal label{display:block;font-size:.82rem;color:var(--text-dim);margin-bottom:4px;margin-top:14px}
+.modal label:first-of-type{margin-top:0}
 .modal input{
   width:100%;background:var(--bg);color:var(--text);border:1px solid var(--border);
   padding:8px 12px;font-family:var(--font-mono);font-size:.82rem;
-  border-radius:var(--radius);margin-bottom:12px;
+  border-radius:var(--radius);
 }
 .modal input:focus{outline:none;border-color:var(--gold-dim)}
-.modal-actions{display:flex;justify-content:flex-end;gap:8px}
+.modal .hint{font-size:.72rem;color:var(--text-dim);margin-top:3px}
+.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:20px}
 
 /* ── Loading ── */
 .loading-dots::after{content:'';animation:dots 1.2s infinite}
@@ -171,7 +180,10 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-hei
   <button class="btn btn-gold" id="btnSave" disabled>Save</button>
   <button class="btn" id="btnRebuild">Rebuild All</button>
   <span class="toolbar-spacer"></span>
-  <span class="api-key-indicator" id="apiKeyStatus" title="Click to change API key">API Key: not set</span>
+  <div class="toolbar-info">
+    <span class="env-badge" id="envBadge"></span>
+    <span class="settings-link" id="openSettings">Settings</span>
+  </div>
 </div>
 
 <!-- Main -->
@@ -198,21 +210,29 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-hei
   </div>
 </div>
 
-<!-- API Key Modal -->
-<div class="modal-overlay hidden" id="apiKeyModal">
+<!-- Settings Modal -->
+<div class="modal-overlay hidden" id="settingsModal">
   <div class="modal">
-    <h2>Gemini API Key</h2>
-    <p>Google AI StudioのAPIキーを入力してください。キーはブラウザのlocalStorageに保存され、サーバーには送信されません。</p>
-    <input type="password" id="apiKeyInput" placeholder="AIza...">
+    <h2>Settings</h2>
+    <label for="inputGeminiKey">Gemini API Key</label>
+    <input type="password" id="inputGeminiKey" placeholder="AIza...">
+    <div class="hint">Google AI Studio で取得。チャット編集に使用。</div>
+    <label for="inputGithubToken">GitHub Personal Access Token</label>
+    <input type="password" id="inputGithubToken" placeholder="github_pat_...">
+    <div class="hint">GitHub Pages 上での Save に必要（localhost では不要）。</div>
     <div class="modal-actions">
-      <button class="btn" id="btnCancelKey">Cancel</button>
-      <button class="btn btn-gold" id="btnSaveKey">Save</button>
+      <button class="btn" id="btnCancelSettings">Cancel</button>
+      <button class="btn btn-gold" id="btnSaveSettings">Save</button>
     </div>
   </div>
 </div>
 
 <script>
-/* ──────────── State ──────────── */
+/* ──────────── Config ──────────── */
+const GITHUB_OWNER = 'eUmeda';
+const GITHUB_REPO  = 'sire-line-fromEclipse-toSundaySilence';
+const IS_LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+
 const SLUGS = [
   "eclipse","pot-8-os","waxy","whalebone","sir-hercules","birdcatcher",
   "the-baron","stockwell","doncaster","bend-or","bona-vista","cyllene",
@@ -222,47 +242,66 @@ const SLUGS = [
 
 let currentData = null;
 let currentSlug = null;
-let pendingData = null;  // Proposed changes from Gemini
+let currentSha  = null;  // GitHub file SHA for updates
+let pendingData = null;
 
 /* ──────────── DOM refs ──────────── */
-const $select    = document.getElementById('horseSelect');
-const $jsonView  = document.getElementById('jsonView');
-const $jsonSlug  = document.getElementById('jsonSlug');
-const $chatMsgs  = document.getElementById('chatMessages');
-const $chatInput = document.getElementById('chatInput');
-const $btnLoad   = document.getElementById('btnLoad');
-const $btnSave   = document.getElementById('btnSave');
-const $btnRebuild= document.getElementById('btnRebuild');
-const $btnSend   = document.getElementById('btnSend');
-const $apiStatus = document.getElementById('apiKeyStatus');
-const $modal     = document.getElementById('apiKeyModal');
-const $keyInput  = document.getElementById('apiKeyInput');
+const $select     = document.getElementById('horseSelect');
+const $jsonView   = document.getElementById('jsonView');
+const $jsonSlug   = document.getElementById('jsonSlug');
+const $chatMsgs   = document.getElementById('chatMessages');
+const $chatInput  = document.getElementById('chatInput');
+const $btnLoad    = document.getElementById('btnLoad');
+const $btnSave    = document.getElementById('btnSave');
+const $btnRebuild = document.getElementById('btnRebuild');
+const $btnSend    = document.getElementById('btnSend');
+const $envBadge   = document.getElementById('envBadge');
+const $modal      = document.getElementById('settingsModal');
 
 /* ──────────── Init ──────────── */
 SLUGS.forEach(s => {
   const opt = document.createElement('option');
-  opt.value = s;
-  opt.textContent = s;
+  opt.value = s; opt.textContent = s;
   $select.appendChild(opt);
 });
 
-updateApiKeyStatus();
+// Environment badge
+$envBadge.textContent = IS_LOCAL ? 'Local' : 'Pages';
+$envBadge.classList.add(IS_LOCAL ? 'env-local' : 'env-pages');
 
-/* ──────────── API Key ──────────── */
-function getApiKey() { return localStorage.getItem('gemini_api_key') || ''; }
-function setApiKey(k) { localStorage.setItem('gemini_api_key', k); updateApiKeyStatus(); }
-function updateApiKeyStatus() {
-  const k = getApiKey();
-  $apiStatus.textContent = k ? `API Key: ${k.slice(0,6)}...` : 'API Key: not set';
+// On Pages, hide Rebuild (auto via GitHub Actions)
+if (!IS_LOCAL) {
+  $btnRebuild.textContent = 'Deploy';
+  $btnRebuild.title = 'Save がリポジトリにcommitすると、GitHub Actions が自動デプロイします';
 }
 
-$apiStatus.addEventListener('click', () => { $modal.classList.remove('hidden'); $keyInput.value = getApiKey(); $keyInput.focus(); });
-document.getElementById('btnCancelKey').addEventListener('click', () => $modal.classList.add('hidden'));
-document.getElementById('btnSaveKey').addEventListener('click', () => {
-  setApiKey($keyInput.value.trim());
-  $modal.classList.add('hidden');
+/* ──────────── Settings (API Keys) ──────────── */
+function getGeminiKey()  { return localStorage.getItem('gemini_api_key') || ''; }
+function getGithubToken(){ return localStorage.getItem('github_pat') || ''; }
+function setGeminiKey(k) { localStorage.setItem('gemini_api_key', k); }
+function setGithubToken(k){ localStorage.setItem('github_pat', k); }
+
+document.getElementById('openSettings').addEventListener('click', () => {
+  document.getElementById('inputGeminiKey').value = getGeminiKey();
+  document.getElementById('inputGithubToken').value = getGithubToken();
+  $modal.classList.remove('hidden');
 });
-$keyInput.addEventListener('keydown', e => { if (e.key === 'Enter') { setApiKey($keyInput.value.trim()); $modal.classList.add('hidden'); } });
+document.getElementById('btnCancelSettings').addEventListener('click', () => $modal.classList.add('hidden'));
+document.getElementById('btnSaveSettings').addEventListener('click', () => {
+  setGeminiKey(document.getElementById('inputGeminiKey').value.trim());
+  setGithubToken(document.getElementById('inputGithubToken').value.trim());
+  $modal.classList.add('hidden');
+  addSystemMsg('設定を保存しました。');
+});
+
+// Show settings on first visit if no Gemini key
+if (!getGeminiKey()) {
+  setTimeout(() => {
+    document.getElementById('inputGeminiKey').value = '';
+    document.getElementById('inputGithubToken').value = getGithubToken();
+    $modal.classList.remove('hidden');
+  }, 500);
+}
 
 /* ──────────── JSON Display ──────────── */
 function syntaxHighlight(json) {
@@ -285,15 +324,50 @@ function displayJson(data) {
   $jsonView.innerHTML = syntaxHighlight(data);
 }
 
-/* ──────────── Load / Save / Rebuild ──────────── */
+/* ──────────── GitHub API helpers ──────────── */
+async function ghApiGet(path) {
+  const token = getGithubToken();
+  const headers = { 'Accept': 'application/vnd.github.v3+json' };
+  if (token) headers['Authorization'] = `Bearer ${token}`;
+  const res = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/${path}`, { headers });
+  if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text()}`);
+  return res.json();
+}
+
+async function ghApiPut(path, body) {
+  const token = getGithubToken();
+  if (!token) throw new Error('GitHub Token が未設定です。Settings から設定してください。');
+  const res = await fetch(`https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/${path}`, {
+    method: 'PUT',
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json',
+      'Accept': 'application/vnd.github.v3+json',
+    },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text()}`);
+  return res.json();
+}
+
+/* ──────────── Load ──────────── */
 $btnLoad.addEventListener('click', async () => {
   const slug = $select.value;
   $btnLoad.disabled = true;
   $btnLoad.textContent = 'Loading...';
   try {
-    const res = await fetch(`/data/${slug}.json`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    currentData = await res.json();
+    if (IS_LOCAL) {
+      // Local: fetch from dev server
+      const res = await fetch(`../data/${slug}.json`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      currentData = await res.json();
+      currentSha = null;
+    } else {
+      // GitHub Pages: fetch via API to get SHA (needed for updates)
+      const file = await ghApiGet(`contents/data/${slug}.json`);
+      currentData = JSON.parse(atob(file.content.replace(/\n/g, '')));
+      currentSha = file.sha;
+    }
     currentSlug = slug;
     pendingData = null;
     $btnSave.disabled = true;
@@ -308,21 +382,37 @@ $btnLoad.addEventListener('click', async () => {
   }
 });
 
+/* ──────────── Save ──────────── */
 $btnSave.addEventListener('click', async () => {
   if (!pendingData || !currentSlug) return;
   $btnSave.disabled = true;
   $btnSave.textContent = 'Saving...';
   try {
-    const res = await fetch(`/api/save/${currentSlug}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(pendingData),
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    if (IS_LOCAL) {
+      // Local: POST to dev server
+      const res = await fetch(`/api/save/${currentSlug}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(pendingData),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      addSystemMsg(`${currentSlug}.json を保存しました。`);
+    } else {
+      // GitHub Pages: commit via GitHub API
+      const content = btoa(unescape(encodeURIComponent(
+        JSON.stringify(pendingData, null, 2) + '\n'
+      )));
+      const result = await ghApiPut(`contents/data/${currentSlug}.json`, {
+        message: `Update ${currentSlug}.json via admin UI`,
+        content: content,
+        sha: currentSha,
+      });
+      currentSha = result.content.sha;
+      addSystemMsg(`${currentSlug}.json をGitHubにcommitしました。GitHub Actions が自動デプロイします。`);
+    }
     currentData = pendingData;
     pendingData = null;
     displayJson(currentData);
-    addSystemMsg(`${currentSlug}.json を保存しました。`);
   } catch (e) {
     addSystemMsg(`保存エラー: ${e.message}`);
   } finally {
@@ -331,18 +421,39 @@ $btnSave.addEventListener('click', async () => {
   }
 });
 
+/* ──────────── Rebuild / Deploy ──────────── */
 $btnRebuild.addEventListener('click', async () => {
   $btnRebuild.disabled = true;
-  $btnRebuild.textContent = 'Building...';
+  $btnRebuild.textContent = IS_LOCAL ? 'Building...' : 'Deploying...';
   try {
-    const res = await fetch('/api/build', { method: 'POST' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    addSystemMsg('全ページをリビルドしました。');
+    if (IS_LOCAL) {
+      const res = await fetch('/api/build', { method: 'POST' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      addSystemMsg('全ページをリビルドしました。');
+    } else {
+      // Trigger GitHub Actions workflow dispatch
+      const token = getGithubToken();
+      if (!token) throw new Error('GitHub Token が未設定です。');
+      const res = await fetch(
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/deploy.yml/dispatches`,
+        {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Content-Type': 'application/json',
+            'Accept': 'application/vnd.github.v3+json',
+          },
+          body: JSON.stringify({ ref: 'main' }),
+        }
+      );
+      if (!res.ok && res.status !== 204) throw new Error(`GitHub API ${res.status}`);
+      addSystemMsg('GitHub Actions デプロイをトリガーしました。数分後にサイトが更新されます。');
+    }
   } catch (e) {
-    addSystemMsg(`リビルドエラー: ${e.message}`);
+    addSystemMsg(`エラー: ${e.message}`);
   } finally {
     $btnRebuild.disabled = false;
-    $btnRebuild.textContent = 'Rebuild All';
+    $btnRebuild.textContent = IS_LOCAL ? 'Rebuild All' : 'Deploy';
   }
 });
 
@@ -358,12 +469,10 @@ function addMsg(role, html) {
 function addSystemMsg(text) { addMsg('system', text); }
 
 /* ──────────── Diff ──────────── */
-function computeDiff(oldObj, newObj, path = '') {
-  const diffs = [];
+function computeDiff(oldObj, newObj) {
   const oldStr = JSON.stringify(oldObj, null, 2).split('\n');
   const newStr = JSON.stringify(newObj, null, 2).split('\n');
-
-  // Simple line-by-line diff
+  const diffs = [];
   const maxLen = Math.max(oldStr.length, newStr.length);
   for (let i = 0; i < maxLen; i++) {
     const o = oldStr[i] || '';
@@ -379,7 +488,6 @@ function computeDiff(oldObj, newObj, path = '') {
 function renderDiff(oldObj, newObj) {
   const diffs = computeDiff(oldObj, newObj);
   if (diffs.length === 0) return '<em>変更なし</em>';
-
   let html = '<div class="diff-block">';
   diffs.forEach(d => {
     const prefix = d.type === 'added' ? '+' : '-';
@@ -393,11 +501,10 @@ function renderDiff(oldObj, newObj) {
 
 /* ──────────── Gemini API ──────────── */
 async function callGemini(instruction) {
-  const key = getApiKey();
+  const key = getGeminiKey();
   if (!key) {
     $modal.classList.remove('hidden');
-    $keyInput.focus();
-    throw new Error('API key not set');
+    throw new Error('Gemini API Key が未設定です。');
   }
 
   const systemPrompt = `あなたは競馬血統データの編集アシスタントです。
@@ -456,6 +563,7 @@ async function sendMessage() {
   if (!currentData) { addSystemMsg('先にJSONデータを読み込んでください。'); return; }
 
   $chatInput.value = '';
+  $chatInput.style.height = 'auto';
   addMsg('user', text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'));
 
   const loadingMsg = addMsg('ai', '<span class="loading-dots">考え中</span>');
@@ -504,11 +612,6 @@ $chatInput.addEventListener('input', () => {
   $chatInput.style.height = 'auto';
   $chatInput.style.height = Math.min($chatInput.scrollHeight, 120) + 'px';
 });
-
-// Show API key modal if not set
-if (!getApiKey()) {
-  setTimeout(() => { $modal.classList.remove('hidden'); $keyInput.focus(); }, 500);
-}
 </script>
 </body>
 </html>
