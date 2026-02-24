@@ -365,7 +365,10 @@ $btnLoad.addEventListener('click', async () => {
     } else {
       // GitHub Pages: fetch via API to get SHA (needed for updates)
       const file = await ghApiGet(`contents/data/${slug}.json`);
-      currentData = JSON.parse(atob(file.content.replace(/\n/g, '')));
+      const binary = atob(file.content.replace(/\n/g, ''));
+      const bytes = new Uint8Array(binary.length);
+      for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+      currentData = JSON.parse(new TextDecoder('utf-8').decode(bytes));
       currentSha = file.sha;
     }
     currentSlug = slug;
