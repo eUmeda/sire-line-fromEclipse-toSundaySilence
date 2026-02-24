@@ -1,7 +1,7 @@
 {
   "id": "halo",
   "era": "e5",
-  "generation": "XX",
+  "generation": "XXIV",
   "nav": {
     "prev": {
       "slug": "hail-to-reason",
@@ -410,5 +410,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Halo"
+  "footerText": "サイアーライン｜Darley Arabian → Halo"
 }

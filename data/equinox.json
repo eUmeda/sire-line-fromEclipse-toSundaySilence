@@ -1,0 +1,192 @@
+{
+  "id": "equinox",
+  "era": "e6",
+  "generation": "XXVIII",
+  "nav": {
+    "prev": {
+      "slug": "kitasan-black",
+      "name": "Kitasan Black"
+    },
+    "next": null
+  },
+  "eraLabel": "21世紀",
+  "name": "Equinox",
+  "dates": "2019 –",
+  "epithet": "500口の夢を乗せた世界最強馬 — レーティング135、日本競馬の頂点",
+  "birthYear": 2019,
+  "cardDesc": "一口馬主500口×8万円の出資馬が、Longines世界最強馬に。10戦8勝、G1×6勝、獲得賞金22億円超。ルメール騎手とともに日本競馬の頂点を極めた青鹿毛馬。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "2019年3月23日"
+    },
+    {
+      "label": "没年月日",
+      "value": "—（存命）"
+    },
+    {
+      "label": "毛色",
+      "value": "青鹿毛"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "日本（北海道・ノーザンファーム）"
+    },
+    {
+      "label": "生産者",
+      "value": "ノーザンファーム"
+    },
+    {
+      "label": "馬主",
+      "value": "シルクレーシング"
+    },
+    {
+      "label": "調教師",
+      "value": "木村哲也（美浦）"
+    },
+    {
+      "label": "主戦騎手",
+      "value": "クリストフ・ルメール"
+    }
+  ],
+  "biography": [
+    "2019年3月23日、北海道安平町のノーザンファームで生まれた青鹿毛の牡馬。父キタサンブラック、母シャトーブランシュ（父キングヘイロー）。母の父キングヘイローはHaloの孫にあたり、このサイアーラインは父方（Halo→Sunday Silence→Black Tide→Kitasan Black）と母方の両面からHaloの血を受け継いでいる。シルクレーシングの一口馬主募集に500口×8万円（総額4,000万円）で出資が募られた。",
+    "2歳秋にデビュー。東京スポーツ杯2歳S（G2）を快勝し世代トップの評価を得た。3歳の皐月賞は2着、日本ダービーも2着と惜敗が続いたが、秋の天皇賞（秋）で圧巻のG1初制覇。続く有馬記念も制して2022年JRA年度代表馬に選出された。",
+    "真の覚醒は4歳の2023年。3月のドバイシーマクラシック（G1）では、ルメール騎手がほとんど手綱を動かさない「不動の騎乗」でコースレコード（2分25秒65）を樹立。宝塚記念、天皇賞（秋）を連覇し、引退レースのジャパンカップでは4馬身差の圧勝劇を演じた。通算10戦8勝、G1×6勝、獲得賞金22億1544万6100円 — 日本調教馬として初の20億円突破。Longinesワールドベストレースホース2023に選出され、レーティング135は日本馬史上最高値となった。",
+    "2023年11月30日に競走馬を引退し、社台スタリオンステーションで種牡馬入り。初年度の種付け料2,000万円は新種牡馬として過去最高額を記録し、2024年には203頭の牝馬に交配された。「イクイノックス」の名は春分・秋分（昼と夜が等しい日）を意味する。速さとスタミナ、ダートと芝を問わない万能性 — その名の通り、すべてが均衡した稀代の名馬である。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "10",
+      "wins": "8",
+      "seconds": "2",
+      "thirds": "0"
+    },
+    "narrative": "G1を6勝。天皇賞（秋）2連覇、有馬記念、ドバイシーマクラシック、宝塚記念、ジャパンカップを制覇。獲得賞金22億1544万6100円。",
+    "subsections": [
+      {
+        "title": "G1勝鞍",
+        "items": [
+          "2022 天皇賞（秋）",
+          "2022 有馬記念",
+          "2023 ドバイシーマクラシック（コースレコード）",
+          "2023 宝塚記念",
+          "2023 天皇賞（秋）",
+          "2023 ジャパンカップ"
+        ]
+      },
+      {
+        "title": "受賞",
+        "items": [
+          "2022 JRA年度代表馬",
+          "2023 JRA年度代表馬",
+          "2023 Longines世界最強馬",
+          "Longinesレーティング135（日本馬史上最高）"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Kitasan Black",
+      "year": "2012",
+      "sireLine": true,
+      "link": "kitasan-black",
+      "sire": {
+        "name": "Black Tide",
+        "year": "2001",
+        "sireLine": true,
+        "link": "black-tide",
+        "sire": {
+          "name": "Sunday Silence",
+          "year": "1986",
+          "sireLine": true,
+          "link": "sunday-silence"
+        },
+        "dam": {
+          "name": "Wind in Her Hair"
+        }
+      },
+      "dam": {
+        "name": "Sugar Heart",
+        "sire": {
+          "name": "Sakura Bakushin O"
+        },
+        "dam": {
+          "name": "Otome Gokoro"
+        }
+      }
+    },
+    "dam": {
+      "name": "Chateau Blanche",
+      "year": "2012",
+      "sire": {
+        "name": "King Halo",
+        "year": "1995",
+        "sire": {
+          "name": "Dancing Brave"
+        },
+        "dam": {
+          "name": "Goodbye Halo",
+          "sire": {
+            "name": "Halo"
+          }
+        }
+      },
+      "dam": {
+        "name": "Bran New",
+        "sire": {
+          "name": "Unbridled's Song"
+        },
+        "dam": {
+          "name": "Eurosilver"
+        }
+      }
+    },
+    "note": "母の父キングヘイローはHaloの直孫。父方のサイアーライン（Halo→Sunday Silence→Black Tide→Kitasan Black）と母方の両面からHaloの血を受け継ぐ"
+  },
+  "offspring": [],
+  "sireLine": [
+    {
+      "name": "Kitasan Black",
+      "year": "2012",
+      "current": false,
+      "slug": "kitasan-black"
+    },
+    {
+      "name": "Equinox",
+      "year": "2019",
+      "current": true,
+      "slug": null
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "イクイノックス — Wikipedia (JA)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%AF%E3%82%A4%E3%83%8E%E3%83%83%E3%82%AF%E3%82%B9"
+        },
+        {
+          "text": "イクイノックス — netkeiba",
+          "url": "https://db.netkeiba.com/horse/2019104634/"
+        },
+        {
+          "text": "イクイノックス — JBIS-Search",
+          "url": "https://www.jbis.jp/horse/0001257092/"
+        },
+        {
+          "text": "Equinox — TDN",
+          "url": "https://www.thoroughbreddailynews.com/"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Darley Arabian → Equinox"
+}

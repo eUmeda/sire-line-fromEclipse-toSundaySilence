@@ -1,7 +1,7 @@
 {
   "id": "stockwell",
   "era": "e2",
-  "generation": "VIII",
+  "generation": "XII",
   "nav": {
     "prev": {
       "slug": "the-baron",
@@ -420,5 +420,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Stockwell"
+  "footerText": "サイアーライン｜Darley Arabian → Stockwell"
 }

@@ -1,7 +1,7 @@
 {
   "id": "bona-vista",
   "era": "e3",
-  "generation": "XI",
+  "generation": "XV",
   "nav": {
     "prev": {
       "slug": "bend-or",
@@ -382,5 +382,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Bona Vista"
+  "footerText": "サイアーライン｜Darley Arabian → Bona Vista"
 }

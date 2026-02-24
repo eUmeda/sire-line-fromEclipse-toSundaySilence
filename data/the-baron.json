@@ -1,7 +1,7 @@
 {
   "id": "the-baron",
   "era": "e2",
-  "generation": "VII",
+  "generation": "XI",
   "nav": {
     "prev": {
       "slug": "birdcatcher",
@@ -375,5 +375,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → The Baron"
+  "footerText": "サイアーライン｜Darley Arabian → The Baron"
 }

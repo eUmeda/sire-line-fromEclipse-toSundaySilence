@@ -1,7 +1,7 @@
 {
   "id": "doncaster",
   "era": "e3",
-  "generation": "IX",
+  "generation": "XIII",
   "nav": {
     "prev": {
       "slug": "stockwell",
@@ -389,5 +389,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Doncaster"
+  "footerText": "サイアーライン｜Darley Arabian → Doncaster"
 }

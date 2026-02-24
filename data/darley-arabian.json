@@ -1,0 +1,154 @@
+{
+  "id": "darley-arabian",
+  "era": "e1",
+  "generation": "I",
+  "nav": {
+    "prev": null,
+    "next": {
+      "slug": "bartletts-childers",
+      "name": "Bartlett's Childers"
+    }
+  },
+  "eraLabel": "18世紀",
+  "name": "Darley Arabian",
+  "dates": "c.1700 – 1730",
+  "epithet": "アレッポの砂漠から来た始祖 — 300金貨が競馬の歴史を創った",
+  "birthYear": 1700,
+  "cardDesc": "シリア・アレッポの砂漠で生まれたアラブ馬。イギリス商人Thomas Darleyが300金ソヴリンで購入し、ヨークシャーへ送った。一度も競走に出ることなく種牡馬として供用され、Y染色体解析により現代サラブレッドの約95%がこの馬のY染色体を保有していることが確認されている。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1700年頃"
+    },
+    {
+      "label": "没年月日",
+      "value": "1730年（約30歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛（Bay）、白い流星、白い脚3本"
+    },
+    {
+      "label": "体高",
+      "value": "約15ハンド（約152cm）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "シリア・アレッポ近郊（砂漠生まれ）"
+    },
+    {
+      "label": "生産者",
+      "value": "不詳（砂漠産アラブ馬）",
+      "unknown": true
+    },
+    {
+      "label": "馬主",
+      "value": "Sheikh Mirza II → Thomas Darley → Darley家（Aldby Park）"
+    }
+  ],
+  "biography": [
+    "1703年12月21日、シリア・アレッポに駐在するイギリス商人Thomas Darleyが一通の手紙を書いた。「鹿毛の馬、白い流星と白い脚3本、約15ハンド。ムニキ系アラブ馬。」彼はSheikh Mirza IIから300金ソヴリンでこの馬を購入した。ヨークシャー州バタークラムのAldby Park牧場に送られた。",
+    "一度も競走に出ることなく、種牡馬として供用。1722年にはイギリスのリーディングサイアーの座に就いた。Flying Childers（無敗の最強馬）とBartlett's Childers（「鼻血の仔」）という対照的な2頭の息子を世に送り出した。Bulle Rock（1709年生）はアメリカに輸出された最初のサラブレッドとなった。",
+    "1730年に約30歳で没。三大始祖（ダーレーアラビアン、ゴドルフィンアラビアン、バイアリーターク）の中で最も父系に影響を残した。Y染色体マイクロサテライト解析により、現代サラブレッドの約95%がこの馬のY染色体を保有していることが確認されている。砂漠の一頭の馬が、300年後の世界の競馬を支配している。"
+  ],
+  "raceRecord": {
+    "unknownStats": ["starts", "wins", "seconds", "thirds"],
+    "stats": {
+      "starts": "—",
+      "wins": "—",
+      "seconds": "—",
+      "thirds": "—"
+    },
+    "narrative": "競走には一度も出走していない。種牡馬としてのみ供用された。",
+    "historicalNote": "※ 砂漠産のアラブ馬であり、競走記録は存在しません"
+  },
+  "pedigree": {
+    "sire": {
+      "name": "不詳",
+      "unknown": true,
+      "sire": {
+        "name": "不詳",
+        "unknown": true
+      },
+      "dam": {
+        "name": "不詳",
+        "unknown": true
+      }
+    },
+    "dam": {
+      "name": "不詳",
+      "unknown": true,
+      "sire": {
+        "name": "不詳",
+        "unknown": true
+      },
+      "dam": {
+        "name": "不詳",
+        "unknown": true
+      }
+    },
+    "note": "※ 砂漠産のアラブ馬であり、血統の記録は存在しません。ムニキ系統のアラブ種と伝えられる"
+  },
+  "offspring": [
+    {
+      "name": "Flying Childers",
+      "year": "1715",
+      "desc": "18世紀最強の競走馬。全戦無敗。「空を飛ぶ馬」と呼ばれた"
+    },
+    {
+      "name": "Bartlett's Childers",
+      "year": "1716",
+      "desc": "鼻血で走れなかった全兄弟。サイアーラインの継承者",
+      "link": "bartletts-childers"
+    },
+    {
+      "name": "Bulle Rock",
+      "year": "1709",
+      "desc": "アメリカに輸出された最初のサラブレッド"
+    },
+    {
+      "name": "Almanzor",
+      "year": "c.1710",
+      "desc": "種牡馬として成功"
+    },
+    {
+      "name": "Aleppo",
+      "year": "c.1710",
+      "desc": "父の出身地に因む名"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Darley Arabian",
+      "year": "c.1700",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Bartlett's Childers",
+      "year": "1716",
+      "current": false,
+      "slug": "bartletts-childers"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Darley Arabian — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Darley_Arabian"
+        },
+        {
+          "text": "Darley Arabian — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/DarleyArabian.html"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Darley Arabian"
+}

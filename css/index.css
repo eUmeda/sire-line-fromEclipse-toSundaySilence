@@ -137,6 +137,7 @@
 .e3 .tl-card::before{background:var(--era3)} .e3 .tl-node{border-color:var(--era3)} .e3:hover .tl-node{background:var(--era3);box-shadow:0 0 15px rgba(110,143,175,.5)} .e3 .tl-conn{background:var(--era3)} .e3 .card-yr{color:var(--era3)} .e3 .tl-card:hover{border-color:rgba(110,143,175,.25)}
 .e4 .tl-card::before{background:var(--era4)} .e4 .tl-node{border-color:var(--era4)} .e4:hover .tl-node{background:var(--era4);box-shadow:0 0 15px rgba(212,148,58,.5)} .e4 .tl-conn{background:var(--era4)} .e4 .card-yr{color:var(--era4)} .e4 .tl-card:hover{border-color:rgba(212,148,58,.25)}
 .e5 .tl-card::before{background:var(--era5)} .e5 .tl-node{border-color:var(--era5)} .e5:hover .tl-node{background:var(--era5);box-shadow:0 0 15px rgba(184,92,111,.5)} .e5 .tl-conn{background:var(--era5)} .e5 .card-yr{color:var(--era5)} .e5 .tl-card:hover{border-color:rgba(184,92,111,.25)}
+.e6 .tl-card::before{background:var(--era6)} .e6 .tl-node{border-color:var(--era6)} .e6:hover .tl-node{background:var(--era6);box-shadow:0 0 15px rgba(138,132,190,.5)} .e6 .tl-conn{background:var(--era6)} .e6 .card-yr{color:var(--era6)} .e6 .tl-card:hover{border-color:rgba(138,132,190,.25)}
 
 /* Card content */
 .card-gen {

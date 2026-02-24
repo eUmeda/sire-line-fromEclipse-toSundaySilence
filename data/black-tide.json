@@ -1,0 +1,215 @@
+{
+  "id": "black-tide",
+  "era": "e6",
+  "generation": "XXVI",
+  "nav": {
+    "prev": {
+      "slug": "sunday-silence",
+      "name": "Sunday Silence"
+    },
+    "next": {
+      "slug": "kitasan-black",
+      "name": "Kitasan Black"
+    }
+  },
+  "eraLabel": "21世紀",
+  "name": "Black Tide",
+  "dates": "2001 –",
+  "epithet": "ディープインパクトの全兄 — 偉大な弟の影から独自の父系を拓いた",
+  "birthYear": 2001,
+  "cardDesc": "Sunday SilenceとWind in Her Hairの間に生まれた長兄。全弟ディープインパクトの影に隠れ続けたが、キタサンブラックを通じて独自の父系を確立した。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "2001年3月29日"
+    },
+    {
+      "label": "没年月日",
+      "value": "—（存命）"
+    },
+    {
+      "label": "毛色",
+      "value": "黒鹿毛"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "日本（北海道・ノーザンファーム）"
+    },
+    {
+      "label": "生産者",
+      "value": "ノーザンファーム"
+    },
+    {
+      "label": "馬主",
+      "value": "金子真人ホールディングス"
+    },
+    {
+      "label": "調教師",
+      "value": "池江泰寿（栗東）"
+    }
+  ],
+  "biography": [
+    "2001年3月29日、北海道安平町のノーザンファームで生まれた。父は日本競馬を変革したSunday Silence、母は英国産の名牝Wind in Her Hair（父Alzao）。1億185万円でセリ落札され、金子真人ホールディングスの所有となった。翌2002年、同じ父母から全弟ディープインパクトが誕生する。",
+    "競走馬としては3歳時にスプリングS（G2）を制したが、骨折により長期離脱を余儀なくされた。通算22戦3勝。全弟ディープインパクトが無敗の三冠馬となり年度代表馬に輝く一方で、Black Tideの名は競馬ファンの記憶からも薄れていった。",
+    "2009年から社台スタリオンステーションで種牡馬生活を開始。初年度の種付け料50万円は、同時期のディープインパクトの1,200万円と比べるべくもなかった。しかし2015年、産駒キタサンブラックが菊花賞を制覇。以後キタサンブラックはG1を7勝し、さらにその産駒イクイノックスが2023年世界最強馬に選出された。偉大な弟とは異なる道を歩み、Black Tideは独自のサイアーラインを切り拓いた。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "22",
+      "wins": "3",
+      "seconds": "2",
+      "thirds": "3"
+    },
+    "narrative": "3歳時にスプリングS（G2）制覇。骨折による長期離脱を経て復帰するも本来の力を発揮できず。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "2004 スプリングS（G2, 中山）"
+        ]
+      },
+      {
+        "title": "主な敗戦",
+        "items": [
+          "2004 皐月賞 5着",
+          "2004 NHKマイルC 11着"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Sunday Silence",
+      "year": "1986",
+      "sireLine": true,
+      "link": "sunday-silence",
+      "sire": {
+        "name": "Halo",
+        "year": "1969",
+        "sireLine": true,
+        "link": "halo",
+        "sire": {
+          "name": "Hail to Reason",
+          "year": "1958",
+          "sireLine": true,
+          "link": "hail-to-reason",
+          "sire": {
+            "name": "Turn-to",
+            "sireLine": true,
+            "link": "turn-to"
+          },
+          "dam": {
+            "name": "Nothirdchance"
+          }
+        },
+        "dam": {
+          "name": "Cosmah",
+          "sire": {
+            "name": "Cosmic Bomb"
+          },
+          "dam": {
+            "name": "Almahmoud"
+          }
+        }
+      },
+      "dam": {
+        "name": "Wishing Well",
+        "sire": {
+          "name": "Understanding"
+        },
+        "dam": {
+          "name": "Mountain Flower"
+        }
+      }
+    },
+    "dam": {
+      "name": "Wind in Her Hair",
+      "year": "1991",
+      "sire": {
+        "name": "Alzao",
+        "sire": {
+          "name": "Lyphard"
+        },
+        "dam": {
+          "name": "Lady Rebecca"
+        }
+      },
+      "dam": {
+        "name": "Burghclere",
+        "sire": {
+          "name": "Busted"
+        },
+        "dam": {
+          "name": "Donatella",
+          "sire": {
+            "name": "Donatello II"
+          }
+        }
+      }
+    },
+    "note": "母Wind in Her Hairは英オークス2着馬。全弟ディープインパクト（2002年生）は無敗の三冠馬"
+  },
+  "offspring": [
+    {
+      "name": "Kitasan Black",
+      "year": "2012",
+      "link": "kitasan-black",
+      "desc": "G1を7勝。2017年度JRA年度代表馬"
+    },
+    {
+      "name": "Maruterumaru",
+      "year": "2010",
+      "desc": "福島記念（G3）勝ち"
+    },
+    {
+      "name": "Camniac",
+      "year": "2022",
+      "desc": "2025年優駿牝馬（G1）勝ち"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Sunday Silence",
+      "year": "1986",
+      "current": false,
+      "slug": "sunday-silence"
+    },
+    {
+      "name": "Black Tide",
+      "year": "2001",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Kitasan Black",
+      "year": "2012",
+      "current": false,
+      "slug": "kitasan-black"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "ブラックタイド — Wikipedia (JA)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%82%BF%E3%82%A4%E3%83%89"
+        },
+        {
+          "text": "ブラックタイド — netkeiba",
+          "url": "https://db.netkeiba.com/horse/2001104283/"
+        },
+        {
+          "text": "ブラックタイド — JBIS-Search",
+          "url": "https://www.jbis.jp/horse/0000893826/"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Darley Arabian → Black Tide"
+}

@@ -291,6 +291,7 @@ a.lineage-node:hover .lineage-node-name { color:var(--gold); }
 .e3 .horse-era{color:var(--era3);border-color:rgba(110,143,175,.3)} .e3 .nav-gen{color:var(--era3)} .e3 .sec-title::after{background:var(--era3)}
 .e4 .horse-era{color:var(--era4);border-color:rgba(212,148,58,.3)} .e4 .nav-gen{color:var(--era4)} .e4 .sec-title::after{background:var(--era4)}
 .e5 .horse-era{color:var(--era5);border-color:rgba(184,92,111,.3)} .e5 .nav-gen{color:var(--era5)} .e5 .sec-title::after{background:var(--era5)}
+.e6 .horse-era{color:var(--era6);border-color:rgba(138,132,190,.3)} .e6 .nav-gen{color:var(--era6)} .e6 .sec-title::after{background:var(--era6)}
 
 /* Responsive */
 @media(max-width:768px){

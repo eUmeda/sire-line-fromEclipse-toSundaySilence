@@ -1,7 +1,7 @@
 {
   "id": "whalebone",
   "era": "e2",
-  "generation": "IV",
+  "generation": "VIII",
   "nav": {
     "prev": {
       "slug": "waxy",
@@ -383,5 +383,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Sunday Silence"
+  "footerText": "サイアーライン｜Darley Arabian → Whalebone"
 }

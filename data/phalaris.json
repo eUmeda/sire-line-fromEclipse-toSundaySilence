@@ -1,7 +1,7 @@
 {
   "id": "phalaris",
   "era": "e4",
-  "generation": "XIV",
+  "generation": "XVIII",
   "nav": {
     "prev": {
       "slug": "polymelus",
@@ -400,5 +400,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Phalaris"
+  "footerText": "サイアーライン｜Darley Arabian → Phalaris"
 }

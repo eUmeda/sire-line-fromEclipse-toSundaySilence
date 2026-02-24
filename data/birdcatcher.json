@@ -1,7 +1,7 @@
 {
   "id": "birdcatcher",
   "era": "e2",
-  "generation": "VI",
+  "generation": "X",
   "nav": {
     "prev": {
       "slug": "sir-hercules",
@@ -407,5 +407,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Birdcatcher"
+  "footerText": "サイアーライン｜Darley Arabian → Birdcatcher"
 }

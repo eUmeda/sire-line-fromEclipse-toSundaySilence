@@ -1,7 +1,7 @@
 {
   "id": "polymelus",
   "era": "e4",
-  "generation": "XIII",
+  "generation": "XVII",
   "nav": {
     "prev": {
       "slug": "cyllene",
@@ -405,5 +405,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Polymelus"
+  "footerText": "サイアーライン｜Darley Arabian → Polymelus"
 }

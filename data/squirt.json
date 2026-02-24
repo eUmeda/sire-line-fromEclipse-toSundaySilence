@@ -1,0 +1,190 @@
+{
+  "id": "squirt",
+  "era": "e1",
+  "generation": "III",
+  "nav": {
+    "prev": {
+      "slug": "bartletts-childers",
+      "name": "Bartlett's Childers"
+    },
+    "next": {
+      "slug": "marske",
+      "name": "Marske"
+    }
+  },
+  "eraLabel": "18世紀",
+  "name": "Squirt",
+  "dates": "1732 – 没年不詳",
+  "epithet": "処分寸前の蹄葉炎馬 — 一人の厩務員の嘆願がEclipseへの道を救った",
+  "birthYear": 1732,
+  "cardDesc": "蹄葉炎で歩行困難となり殺処分が決まった。しかし一人の厩務員が命乞いをして命を繋いだ。この決断がなければ、Eclipseも、現代のサラブレッドも存在しない。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1732年"
+    },
+    {
+      "label": "没年月日",
+      "value": "不詳",
+      "unknown": true
+    },
+    {
+      "label": "毛色",
+      "value": "栗毛（Chestnut）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス（ヨークシャー州ビバリー）"
+    },
+    {
+      "label": "生産者",
+      "value": "William Metcalfe"
+    },
+    {
+      "label": "馬主",
+      "value": "William Metcalfe → 2nd Earl of Portmore → Sir Henry Harpur"
+    }
+  ],
+  "biography": [
+    "1732年、ヨークシャー州ビバリーでWilliam Metcalfeにより生産された栗毛の牡馬。父は一度も走らなかった「鼻血の仔」Bartlett's Childers、母はSnake産駒の牝馬。第2代ポートモア伯爵に売却され、1737年から1740年にかけてニューマーケット、エプソム、ソールズベリーなどで活躍した。200ギニーのマッチレースに複数勝利。",
+    "引退後、ダービーシャー州Calke AbbyのSir Henry Harpurのもとで種牡馬となった。しかし重度の蹄葉炎を発症し、歩行すら困難になった。Harpurは殺処分を命じた。このとき、Squirtの世話をしていた一人の厩務員が「どうかこの馬を殺さないでほしい」と必死に嘆願した。Harpurはその訴えを聞き入れ、処分を取りやめた。",
+    "歴史の分岐点だった。この厩務員の一言がなければ、MarskeもEclipseも生まれず、現代サラブレッドの血統地図は根底から異なるものになっていた。Squirtは回復し、種牡馬として活動を続け、Marske（1750年生、Eclipseの父）とSyphon（ヨーク大レース勝ち馬）を輩出した。名もなき厩務員の嘆願が、250年後の競馬を形作った。"
+  ],
+  "raceRecord": {
+    "unknownStats": [],
+    "stats": {
+      "starts": "10+",
+      "wins": "5+",
+      "seconds": "2",
+      "thirds": "1"
+    },
+    "narrative": "1737年〜1740年にかけて活躍。ニューマーケットでの200ギニーマッチ勝利が最大の実績。",
+    "historicalNote": "※ 18世紀前半の記録のため、正確な戦績は不明です",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1737 200ギニーマッチ（Newmarket）",
+          "1739 200ギニーマッチ（Newmarket）",
+          "1737-1740 各地のプレート戦"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Bartlett's Childers",
+      "year": "1716",
+      "sireLine": true,
+      "sire": {
+        "name": "Darley Arabian",
+        "year": "c.1700",
+        "sireLine": true,
+        "sire": {
+          "name": "不詳",
+          "unknown": true
+        },
+        "dam": {
+          "name": "不詳",
+          "unknown": true
+        }
+      },
+      "dam": {
+        "name": "Betty Leedes",
+        "sire": {
+          "name": "Old Careless"
+        },
+        "dam": {
+          "name": "Leedes Arabian Mare",
+          "sire": {
+            "name": "Leedes Arabian"
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Snake Mare",
+      "sire": {
+        "name": "Snake",
+        "year": "c.1705",
+        "sire": {
+          "name": "Lister Turk"
+        },
+        "dam": {
+          "name": "不詳",
+          "unknown": true
+        }
+      },
+      "dam": {
+        "name": "不詳",
+        "unknown": true,
+        "sire": {
+          "name": "不詳",
+          "unknown": true
+        },
+        "dam": {
+          "name": "不詳",
+          "unknown": true
+        }
+      }
+    },
+    "note": "※ 18世紀前半の馬であり、母系の記録は限定的です"
+  },
+  "offspring": [
+    {
+      "name": "Marske",
+      "year": "1750",
+      "desc": "Eclipseの父。20ギニーから100ギニーへの評価逆転",
+      "link": "marske"
+    },
+    {
+      "name": "Syphon",
+      "year": "1750",
+      "desc": "ヨーク大レース勝ち馬"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Bartlett's Childers",
+      "year": "1716",
+      "current": false,
+      "slug": "bartletts-childers"
+    },
+    {
+      "name": "Squirt",
+      "year": "1732",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Marske",
+      "year": "1750",
+      "current": false,
+      "slug": "marske"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Squirt (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Squirt_(horse)"
+        },
+        {
+          "text": "Squirt — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/Squirt.html"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Darley Arabian → Squirt"
+}

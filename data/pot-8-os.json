@@ -1,7 +1,7 @@
 {
   "id": "pot-8-os",
   "era": "e1",
-  "generation": "II",
+  "generation": "VI",
   "nav": {
     "prev": {
       "slug": "eclipse",
@@ -388,5 +388,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Sunday Silence"
+  "footerText": "サイアーライン｜Darley Arabian → Pot-8-Os"
 }

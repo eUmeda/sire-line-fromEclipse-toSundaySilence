@@ -1,7 +1,7 @@
 {
   "id": "royal-charger",
   "era": "e4",
-  "generation": "XVII",
+  "generation": "XXI",
   "nav": {
     "prev": {
       "slug": "nearco",
@@ -397,5 +397,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Royal Charger"
+  "footerText": "サイアーライン｜Darley Arabian → Royal Charger"
 }

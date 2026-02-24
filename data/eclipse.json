@@ -1,9 +1,12 @@
 {
   "id": "eclipse",
   "era": "e1",
-  "generation": "I",
+  "generation": "V",
   "nav": {
-    "prev": null,
+    "prev": {
+      "slug": "marske",
+      "name": "Marske"
+    },
     "next": {
       "slug": "pot-8-os",
       "name": "Pot-8-Os"
@@ -384,6 +387,12 @@
   ],
   "sireLine": [
     {
+      "name": "Marske",
+      "year": "1750",
+      "current": false,
+      "slug": "marske"
+    },
+    {
       "name": "Eclipse",
       "year": "1764",
       "current": true,
@@ -439,5 +448,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Sunday Silence"
+  "footerText": "サイアーライン｜Darley Arabian → Eclipse"
 }

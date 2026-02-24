@@ -1,7 +1,7 @@
 {
   "id": "nearco",
   "era": "e4",
-  "generation": "XVI",
+  "generation": "XX",
   "nav": {
     "prev": {
       "slug": "pharos",
@@ -433,5 +433,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Nearco"
+  "footerText": "サイアーライン｜Darley Arabian → Nearco"
 }

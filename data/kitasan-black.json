@@ -1,0 +1,215 @@
+{
+  "id": "kitasan-black",
+  "era": "e6",
+  "generation": "XXVII",
+  "nav": {
+    "prev": {
+      "slug": "black-tide",
+      "name": "Black Tide"
+    },
+    "next": {
+      "slug": "equinox",
+      "name": "Equinox"
+    }
+  },
+  "eraLabel": "21世紀",
+  "name": "Kitasan Black",
+  "dates": "2012 –",
+  "epithet": "演歌の巨星が50年待ち続けた夢 — 武豊とともに7冠を制した鉄人",
+  "birthYear": 2012,
+  "cardDesc": "演歌歌手・北島三郎が50年以上の馬主生活の末に巡り合ったG1×7勝の名馬。武豊騎乗で天皇賞春秋、ジャパンカップ、有馬記念を制覇。種牡馬としてイクイノックスを輩出。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "2012年3月10日"
+    },
+    {
+      "label": "没年月日",
+      "value": "—（存命）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "日本（北海道・柳川牧場）"
+    },
+    {
+      "label": "生産者",
+      "value": "柳川牧場"
+    },
+    {
+      "label": "馬主",
+      "value": "大野商事（北島三郎）"
+    },
+    {
+      "label": "調教師",
+      "value": "清水久詞（栗東）"
+    },
+    {
+      "label": "主戦騎手",
+      "value": "武豊（2016年〜）"
+    }
+  ],
+  "biography": [
+    "2012年3月10日、北海道新ひだか町の柳川牧場で生まれた鹿毛の牡馬。父Black Tide、母シュガーハート（父サクラバクシンオー）。母の父サクラバクシンオーはスプリンターの代名詞であり、ステイヤー血統のBlack Tideとの配合は一見矛盾するものだった。馬主は演歌界の大御所・北島三郎が代表を務める大野商事。「キタサン」は北島の「北」と敬称の「さん」に由来する。",
+    "北島三郎は50年以上にわたって馬主を続けていたが、G1タイトルには手が届かなかった。その長い夢が叶ったのは2015年の菊花賞。後方から一気に追い込んだキタサンブラックが3000mの長丁場を制した瞬間、80歳を超えた北島の目には涙が浮かんだという。",
+    "2016年からは武豊が主戦騎手となり、黄金時代が始まった。天皇賞（春）、ジャパンカップと連勝。2017年には大阪杯、天皇賞（春）連覇、天皇賞（秋）とG1を3勝。そして引退レースの有馬記念、中山競馬場を埋め尽くした観衆の前で最後の直線を先頭で駆け抜けた。通算20戦12勝、G1を7勝、獲得賞金18億7684万円。",
+    "2018年から社台スタリオンステーションで種牡馬生活を開始。初年度産駒からイクイノックス（2023年世界最強馬）が出現し、ソールオリエンス（皐月賞）、クロワデュノール（日本ダービー）とクラシック馬を続々と送り出した。種付け料は初年度の500万円から2024年には2000万円（社台SS最高額）にまで高騰。北島三郎の50年の夢は、種牡馬としても花を咲かせている。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "20",
+      "wins": "12",
+      "seconds": "2",
+      "thirds": "4"
+    },
+    "narrative": "G1を7勝。天皇賞春秋、ジャパンカップ、有馬記念を制覇。獲得賞金18億7684万円。",
+    "subsections": [
+      {
+        "title": "G1勝鞍",
+        "items": [
+          "2015 菊花賞",
+          "2016 天皇賞（春）",
+          "2016 ジャパンカップ",
+          "2017 大阪杯",
+          "2017 天皇賞（春）",
+          "2017 天皇賞（秋）",
+          "2017 有馬記念"
+        ]
+      },
+      {
+        "title": "受賞",
+        "items": [
+          "2016 JRA最優秀4歳以上牡馬",
+          "2017 JRA年度代表馬",
+          "2017 JRA最優秀4歳以上牡馬"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Black Tide",
+      "year": "2001",
+      "sireLine": true,
+      "link": "black-tide",
+      "sire": {
+        "name": "Sunday Silence",
+        "year": "1986",
+        "sireLine": true,
+        "link": "sunday-silence",
+        "sire": {
+          "name": "Halo",
+          "sireLine": true,
+          "link": "halo"
+        },
+        "dam": {
+          "name": "Wishing Well"
+        }
+      },
+      "dam": {
+        "name": "Wind in Her Hair",
+        "sire": {
+          "name": "Alzao"
+        },
+        "dam": {
+          "name": "Burghclere"
+        }
+      }
+    },
+    "dam": {
+      "name": "Sugar Heart",
+      "year": "2005",
+      "sire": {
+        "name": "Sakura Bakushin O",
+        "year": "1989",
+        "sire": {
+          "name": "Sakura Yutaka O"
+        },
+        "dam": {
+          "name": "Sakura Hagoromo"
+        }
+      },
+      "dam": {
+        "name": "Otome Gokoro",
+        "sire": {
+          "name": "Judge Angelucci"
+        },
+        "dam": {
+          "name": "Taiyo no Megumi"
+        }
+      }
+    },
+    "note": "母の父サクラバクシンオーは1993年・1994年スプリンターズS連覇のスプリント王。ステイヤー寄りの父系にスプリント血統の母系を合わせた配合"
+  },
+  "offspring": [
+    {
+      "name": "Equinox",
+      "year": "2019",
+      "link": "equinox",
+      "desc": "2023年世界最強馬。G1×6勝。レーティング135"
+    },
+    {
+      "name": "Sol Oriens",
+      "year": "2020",
+      "desc": "2023年皐月賞（G1）"
+    },
+    {
+      "name": "Croix du Nord",
+      "year": "2021",
+      "desc": "2024年日本ダービー（G1）"
+    },
+    {
+      "name": "Gaia Force",
+      "year": "2019",
+      "desc": "2022年セントライト記念（G2）"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Black Tide",
+      "year": "2001",
+      "current": false,
+      "slug": "black-tide"
+    },
+    {
+      "name": "Kitasan Black",
+      "year": "2012",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Equinox",
+      "year": "2019",
+      "current": false,
+      "slug": "equinox"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "キタサンブラック — Wikipedia (JA)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%82%BF%E3%82%B5%E3%83%B3%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF"
+        },
+        {
+          "text": "キタサンブラック — netkeiba",
+          "url": "https://db.netkeiba.com/horse/2012100941/"
+        },
+        {
+          "text": "キタサンブラック — JBIS-Search",
+          "url": "https://www.jbis.jp/horse/0001137606/"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Darley Arabian → Kitasan Black"
+}

@@ -1,7 +1,7 @@
 {
   "id": "cyllene",
   "era": "e3",
-  "generation": "XII",
+  "generation": "XVI",
   "nav": {
     "prev": {
       "slug": "bona-vista",
@@ -394,5 +394,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Cyllene"
+  "footerText": "サイアーライン｜Darley Arabian → Cyllene"
 }

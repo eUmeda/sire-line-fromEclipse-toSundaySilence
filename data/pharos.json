@@ -1,7 +1,7 @@
 {
   "id": "pharos",
   "era": "e4",
-  "generation": "XV",
+  "generation": "XIX",
   "nav": {
     "prev": {
       "slug": "phalaris",
@@ -399,5 +399,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Pharos"
+  "footerText": "サイアーライン｜Darley Arabian → Pharos"
 }

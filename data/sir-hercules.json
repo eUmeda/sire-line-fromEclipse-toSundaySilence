@@ -1,7 +1,7 @@
 {
   "id": "sir-hercules",
   "era": "e2",
-  "generation": "V",
+  "generation": "IX",
   "nav": {
     "prev": {
       "slug": "whalebone",
@@ -381,5 +381,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Sir Hercules"
+  "footerText": "サイアーライン｜Darley Arabian → Sir Hercules"
 }

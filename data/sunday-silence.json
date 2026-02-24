@@ -1,13 +1,16 @@
 {
   "id": "sunday-silence",
   "era": "e5",
-  "generation": "XXI",
+  "generation": "XXV",
   "nav": {
     "prev": {
       "slug": "halo",
       "name": "Halo"
     },
-    "next": null
+    "next": {
+      "slug": "black-tide",
+      "name": "Black Tide"
+    }
   },
   "eraLabel": "20世紀後半",
   "name": "Sunday Silence",
@@ -403,6 +406,12 @@
       "year": "1986",
       "current": true,
       "slug": null
+    },
+    {
+      "name": "Black Tide",
+      "year": "2001",
+      "current": false,
+      "slug": "black-tide"
     }
   ],
   "references": [
@@ -432,5 +441,5 @@
       ]
     }
   ],
-  "footerText": "サイアーライン｜Eclipse → Sunday Silence"
+  "footerText": "サイアーライン｜Darley Arabian → Sunday Silence"
 }

@@ -1,0 +1,252 @@
+{
+  "id": "marske",
+  "era": "e1",
+  "generation": "IV",
+  "nav": {
+    "prev": {
+      "slug": "squirt",
+      "name": "Squirt"
+    },
+    "next": {
+      "slug": "eclipse",
+      "name": "Eclipse"
+    }
+  },
+  "eraLabel": "18世紀",
+  "name": "Marske",
+  "dates": "1750 – 1779",
+  "epithet": "20ギニーで売られた馬が100ギニーの種牡馬に — Eclipseの父の数奇な運命",
+  "birthYear": 1750,
+  "cardDesc": "カンバーランド公の死後、わずか20ギニーで農夫に売却された。しかし息子Eclipseの栄光により種付け料は100ギニーに跳ね上がる。George Stubbsが描いた黒鹿毛馬。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1750年"
+    },
+    {
+      "label": "没年月日",
+      "value": "1779年7月（29歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "黒鹿毛（Brown/Dark Bay）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス（ヨークシャー州マースク）"
+    },
+    {
+      "label": "生産者",
+      "value": "John Hutton of Marske Hall"
+    },
+    {
+      "label": "馬主",
+      "value": "John Hutton → Duke of Cumberland → 農夫（20ギニー）→ Earl of Abingdon（1,000ギニー）"
+    }
+  ],
+  "biography": [
+    "1750年、ヨークシャー州Marske HallでJohn Huttonにより生産された黒鹿毛の牡馬。父は処分寸前から救われたSquirt、母はRuby Mare。幼駒としてカンバーランド公ウィリアム・オーガスタスに譲渡され、アラブ種の牡馬との交換で公の所有となった。画家George Stubbsが描いたその姿は、濃い黒鹿毛の堂々たる馬体であった。",
+    "競走馬としては凡庸だった。通算3勝で、ニューマーケットのジョッキークラブプレートと300ギニーのマッチレースに勝利したが、名馬Snapには1,000ギニーのマッチレースで2度敗れている。1765年にカンバーランド公が死去すると、その所有馬は競売にかけられた。Marskeにはわずか20ギニーの値がつき、一人の農夫が購入した。",
+    "Eclipse（1764年生）の栄光がすべてを変えた。息子の圧倒的な強さを目の当たりにした馬産関係者たちは、Marskeの種牡馬としての価値を再評価した。第4代アビンドン伯がMarskeを1,000ギニーで購入し、オックスフォードシャーのRycote牧場で供用。種付け料は当初の半ギニーから100ギニー（現代の約17,400ポンド）にまで高騰した。",
+    "Eclipse以外にもYoung Marskeなど154頭の勝馬を約300頭の産駒から送り出した。なお、Eclipseの母Spillettaは先にShakespeareにも交配されており、父権についてはかねてから議論があったが、現代のDNA鑑定によりMarskeが真の父であることが確認されている。1779年7月、29歳で没。"
+  ],
+  "raceRecord": {
+    "unknownStats": [],
+    "stats": {
+      "starts": "8+",
+      "wins": "3",
+      "seconds": "1",
+      "thirds": "0"
+    },
+    "narrative": "ニューマーケットのジョッキークラブプレート、300ギニーマッチに勝利。Snapに1,000ギニーマッチで2敗。",
+    "historicalNote": "※ 18世紀中期の記録のため、一部の戦績は推定",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1754 Jockey Club Plate (Newmarket)",
+          "300ギニーマッチ vs Ginger"
+        ]
+      },
+      {
+        "title": "主な敗戦",
+        "items": [
+          "1756 1,000ギニーマッチ vs Snap（2度）"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Squirt",
+      "year": "1732",
+      "sireLine": true,
+      "sire": {
+        "name": "Bartlett's Childers",
+        "year": "1716",
+        "sireLine": true,
+        "sire": {
+          "name": "Darley Arabian",
+          "year": "c.1700",
+          "sireLine": true,
+          "sire": {
+            "name": "不詳",
+            "unknown": true
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true
+          }
+        },
+        "dam": {
+          "name": "Betty Leedes",
+          "sire": {
+            "name": "Old Careless"
+          },
+          "dam": {
+            "name": "Leedes Arabian Mare",
+            "sire": {
+              "name": "Leedes Arabian"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Snake Mare",
+        "sire": {
+          "name": "Snake",
+          "year": "c.1705",
+          "sire": {
+            "name": "Lister Turk"
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true
+          }
+        },
+        "dam": {
+          "name": "不詳",
+          "unknown": true,
+          "sire": {
+            "name": "不詳",
+            "unknown": true
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Ruby Mare",
+      "sire": {
+        "name": "Hutton's Blacklegs",
+        "year": "c.1725",
+        "sire": {
+          "name": "Bay Bolton",
+          "sire": {
+            "name": "Grey Hautboy"
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true
+          }
+        },
+        "dam": {
+          "name": "不詳",
+          "unknown": true,
+          "sire": {
+            "name": "不詳",
+            "unknown": true
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true
+          }
+        }
+      },
+      "dam": {
+        "name": "Fox Cub Mare",
+        "sire": {
+          "name": "Fox Cub",
+          "sire": {
+            "name": "Clumsey"
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true
+          }
+        },
+        "dam": {
+          "name": "Coneyskins Mare",
+          "sire": {
+            "name": "Coneyskins"
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true
+          }
+        }
+      }
+    },
+    "note": "※ 18世紀中期の馬のため、一部の血統は推定に基づきます。父系はDarley Arabianに遡る直系4代目"
+  },
+  "offspring": [
+    {
+      "name": "Eclipse",
+      "year": "1764",
+      "desc": "18戦全勝。「Eclipse first, the rest nowhere」。近代サラブレッドの実質的始祖",
+      "link": "eclipse"
+    },
+    {
+      "name": "Young Marske",
+      "year": "1771",
+      "desc": "種牡馬として成功。多数の勝馬を輩出"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Squirt",
+      "year": "1732",
+      "current": false,
+      "slug": "squirt"
+    },
+    {
+      "name": "Marske",
+      "year": "1750",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Eclipse",
+      "year": "1764",
+      "current": false,
+      "slug": "eclipse"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Marske (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Marske_(horse)"
+        },
+        {
+          "text": "Marske — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/Marske.html"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Darley Arabian → Marske"
+}
