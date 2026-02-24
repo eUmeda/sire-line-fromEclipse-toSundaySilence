@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin | サイアーライン</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Serif+JP:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d0b09;--bg2:#161311;--bg3:#1e1b18;
+  --gold:#c9a96e;--gold-dim:#8a7445;--gold-bright:#e8d5a8;
+  --text:#d4cfc7;--text-dim:#8a857d;--text-bright:#f0ece4;
+  --red:#b85c5c;--green:#6e9e6e;--blue:#6e8faf;
+  --border:#2a2622;--border-light:#3a3632;
+  --font-display:'Cinzel',serif;
+  --font-body:'Cormorant Garamond','Noto Serif JP',serif;
+  --font-mono:'JetBrains Mono',monospace;
+  --radius:3px;
+}
+html{font-size:15px}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-height:100vh;display:flex;flex-direction:column}
+
+/* ── Toolbar ── */
+.toolbar{
+  display:flex;align-items:center;gap:12px;padding:12px 20px;
+  background:var(--bg2);border-bottom:1px solid var(--border);
+  position:sticky;top:0;z-index:100;
+}
+.toolbar-brand{font-family:var(--font-display);color:var(--gold);font-size:.85rem;letter-spacing:.15em;text-transform:uppercase;white-space:nowrap}
+.toolbar select{
+  background:var(--bg3);color:var(--text);border:1px solid var(--border);
+  padding:6px 10px;font-family:var(--font-mono);font-size:.82rem;
+  border-radius:var(--radius);cursor:pointer;min-width:180px;
+}
+.toolbar select:focus{outline:none;border-color:var(--gold-dim)}
+.btn{
+  background:var(--bg3);color:var(--text-dim);border:1px solid var(--border);
+  padding:6px 14px;font-family:var(--font-body);font-size:.85rem;
+  border-radius:var(--radius);cursor:pointer;transition:all .2s;white-space:nowrap;
+}
+.btn:hover{color:var(--text);border-color:var(--border-light)}
+.btn-gold{border-color:var(--gold-dim);color:var(--gold)}
+.btn-gold:hover{border-color:var(--gold);color:var(--gold-bright);background:rgba(201,169,110,.08)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.toolbar-spacer{flex:1}
+.api-key-indicator{font-size:.75rem;color:var(--text-dim);cursor:pointer}
+.api-key-indicator:hover{color:var(--gold)}
+
+/* ── Main Layout ── */
+.main{display:grid;grid-template-columns:1fr 1fr;flex:1;overflow:hidden}
+
+/* ── JSON Panel ── */
+.json-panel{
+  border-right:1px solid var(--border);display:flex;flex-direction:column;
+  overflow:hidden;
+}
+.panel-header{
+  padding:10px 16px;border-bottom:1px solid var(--border);
+  font-family:var(--font-display);font-size:.72rem;letter-spacing:.12em;
+  color:var(--text-dim);text-transform:uppercase;display:flex;align-items:center;gap:8px;
+  background:var(--bg2);
+}
+.panel-header .badge{
+  font-family:var(--font-mono);font-size:.7rem;color:var(--gold-dim);
+  background:rgba(201,169,110,.08);padding:2px 6px;border-radius:2px;
+}
+.json-view{
+  flex:1;overflow:auto;padding:12px 16px;font-family:var(--font-mono);
+  font-size:.78rem;line-height:1.65;white-space:pre-wrap;word-break:break-all;
+  color:var(--text-dim);background:var(--bg);
+}
+.json-view .j-key{color:var(--gold)}
+.json-view .j-str{color:#b8c98a}
+.json-view .j-num{color:#d4943a}
+.json-view .j-bool{color:var(--blue)}
+.json-view .j-null{color:var(--red)}
+
+/* ── Chat Panel ── */
+.chat-panel{display:flex;flex-direction:column;overflow:hidden}
+.chat-messages{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px}
+
+.msg{max-width:88%;padding:10px 14px;border-radius:var(--radius);font-size:.9rem;line-height:1.6}
+.msg-user{
+  align-self:flex-end;background:rgba(201,169,110,.1);
+  border:1px solid var(--gold-dim);color:var(--text-bright);
+}
+.msg-ai{
+  align-self:flex-start;background:var(--bg3);
+  border:1px solid var(--border);color:var(--text);
+}
+.msg-system{
+  align-self:center;font-size:.8rem;color:var(--text-dim);
+  font-style:italic;text-align:center;
+}
+
+/* ── Diff display ── */
+.diff-block{
+  margin-top:8px;padding:8px 10px;background:var(--bg);
+  border:1px solid var(--border);border-radius:var(--radius);
+  font-family:var(--font-mono);font-size:.75rem;line-height:1.5;
+  overflow-x:auto;max-height:300px;overflow-y:auto;
+}
+.diff-block .diff-added{color:var(--green);background:rgba(110,158,110,.08)}
+.diff-block .diff-removed{color:var(--red);background:rgba(184,92,92,.08);text-decoration:line-through}
+.diff-actions{display:flex;gap:8px;margin-top:8px}
+
+/* ── Chat Input ── */
+.chat-input-area{
+  padding:12px 16px;border-top:1px solid var(--border);background:var(--bg2);
+  display:flex;gap:8px;
+}
+.chat-input-area textarea{
+  flex:1;background:var(--bg);color:var(--text);border:1px solid var(--border);
+  padding:8px 12px;font-family:var(--font-body);font-size:.9rem;
+  border-radius:var(--radius);resize:none;min-height:42px;max-height:120px;
+  line-height:1.5;
+}
+.chat-input-area textarea:focus{outline:none;border-color:var(--gold-dim)}
+.chat-input-area textarea::placeholder{color:var(--text-dim)}
+
+/* ── API Key Modal ── */
+.modal-overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:200;
+  display:flex;align-items:center;justify-content:center;
+}
+.modal-overlay.hidden{display:none}
+.modal{
+  background:var(--bg2);border:1px solid var(--border);border-radius:4px;
+  padding:28px 32px;max-width:440px;width:90%;
+}
+.modal h2{font-family:var(--font-display);color:var(--gold);font-size:1rem;letter-spacing:.1em;margin-bottom:12px}
+.modal p{font-size:.85rem;color:var(--text-dim);margin-bottom:16px;line-height:1.5}
+.modal input{
+  width:100%;background:var(--bg);color:var(--text);border:1px solid var(--border);
+  padding:8px 12px;font-family:var(--font-mono);font-size:.82rem;
+  border-radius:var(--radius);margin-bottom:12px;
+}
+.modal input:focus{outline:none;border-color:var(--gold-dim)}
+.modal-actions{display:flex;justify-content:flex-end;gap:8px}
+
+/* ── Loading ── */
+.loading-dots::after{content:'';animation:dots 1.2s infinite}
+@keyframes dots{0%{content:''}25%{content:'.'}50%{content:'..'}75%{content:'...'}}
+
+/* ── Responsive ── */
+@media(max-width:900px){
+  .main{grid-template-columns:1fr;grid-template-rows:40vh 1fr}
+  .json-panel{border-right:none;border-bottom:1px solid var(--border)}
+}
+@media(max-width:600px){
+  .toolbar{flex-wrap:wrap;gap:8px}
+  .toolbar select{min-width:140px}
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:var(--border-light)}
+</style>
+</head>
+<body>
+
+<!-- Toolbar -->
+<div class="toolbar">
+  <span class="toolbar-brand">Sire Line Admin</span>
+  <select id="horseSelect"></select>
+  <button class="btn btn-gold" id="btnLoad">Load</button>
+  <button class="btn btn-gold" id="btnSave" disabled>Save</button>
+  <button class="btn" id="btnRebuild">Rebuild All</button>
+  <span class="toolbar-spacer"></span>
+  <span class="api-key-indicator" id="apiKeyStatus" title="Click to change API key">API Key: not set</span>
+</div>
+
+<!-- Main -->
+<div class="main">
+  <!-- JSON Panel -->
+  <div class="json-panel">
+    <div class="panel-header">
+      <span>JSON Data</span>
+      <span class="badge" id="jsonSlug">--</span>
+    </div>
+    <div class="json-view" id="jsonView">Select a horse and click Load.</div>
+  </div>
+
+  <!-- Chat Panel -->
+  <div class="chat-panel">
+    <div class="panel-header"><span>Chat</span></div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="msg msg-system">Gemini APIで馬データを自然言語で編集できます。<br>左パネルでJSONを読み込み、チャットで編集指示を送信してください。</div>
+    </div>
+    <div class="chat-input-area">
+      <textarea id="chatInput" placeholder="編集指示を入力…（例：没年を1790年に修正して）" rows="1"></textarea>
+      <button class="btn btn-gold" id="btnSend">Send</button>
+    </div>
+  </div>
+</div>
+
+<!-- API Key Modal -->
+<div class="modal-overlay hidden" id="apiKeyModal">
+  <div class="modal">
+    <h2>Gemini API Key</h2>
+    <p>Google AI StudioのAPIキーを入力してください。キーはブラウザのlocalStorageに保存され、サーバーには送信されません。</p>
+    <input type="password" id="apiKeyInput" placeholder="AIza...">
+    <div class="modal-actions">
+      <button class="btn" id="btnCancelKey">Cancel</button>
+      <button class="btn btn-gold" id="btnSaveKey">Save</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ──────────── State ──────────── */
+const SLUGS = [
+  "eclipse","pot-8-os","waxy","whalebone","sir-hercules","birdcatcher",
+  "the-baron","stockwell","doncaster","bend-or","bona-vista","cyllene",
+  "polymelus","phalaris","pharos","nearco","royal-charger","turn-to",
+  "hail-to-reason","halo","sunday-silence"
+];
+
+let currentData = null;
+let currentSlug = null;
+let pendingData = null;  // Proposed changes from Gemini
+
+/* ──────────── DOM refs ──────────── */
+const $select    = document.getElementById('horseSelect');
+const $jsonView  = document.getElementById('jsonView');
+const $jsonSlug  = document.getElementById('jsonSlug');
+const $chatMsgs  = document.getElementById('chatMessages');
+const $chatInput = document.getElementById('chatInput');
+const $btnLoad   = document.getElementById('btnLoad');
+const $btnSave   = document.getElementById('btnSave');
+const $btnRebuild= document.getElementById('btnRebuild');
+const $btnSend   = document.getElementById('btnSend');
+const $apiStatus = document.getElementById('apiKeyStatus');
+const $modal     = document.getElementById('apiKeyModal');
+const $keyInput  = document.getElementById('apiKeyInput');
+
+/* ──────────── Init ──────────── */
+SLUGS.forEach(s => {
+  const opt = document.createElement('option');
+  opt.value = s;
+  opt.textContent = s;
+  $select.appendChild(opt);
+});
+
+updateApiKeyStatus();
+
+/* ──────────── API Key ──────────── */
+function getApiKey() { return localStorage.getItem('gemini_api_key') || ''; }
+function setApiKey(k) { localStorage.setItem('gemini_api_key', k); updateApiKeyStatus(); }
+function updateApiKeyStatus() {
+  const k = getApiKey();
+  $apiStatus.textContent = k ? `API Key: ${k.slice(0,6)}...` : 'API Key: not set';
+}
+
+$apiStatus.addEventListener('click', () => { $modal.classList.remove('hidden'); $keyInput.value = getApiKey(); $keyInput.focus(); });
+document.getElementById('btnCancelKey').addEventListener('click', () => $modal.classList.add('hidden'));
+document.getElementById('btnSaveKey').addEventListener('click', () => {
+  setApiKey($keyInput.value.trim());
+  $modal.classList.add('hidden');
+});
+$keyInput.addEventListener('keydown', e => { if (e.key === 'Enter') { setApiKey($keyInput.value.trim()); $modal.classList.add('hidden'); } });
+
+/* ──────────── JSON Display ──────────── */
+function syntaxHighlight(json) {
+  const str = JSON.stringify(json, null, 2);
+  return str.replace(/("(\\u[\da-fA-F]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?|\bnull\b)/g,
+    match => {
+      let cls = 'j-num';
+      if (/^"/.test(match)) {
+        cls = /:$/.test(match) ? 'j-key' : 'j-str';
+      } else if (/true|false/.test(match)) {
+        cls = 'j-bool';
+      } else if (/null/.test(match)) {
+        cls = 'j-null';
+      }
+      return `<span class="${cls}">${match}</span>`;
+    });
+}
+
+function displayJson(data) {
+  $jsonView.innerHTML = syntaxHighlight(data);
+}
+
+/* ──────────── Load / Save / Rebuild ──────────── */
+$btnLoad.addEventListener('click', async () => {
+  const slug = $select.value;
+  $btnLoad.disabled = true;
+  $btnLoad.textContent = 'Loading...';
+  try {
+    const res = await fetch(`/data/${slug}.json`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    currentData = await res.json();
+    currentSlug = slug;
+    pendingData = null;
+    $btnSave.disabled = true;
+    $jsonSlug.textContent = slug;
+    displayJson(currentData);
+    addSystemMsg(`${currentData.name} (${slug}.json) を読み込みました。`);
+  } catch (e) {
+    addSystemMsg(`読み込みエラー: ${e.message}`);
+  } finally {
+    $btnLoad.disabled = false;
+    $btnLoad.textContent = 'Load';
+  }
+});
+
+$btnSave.addEventListener('click', async () => {
+  if (!pendingData || !currentSlug) return;
+  $btnSave.disabled = true;
+  $btnSave.textContent = 'Saving...';
+  try {
+    const res = await fetch(`/api/save/${currentSlug}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(pendingData),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    currentData = pendingData;
+    pendingData = null;
+    displayJson(currentData);
+    addSystemMsg(`${currentSlug}.json を保存しました。`);
+  } catch (e) {
+    addSystemMsg(`保存エラー: ${e.message}`);
+  } finally {
+    $btnSave.disabled = !pendingData;
+    $btnSave.textContent = 'Save';
+  }
+});
+
+$btnRebuild.addEventListener('click', async () => {
+  $btnRebuild.disabled = true;
+  $btnRebuild.textContent = 'Building...';
+  try {
+    const res = await fetch('/api/build', { method: 'POST' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    addSystemMsg('全ページをリビルドしました。');
+  } catch (e) {
+    addSystemMsg(`リビルドエラー: ${e.message}`);
+  } finally {
+    $btnRebuild.disabled = false;
+    $btnRebuild.textContent = 'Rebuild All';
+  }
+});
+
+/* ──────────── Chat Messages ──────────── */
+function addMsg(role, html) {
+  const div = document.createElement('div');
+  div.className = `msg msg-${role}`;
+  div.innerHTML = html;
+  $chatMsgs.appendChild(div);
+  $chatMsgs.scrollTop = $chatMsgs.scrollHeight;
+  return div;
+}
+function addSystemMsg(text) { addMsg('system', text); }
+
+/* ──────────── Diff ──────────── */
+function computeDiff(oldObj, newObj, path = '') {
+  const diffs = [];
+  const oldStr = JSON.stringify(oldObj, null, 2).split('\n');
+  const newStr = JSON.stringify(newObj, null, 2).split('\n');
+
+  // Simple line-by-line diff
+  const maxLen = Math.max(oldStr.length, newStr.length);
+  for (let i = 0; i < maxLen; i++) {
+    const o = oldStr[i] || '';
+    const n = newStr[i] || '';
+    if (o !== n) {
+      if (o) diffs.push({ type: 'removed', text: o });
+      if (n) diffs.push({ type: 'added', text: n });
+    }
+  }
+  return diffs;
+}
+
+function renderDiff(oldObj, newObj) {
+  const diffs = computeDiff(oldObj, newObj);
+  if (diffs.length === 0) return '<em>変更なし</em>';
+
+  let html = '<div class="diff-block">';
+  diffs.forEach(d => {
+    const prefix = d.type === 'added' ? '+' : '-';
+    const cls = d.type === 'added' ? 'diff-added' : 'diff-removed';
+    const escaped = d.text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    html += `<div class="${cls}">${prefix} ${escaped}</div>`;
+  });
+  html += '</div>';
+  return html;
+}
+
+/* ──────────── Gemini API ──────────── */
+async function callGemini(instruction) {
+  const key = getApiKey();
+  if (!key) {
+    $modal.classList.remove('hidden');
+    $keyInput.focus();
+    throw new Error('API key not set');
+  }
+
+  const systemPrompt = `あなたは競馬血統データの編集アシスタントです。
+ユーザーから現在のJSONデータと編集指示を受け取り、修正後の完全なJSONオブジェクトを返してください。
+
+ルール:
+- 返すのは完全なJSONオブジェクトのみ（部分ではない）
+- 指示された箇所のみ変更し、他は一切変更しない
+- 有効なslug一覧: ${SLUGS.join(', ')}
+- HTMLエンティティではなくUnicode文字を使用
+- レスポンスはJSONのみ。説明文は含めない`;
+
+  const userMsg = `現在のJSONデータ:
+\`\`\`json
+${JSON.stringify(currentData, null, 2)}
+\`\`\`
+
+編集指示: ${instruction}
+
+上記の指示に従って修正した完全なJSONオブジェクトのみを返してください。`;
+
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`;
+
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      contents: [
+        { role: 'user', parts: [{ text: systemPrompt }] },
+        { role: 'model', parts: [{ text: 'はい、指示に従います。完全なJSONオブジェクトのみを返します。' }] },
+        { role: 'user', parts: [{ text: userMsg }] }
+      ],
+      generationConfig: {
+        responseMimeType: 'application/json',
+        temperature: 0.1,
+      }
+    })
+  });
+
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.error?.message || `HTTP ${res.status}`);
+  }
+
+  const result = await res.json();
+  const text = result.candidates?.[0]?.content?.parts?.[0]?.text;
+  if (!text) throw new Error('Empty response from Gemini');
+
+  return JSON.parse(text);
+}
+
+/* ──────────── Send Message ──────────── */
+async function sendMessage() {
+  const text = $chatInput.value.trim();
+  if (!text) return;
+  if (!currentData) { addSystemMsg('先にJSONデータを読み込んでください。'); return; }
+
+  $chatInput.value = '';
+  addMsg('user', text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'));
+
+  const loadingMsg = addMsg('ai', '<span class="loading-dots">考え中</span>');
+  $btnSend.disabled = true;
+
+  try {
+    const newData = await callGemini(text);
+    loadingMsg.remove();
+
+    const diffHtml = renderDiff(currentData, newData);
+    const msgDiv = addMsg('ai', `以下の変更を提案します:${diffHtml}<div class="diff-actions"><button class="btn btn-gold btn-apply">Apply</button><button class="btn btn-reject">Reject</button></div>`);
+
+    const $apply = msgDiv.querySelector('.btn-apply');
+    const $reject = msgDiv.querySelector('.btn-reject');
+
+    $apply.addEventListener('click', () => {
+      pendingData = newData;
+      $btnSave.disabled = false;
+      displayJson(newData);
+      $apply.disabled = true;
+      $reject.disabled = true;
+      addSystemMsg('変更を適用しました。Save ボタンでファイルに保存してください。');
+    });
+
+    $reject.addEventListener('click', () => {
+      $apply.disabled = true;
+      $reject.disabled = true;
+      addSystemMsg('変更を却下しました。');
+    });
+
+  } catch (e) {
+    loadingMsg.remove();
+    addMsg('ai', `エラー: ${e.message}`);
+  } finally {
+    $btnSend.disabled = false;
+  }
+}
+
+$btnSend.addEventListener('click', sendMessage);
+$chatInput.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+});
+
+// Auto-resize textarea
+$chatInput.addEventListener('input', () => {
+  $chatInput.style.height = 'auto';
+  $chatInput.style.height = Math.min($chatInput.scrollHeight, 120) + 'px';
+});
+
+// Show API key modal if not set
+if (!getApiKey()) {
+  setTimeout(() => { $modal.classList.remove('hidden'); $keyInput.focus(); }, 500);
+}
+</script>
+</body>
+</html>

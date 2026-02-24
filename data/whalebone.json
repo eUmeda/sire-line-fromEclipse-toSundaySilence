@@ -1,0 +1,386 @@
+{
+  "id": "whalebone",
+  "era": "e2",
+  "generation": "IV",
+  "nav": {
+    "prev": {
+      "slug": "waxy",
+      "name": "Waxy"
+    },
+    "next": {
+      "slug": "sir-hercules",
+      "name": "Sir Hercules"
+    }
+  },
+  "eraLabel": "19世紀前半",
+  "name": "Whalebone",
+  "dates": "1807 – 1831",
+  "epithet": "名牝Penelopeの最良の息子 — Eclipseの血を19世紀へ繋いだ架け橋",
+  "birthYear": 1807,
+  "cardDesc": "1810年エプソムダービー優勝。小柄ながら力強い走りで知られ、19世紀の主要な父系の礎を築いた偉大な種牡馬。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1807年"
+    },
+    {
+      "label": "没年月日",
+      "value": "1831年2月6日（24歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛（Bay）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス（ニューマーケット近郊ユーストン・ホール）"
+    },
+    {
+      "label": "生産者",
+      "value": "Augustus FitzRoy, 3rd Duke of Grafton"
+    },
+    {
+      "label": "馬主",
+      "value": "Duke of Grafton → Mr. Ladbroke（1812年〜）"
+    },
+    {
+      "label": "調教師",
+      "value": "Robert Robson"
+    }
+  ],
+  "biography": [
+    "Whaleboneは1807年、第3代グラフトン公爵オーガスタス・フィッツロイにより、ニューマーケット近郊のユーストン・ホール牧場で生産された。父はエプソムダービー馬Waxy、母は名牝Penelope（父Trumpator、母Prunella）。Penelopeは13頭の産駒を残し、その全てが「W」で始まる名前を持つという特徴があった。Whaleboneはその2番仔である。",
+    "1810年6月7日、エプソムダービーに出走したWhaleboneは、The Dandy、Ecclestonら8頭を相手に先頭に立つとそのまま押し切り、5対2の1番人気に応えて快勝。グラフトン公爵にとっては前年のPopeに続く連覇であった。名調教師ロバート・ロブソンの管理下で1810年から1813年にかけて活躍し、通算20戦14勝、2着2回、3着3回の成績を残した。ニューマーケットステークス、各地のKing's Plateなど主要競走で勝利を重ねた。",
+    "1812年10月、グラフトン公爵からラドブローク氏に700ギニーで売却されたが、その後も勝利を続けた。1815年にペットワースで種牡馬入り。種牡馬としてはSir Hercules、Camelの2頭を通じてEclipseのサイアーラインを力強く後世に伝えた。Camelの子Touchstoneは19世紀中期の大種牡馬となった。また、ダービー馬Lap-dogとSpanielも輩出。全弟Whiskerとともに、父Waxyの血を次世代へ確実に繋いだ。1831年2月6日に24歳で没した。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "20",
+      "wins": "14",
+      "seconds": "2",
+      "thirds": "3"
+    },
+    "narrative": "通算20戦14勝。1810年〜1813年の4シーズンにわたり活躍。特に4マイルのKing's Plateで強さを発揮した。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1810 Newmarket Stakes",
+          "1810 Epsom Derby",
+          "1811 King's Plate（10月、Newmarket）",
+          "1812 King's Plate（4月、Newmarket）",
+          "1812 Match Race（Newmarket）",
+          "1813 His Majesty's Plate（Guildford）",
+          "1813 His Majesty's Plate（Lewes）",
+          "1813 Ladies' Plate"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Waxy",
+      "year": "1790",
+      "sireLine": true,
+      "link": "waxy",
+      "sire": {
+        "name": "Pot-8-Os",
+        "year": "1773",
+        "sireLine": true,
+        "link": "pot-8-os",
+        "sire": {
+          "name": "Eclipse",
+          "year": "1764",
+          "sireLine": true,
+          "link": "eclipse",
+          "sire": {
+            "name": "Marske",
+            "year": "1750",
+            "sireLine": true,
+            "sire": {
+              "name": "Squirt",
+              "sireLine": true
+            },
+            "dam": {
+              "name": "Ruby Mare"
+            }
+          },
+          "dam": {
+            "name": "Spilletta",
+            "year": "1749",
+            "sire": {
+              "name": "Regulus"
+            },
+            "dam": {
+              "name": "Mother Western"
+            }
+          }
+        },
+        "dam": {
+          "name": "Sportsmistress",
+          "year": "1765",
+          "sire": {
+            "name": "Warren's Sportsman",
+            "sire": {
+              "name": "Cade"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "Golden Locks",
+            "sire": {
+              "name": "Crab"
+            },
+            "dam": {
+              "name": "Crab Mare"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Maria",
+        "year": "1777",
+        "sire": {
+          "name": "Herod",
+          "year": "1758",
+          "sire": {
+            "name": "Tartar",
+            "year": "1743",
+            "sire": {
+              "name": "Partner"
+            },
+            "dam": {
+              "name": "Meliora"
+            }
+          },
+          "dam": {
+            "name": "Cypron",
+            "year": "1750",
+            "sire": {
+              "name": "Blaze"
+            },
+            "dam": {
+              "name": "Selima"
+            }
+          }
+        },
+        "dam": {
+          "name": "Lisette",
+          "year": "1772",
+          "sire": {
+            "name": "Snap",
+            "year": "1750",
+            "sire": {
+              "name": "Snip"
+            },
+            "dam": {
+              "name": "Snap Mare"
+            }
+          },
+          "dam": {
+            "name": "Miss Windsor",
+            "sire": {
+              "name": "Godolphin Arabian"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Penelope",
+      "year": "1798",
+      "sire": {
+        "name": "Trumpator",
+        "year": "1782",
+        "sire": {
+          "name": "Conductor",
+          "year": "1767",
+          "sire": {
+            "name": "Matchem",
+            "year": "1748",
+            "sire": {
+              "name": "Cade"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "Snap Mare",
+            "sire": {
+              "name": "Snap"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "Brunette",
+          "year": "1771",
+          "sire": {
+            "name": "Squirrel",
+            "year": "1754",
+            "sire": {
+              "name": "Traveller"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Prunella",
+        "year": "1788",
+        "sire": {
+          "name": "Highflyer",
+          "year": "1774",
+          "sire": {
+            "name": "Herod",
+            "year": "1758",
+            "sire": {
+              "name": "Tartar"
+            },
+            "dam": {
+              "name": "Cypron"
+            }
+          },
+          "dam": {
+            "name": "Rachel",
+            "sire": {
+              "name": "Blank"
+            },
+            "dam": {
+              "name": "Regulus Mare"
+            }
+          }
+        },
+        "dam": {
+          "name": "Promise",
+          "year": "1768",
+          "sire": {
+            "name": "Snap",
+            "year": "1750",
+            "sire": {
+              "name": "Snip"
+            },
+            "dam": {
+              "name": "Snap Mare"
+            }
+          },
+          "dam": {
+            "name": "Julia",
+            "sire": {
+              "name": "Blank"
+            },
+            "dam": {
+              "name": "Spectator Mare"
+            }
+          }
+        }
+      }
+    },
+    "note": "Snap 4×4のインブリード（Lisette × Promise）。Herod 3×4のインブリード（Maria × Prunella経由）"
+  },
+  "nameDisplayPed": "Whalebone<br/><small>1807</small>",
+  "offspring": [
+    {
+      "name": "Sir Hercules",
+      "year": "1826",
+      "desc": "Birdcatcher, Faugh-a-Ballaghの父。Eclipseサイアーラインの後継者",
+      "link": "sir-hercules"
+    },
+    {
+      "name": "Camel",
+      "year": "1822",
+      "desc": "Touchstoneの父。Touchstoneは19世紀中期の大種牡馬"
+    },
+    {
+      "name": "Lap-dog",
+      "year": "1823",
+      "desc": "Epsom Derby (1826)"
+    },
+    {
+      "name": "Spaniel",
+      "year": "1828",
+      "desc": "Epsom Derby (1831)"
+    },
+    {
+      "name": "Defence",
+      "year": "1824",
+      "desc": "優秀な競走馬・種牡馬"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Waxy",
+      "year": "1790",
+      "current": false,
+      "slug": "waxy"
+    },
+    {
+      "name": "Whalebone",
+      "year": "1807",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Sir Hercules",
+      "year": "1826",
+      "current": false,
+      "slug": "sir-hercules"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Whalebone (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Whalebone_(horse)"
+        },
+        {
+          "text": "Whalebone — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/Whalebone.htm"
+        },
+        {
+          "text": "Whalebone — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/Whalebone.html"
+        },
+        {
+          "text": "Whalebone — Pedigree Query",
+          "url": "https://www.pedigreequery.com/whalebone"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Sunday Silence"
+}

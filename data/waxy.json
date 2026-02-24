@@ -1,0 +1,405 @@
+{
+  "id": "waxy",
+  "era": "e1",
+  "generation": "III",
+  "nav": {
+    "prev": {
+      "slug": "pot-8-os",
+      "name": "Pot-8-Os"
+    },
+    "next": {
+      "slug": "whalebone",
+      "name": "Whalebone"
+    }
+  },
+  "eraLabel": "18世紀",
+  "name": "Waxy",
+  "dates": "1790 – 1818",
+  "epithet": "4頭のダービー馬を輩出した18世紀最高の種牡馬",
+  "birthYear": 1790,
+  "cardDesc": "1793年エプソムダービー優勝。種牡馬としても傑出し、4頭のダービー馬を輩出した18世紀末を代表する名サイアー。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1790年"
+    },
+    {
+      "label": "没年",
+      "value": "1818年4月（28歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛（Bay）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス（ルイス近郊）"
+    },
+    {
+      "label": "生産者",
+      "value": "Sir Ferdinando Poole"
+    },
+    {
+      "label": "馬主",
+      "value": "Sir F. Poole → Augustus FitzRoy, 3rd Duke of Grafton"
+    },
+    {
+      "label": "調教師",
+      "value": "Robert Robson"
+    }
+  ],
+  "biography": [
+    "Waxyは1790年、サー・フェルディナンド・プールにより生産された鹿毛の牡馬である。父はEclipseの最良の後継種牡馬Pot-8-Os、母Mariaは名種牡馬Herodの産駒で、Eclipse系とHerod系の理想的な配合であった。",
+    "3歳時の1793年、エプソムダービーに出走。後に名種牡馬となるGohannaとの激闘を制して戴冠し、その名を歴史に刻んだ。競走生活全体では18戦11勝、2着3回、3着3回という優秀な成績を残した。名調教師ロバート・ロブソンの管理のもと、安定した走りを見せ続けた。",
+    "その後、第3代グラフトン公爵オーガスタス・フィッツロイに購入され種牡馬となった。種牡馬としてはさらに偉大な成功を収め、エプソムダービー優勝馬を4頭（Whalebone, Whisker, Blucher, Waxy Pope）も輩出。1810年には英チャンピオンサイアーに輝いた。特にWhaleboneとWhiskerはいずれも名牝Penelopeとの間に生まれた全兄弟で、Eclipseのサイアーラインを19世紀以降へ力強く繋いだ。Waxyは1818年4月、ニューマーケットのAll Saints教会近くに埋葬された。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "18",
+      "wins": "11",
+      "seconds": "3",
+      "thirds": "3"
+    },
+    "narrative": "18戦11勝。エプソムダービーを含む主要競走で活躍。1810年英チャンピオンサイアー。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1793 Epsom Derby",
+          "King's Plate（複数回）",
+          "Jockey Club Plate",
+          "各地のSweepstakes多数"
+        ]
+      },
+      {
+        "title": "種牡馬成績",
+        "items": [
+          "1810 Champion Sire（英チャンピオンサイアー）",
+          "エプソムダービー優勝馬4頭輩出（Whalebone, Whisker, Blucher, Waxy Pope）",
+          "190頭以上の勝馬を輩出"
+        ]
+      }
+    ],
+    "historicalNote": "※ 18世紀の競走馬のため、一部の記録は現存する史料に基づく推定値です"
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Pot-8-Os",
+      "year": "1773",
+      "sireLine": true,
+      "link": "pot-8-os",
+      "sire": {
+        "name": "Eclipse",
+        "year": "1764",
+        "sireLine": true,
+        "link": "eclipse",
+        "sire": {
+          "name": "Marske",
+          "year": "1750",
+          "sireLine": true,
+          "sire": {
+            "name": "Squirt",
+            "year": "1732",
+            "sireLine": true,
+            "sire": {
+              "name": "Bartlett's Childers",
+              "sireLine": true
+            },
+            "dam": {
+              "name": "Snake Mare"
+            }
+          },
+          "dam": {
+            "name": "Ruby Mare",
+            "sire": {
+              "name": "Hutton's Blacklegs"
+            },
+            "dam": {
+              "name": "Fox Cub Mare"
+            }
+          }
+        },
+        "dam": {
+          "name": "Spilletta",
+          "year": "1749",
+          "sire": {
+            "name": "Regulus",
+            "year": "1739",
+            "sire": {
+              "name": "Godolphin Arabian"
+            },
+            "dam": {
+              "name": "Grey Robinson"
+            }
+          },
+          "dam": {
+            "name": "Mother Western",
+            "sire": {
+              "name": "Easby Snake"
+            },
+            "dam": {
+              "name": "Old Montagu Mare"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Sportsmistress",
+        "year": "1765",
+        "sire": {
+          "name": "Warren's Sportsman",
+          "sire": {
+            "name": "Cade",
+            "year": "1734",
+            "sire": {
+              "name": "Godolphin Arabian"
+            },
+            "dam": {
+              "name": "Roxana"
+            }
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "Golden Locks",
+          "sire": {
+            "name": "Crab",
+            "year": "c.1722",
+            "sire": {
+              "name": "Alcock's Arabian"
+            },
+            "dam": {
+              "name": "Miss Slammerkin"
+            }
+          },
+          "dam": {
+            "name": "Crab Mare",
+            "sire": {
+              "name": "Crab"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Maria",
+      "year": "1777",
+      "sire": {
+        "name": "Herod",
+        "year": "1758",
+        "sire": {
+          "name": "Tartar",
+          "year": "1743",
+          "sire": {
+            "name": "Partner",
+            "year": "1718",
+            "sire": {
+              "name": "Jigg"
+            },
+            "dam": {
+              "name": "Sister to Mixbury"
+            }
+          },
+          "dam": {
+            "name": "Meliora",
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "Cypron",
+          "year": "1750",
+          "sire": {
+            "name": "Blaze",
+            "year": "1733",
+            "sire": {
+              "name": "Flying Childers"
+            },
+            "dam": {
+              "name": "Confederate Filly"
+            }
+          },
+          "dam": {
+            "name": "Selima",
+            "sire": {
+              "name": "Bethell's Arabian"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Lisette",
+        "year": "1772",
+        "sire": {
+          "name": "Snap",
+          "year": "1750",
+          "sire": {
+            "name": "Snip",
+            "year": "1736",
+            "sire": {
+              "name": "Flying Childers"
+            },
+            "dam": {
+              "name": "Snip Mare"
+            }
+          },
+          "dam": {
+            "name": "Snap Mare",
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "Miss Windsor",
+          "sire": {
+            "name": "Godolphin Arabian",
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      }
+    },
+    "note": "※ 18世紀の競走馬のため、一部の記録は現存する史料に基づく推定値です。Eclipse系（父）とHerod系（母父）の配合。Godolphin Arabian 4×4のインブリード"
+  },
+  "nameDisplayPed": "Waxy<br/><small>1790</small>",
+  "offspring": [
+    {
+      "name": "Whalebone",
+      "year": "1807",
+      "desc": "Epsom Derby (1810)。母Penelope。Sir Hercules, Camelの父。サイアーラインの後継者",
+      "link": "whalebone"
+    },
+    {
+      "name": "Whisker",
+      "year": "1812",
+      "desc": "Epsom Derby (1815)。母Penelope。Whaleboneの全弟"
+    },
+    {
+      "name": "Blucher",
+      "year": "1811",
+      "desc": "Epsom Derby (1814)"
+    },
+    {
+      "name": "Waxy Pope",
+      "year": "1806",
+      "desc": "Epsom Derby (1809)"
+    },
+    {
+      "name": "Web",
+      "year": "1808",
+      "desc": "Epsom Oaks (1811)。母Penelope。優秀な繁殖牝馬"
+    },
+    {
+      "name": "Woful",
+      "year": "1809",
+      "desc": "母Penelope。競走馬・種牡馬として活躍"
+    },
+    {
+      "name": "Whizgig",
+      "year": "1813",
+      "desc": "1000 Guineas (1816)。母Penelope"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Pot-8-Os",
+      "year": "1773",
+      "current": false,
+      "slug": "pot-8-os"
+    },
+    {
+      "name": "Waxy",
+      "year": "1790",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Whalebone",
+      "year": "1807",
+      "current": false,
+      "slug": "whalebone"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Waxy (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Waxy_(horse)"
+        },
+        {
+          "text": "Waxy — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/Waxy.htm"
+        },
+        {
+          "text": "Waxy — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/Waxy.html"
+        },
+        {
+          "text": "Waxy by Potoooooooo — Michael Church Racing Books",
+          "url": "https://www.michaelchurchracingbooks.com/waxy-by-potoooooooo-descendants-of-eclipse/"
+        },
+        {
+          "text": "Waxy Horse Pedigree — Pedigree Query",
+          "url": "https://www.pedigreequery.com/waxy"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Sunday Silence"
+}

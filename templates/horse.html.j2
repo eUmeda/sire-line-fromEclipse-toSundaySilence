@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ h.name }}｜サイアーライン</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;900&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Noto+Serif+JP:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/shared.css">
+<link rel="stylesheet" href="../css/horse.css">
+</head>
+<body class="{{ h.era }}">
+
+<nav class="horse-nav">
+  <a href="../index.html" class="nav-back">&#8592; Timeline</a>
+  <div class="nav-gen">Generation {{ h.generation }}</div>
+  <div class="prev-next">
+{%- if h.nav.prev %}
+    <a href="{{ h.nav.prev.slug }}.html">&#9664; {{ h.nav.prev.name }}</a>
+{%- else %}
+    <span style="color:var(--text-muted);font-size:0.8rem">End of Line</span>
+{%- endif %}
+    <span class="nav-sep">&#9670;</span>
+{%- if h.nav.next %}
+    <a href="{{ h.nav.next.slug }}.html">{{ h.nav.next.name }} &#9654;</a>
+{%- else %}
+    <span style="color:var(--text-muted);font-size:0.8rem">End of Line</span>
+{%- endif %}
+  </div>
+</nav>
+
+<header class="horse-hero">
+  <div class="horse-era">{{ h.eraLabel }}</div>
+  <h1 class="horse-name">{{ h.name }}</h1>
+  <p class="horse-dates">{{ h.dates }}</p>
+  <p class="horse-epithet">{{ h.epithet }}</p>
+  <div class="horse-hero-div"><span>&#9670;</span></div>
+</header>
+
+<main class="horse-main">
+
+  <section class="info-section">
+    <h2 class="sec-title">Profile</h2>
+    <div class="info-grid">
+{%- for item in h.profile %}
+      <div class="info-item">
+        <span class="info-label">{{ item.label }}</span>
+        <span class="info-value">
+{%- if item.unknown|default(false) %}<span class="info-unknown">{{ item.value }}</span>
+{%- else %}{{ item.value }}
+{%- endif %}</span>
+      </div>
+{%- endfor %}
+    </div>
+  </section>
+
+  <section class="bio-section">
+    <h2 class="sec-title">Biography</h2>
+    <div class="bio-text">
+{%- for p in h.biography %}
+      <p>{{ p }}</p>
+{%- endfor %}
+    </div>
+  </section>
+
+{%- for extra in h.extraSections %}
+
+  <section class="bio-section">
+    <h2 class="sec-title">{{ extra.title }}</h2>
+    <div class="bio-text">
+{%- for sub in extra.subsections %}
+      <h3 class="subsec-title">{{ sub.title }}</h3>
+      <p>{{ sub.text }}</p>
+{%- endfor %}
+    </div>
+  </section>
+{%- endfor %}
+
+  <section class="race-section">
+    <h2 class="sec-title">Race Record</h2>
+    <div class="race-summary">
+      <div class="race-stat">
+        <span class="race-stat-num">{{ h.raceRecord.stats.starts }}</span>
+        <span class="race-stat-label">出走</span>
+      </div>
+      <div class="race-stat">
+        <span class="race-stat-num">{{ h.raceRecord.stats.wins }}</span>
+        <span class="race-stat-label">勝利</span>
+      </div>
+      <div class="race-stat">
+        <span class="race-stat-num">
+{%- if 'seconds' in h.raceRecord.unknownStats|default([]) %}<span class="info-unknown">{{ h.raceRecord.stats.seconds }}</span>
+{%- else %}{{ h.raceRecord.stats.seconds }}
+{%- endif %}</span>
+        <span class="race-stat-label">2着</span>
+      </div>
+      <div class="race-stat">
+        <span class="race-stat-num">
+{%- if 'thirds' in h.raceRecord.unknownStats|default([]) %}<span class="info-unknown">{{ h.raceRecord.stats.thirds }}</span>
+{%- else %}{{ h.raceRecord.stats.thirds }}
+{%- endif %}</span>
+        <span class="race-stat-label">3着</span>
+      </div>
+    </div>
+    <p class="race-narrative">{{ h.raceRecord.narrative }}</p>
+{%- for sub in h.raceRecord.subsections %}
+{%- if not loop.first %}
+    <h3 class="subsec-title" style="margin-top:1.2rem">{{ sub.title }}</h3>
+{%- else %}
+    <h3 class="subsec-title">{{ sub.title }}</h3>
+{%- endif %}
+    <ul class="wins-list">
+{%- for item in sub['items'] %}
+      <li>{{ item }}</li>
+{%- endfor %}
+    </ul>
+{%- endfor %}
+{%- if h.raceRecord.historicalNote is defined and h.raceRecord.historicalNote %}
+    <p class="historical-note">{{ h.raceRecord.historicalNote }}</p>
+{%- endif %}
+  </section>
+
+  <section class="pedigree-section">
+    <h2 class="sec-title">Pedigree</h2>
+    <div class="pedigree-wrap">
+      <table class="ped-table">
+        <tbody>
+{%- for row in ped_rows %}
+          <tr>
+{%- for cell in row %}
+            <td rowspan="{{ cell.rowspan }}" class="{{ cell.css }}">
+{%- if cell.link %}<a href="{{ cell.link }}.html">{{ cell.name }}</a>
+{%- elif cell.is_self %}{{ cell.display_html|safe }}
+{%- else %}{{ cell.name }}
+{%- endif %}
+{%- if cell.year and not cell.is_self %}<br><small>{{ cell.year }}</small>
+{%- endif %}</td>
+{%- endfor %}
+          </tr>
+{%- endfor %}
+        </tbody>
+      </table>
+    </div>
+{%- if h.pedigree.note is defined and h.pedigree.note %}
+    <p class="historical-note">{{ h.pedigree.note }}</p>
+{%- endif %}
+  </section>
+
+  <section class="offspring-section">
+    <h2 class="sec-title">Notable Offspring</h2>
+    <ul class="offspring-list">
+{%- for o in h.offspring %}
+      <li class="offspring-item">
+        <span class="offspring-name">
+{%- if o.link is defined and o.link %}<a href="{{ o.link }}.html">{{ o.name }}</a>
+{%- else %}{{ o.name }}
+{%- endif %}</span>
+        <span class="offspring-year">({{ o.year }})</span>
+        <span class="offspring-desc">{{ o.desc }}</span>
+      </li>
+{%- endfor %}
+    </ul>
+  </section>
+
+  <section class="lineage-section">
+    <h2 class="sec-title">Sire Line</h2>
+    <div class="lineage-chain">
+{%- for node in h.sireLine %}
+{%- if not loop.first %}
+      <span class="lineage-arrow">&#8594;</span>
+{%- endif %}
+{%- if node.current %}
+      <div class="lineage-node lineage-current">
+        <span class="lineage-node-name">{{ node.name }}</span>
+        <span class="lineage-node-year">{{ node.year }}</span>
+      </div>
+{%- else %}
+      <a href="{{ node.slug }}.html" class="lineage-node">
+        <span class="lineage-node-name">{{ node.name }}</span>
+        <span class="lineage-node-year">{{ node.year }}</span>
+      </a>
+{%- endif %}
+{%- endfor %}
+    </div>
+  </section>
+
+  <section class="ref-section">
+    <h2 class="sec-title">References</h2>
+{%- for group in h.references %}
+{%- if group.title %}
+    <h3 class="subsec-title">{{ group.title }}</h3>
+{%- endif %}
+    <ul class="ref-list">
+{%- for item in group['items'] %}
+{%- if item.url is defined and item.url %}
+      <li><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.text }}</a></li>
+{%- else %}
+      <li>{{ item.text|safe }}</li>
+{%- endif %}
+{%- endfor %}
+    </ul>
+{%- endfor %}
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-orn">&#9670; &#9670; &#9670;</div>
+  <p class="footer-text">{{ h.footerText }}</p>
+</footer>
+
+</body>
+</html>

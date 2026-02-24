@@ -1,0 +1,386 @@
+{
+  "id": "bona-vista",
+  "era": "e3",
+  "generation": "XI",
+  "nav": {
+    "prev": {
+      "slug": "bend-or",
+      "name": "Bend Or"
+    },
+    "next": {
+      "slug": "cyllene",
+      "name": "Cyllene"
+    }
+  },
+  "eraLabel": "19世紀後半",
+  "name": "Bona Vista",
+  "dates": "1889 – 1909",
+  "epithet": "2000ギニー馬にして、Cylleneを経て現代血統の大河を生んだ種牡馬",
+  "birthYear": 1889,
+  "cardDesc": "1892年2000ギニー優勝。父Bend Orの父系を確実に次代へ繋いだ重要な種牡馬。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1889年"
+    },
+    {
+      "label": "没年月日",
+      "value": "1909年5月12日（20歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "栗毛（Chestnut）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス（バッキンガムシャー州、Mentmore Stud）"
+    },
+    {
+      "label": "生産者",
+      "value": "第5代ローズベリー伯爵 Archibald Primrose"
+    },
+    {
+      "label": "馬主",
+      "value": "Charles Day Rose"
+    },
+    {
+      "label": "調教師",
+      "value": "William Jarvis（ニューマーケット）"
+    }
+  ],
+  "biography": [
+    "Bona Vistaは1889年、バッキンガムシャー州のMentmore Studで第5代ローズベリー伯爵Archibald Primroseにより生産された。父は1880年のエプソムダービー馬Bend Or、母Vistaは1860年の2000ギニーとダービーの二冠馬Macaroniの産駒という良血馬であった。",
+    "1890年、ニューマーケットのセリ市においてローズベリー伯爵が設定した1,200ギニーのリザーブ価格をわずかに上回る1,250ギニーでCharles Day Roseが購買し、ニューマーケットのWilliam Jarvis厩舎に入厩した。",
+    "2歳シーズンの1891年、エプソムのウッドコートSで初勝利を飾り、ニューマーケット・ビエニアルSにも勝利。ただしアスコットのニューSとニューマーケットのチェスターフィールドSでは3着に終わった。3歳時の1892年、ニューマーケット・ビエニアルSを勝利した後、2000ギニーを1馬身半差で制覇。しかしエプソムダービーとアスコットのプリンスオブウェールズSではいずれも着外に敗れ、マイラーとしての限界を露呈した。",
+    "引退後はRoseが所有するバークシャー州パングボーン近郊のHardwicke Studで種牡馬となり、初年度の種付料は25ギニーと控えめな評価であった。しかし1895年に産まれたCylleneがアスコットゴールドカップを含む9勝を挙げ、後に4頭のダービー馬を送り出す大種牡馬となったことで、Bona Vistaの種牡馬としての評価は一変した。1897年、ハンガリーのEsterházy公爵に15,000ギニーで売却され、Kisber Studで供用。同国のリーディングサイアーを5回獲得するなど異国の地でも大いに成功した。1909年5月12日、ハンガリーにて20歳で没。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "7",
+      "wins": "3",
+      "seconds": "0",
+      "thirds": "2"
+    },
+    "narrative": "全7戦3勝。マイルまでの距離で真価を発揮したスピード馬。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1891 Woodcote Stakes（エプソム、5f）",
+          "1892 Newmarket Biennial Stakes（ニューマーケット、1m）",
+          "1892 2000 Guineas（ニューマーケット、1m）"
+        ]
+      },
+      {
+        "title": "主な表彰",
+        "items": [
+          "ハンガリー・リーディングサイアー5回（1902-1908）"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Bend Or",
+      "year": "1877",
+      "sireLine": true,
+      "link": "bend-or",
+      "sire": {
+        "name": "Doncaster",
+        "year": "1870",
+        "sireLine": true,
+        "sire": {
+          "name": "Stockwell",
+          "year": "1849",
+          "sireLine": true,
+          "sire": {
+            "name": "The Baron",
+            "year": "1842",
+            "sireLine": true,
+            "sire": {
+              "name": "Birdcatcher",
+              "sireLine": true
+            },
+            "dam": {
+              "name": "Echidna"
+            }
+          },
+          "dam": {
+            "name": "Pocahontas",
+            "year": "1837",
+            "sire": {
+              "name": "Glencoe"
+            },
+            "dam": {
+              "name": "Marpessa"
+            }
+          }
+        },
+        "dam": {
+          "name": "Marigold",
+          "year": "1860",
+          "sire": {
+            "name": "Teddington",
+            "year": "1848",
+            "sire": {
+              "name": "Orlando"
+            },
+            "dam": {
+              "name": "Miss Twickenham"
+            }
+          },
+          "dam": {
+            "name": "Ellen Middleton",
+            "sire": {
+              "name": "Bay Middleton"
+            },
+            "dam": {
+              "name": "Myrrha"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Rouge Rose",
+        "year": "1865",
+        "sire": {
+          "name": "Thormanby",
+          "year": "1857",
+          "sire": {
+            "name": "Windhound",
+            "year": "1847",
+            "sire": {
+              "name": "Pantaloon"
+            },
+            "dam": {
+              "name": "Phryne"
+            }
+          },
+          "dam": {
+            "name": "Alice Hawthorn",
+            "year": "1838",
+            "sire": {
+              "name": "Muley Moloch"
+            },
+            "dam": {
+              "name": "Rebecca"
+            }
+          }
+        },
+        "dam": {
+          "name": "Ellen Horne",
+          "sire": {
+            "name": "Redshank",
+            "sire": {
+              "name": "Sandbeck"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          },
+          "dam": {
+            "name": "Delhi",
+            "sire": {
+              "name": "Douro"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Vista",
+      "year": "1879",
+      "sire": {
+        "name": "Macaroni",
+        "year": "1860",
+        "sire": {
+          "name": "Sweetmeat",
+          "year": "1842",
+          "sire": {
+            "name": "Gladiator",
+            "year": "1833",
+            "sire": {
+              "name": "Partisan"
+            },
+            "dam": {
+              "name": "Pauline"
+            }
+          },
+          "dam": {
+            "name": "Lollypop",
+            "sire": {
+              "name": "Starch"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          }
+        },
+        "dam": {
+          "name": "Jocose",
+          "sire": {
+            "name": "Pantaloon",
+            "year": "1824",
+            "sire": {
+              "name": "Castrel"
+            },
+            "dam": {
+              "name": "Idalia"
+            }
+          },
+          "dam": {
+            "name": "Banter",
+            "sire": {
+              "name": "Master Henry"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Verdure",
+        "year": "1867",
+        "sire": {
+          "name": "King Tom",
+          "year": "1851",
+          "sire": {
+            "name": "Harkaway",
+            "year": "1836",
+            "sire": {
+              "name": "Economist"
+            },
+            "dam": {
+              "name": "Fanny Dawson"
+            }
+          },
+          "dam": {
+            "name": "Pocahontas",
+            "year": "1837",
+            "sire": {
+              "name": "Glencoe"
+            },
+            "dam": {
+              "name": "Marpessa"
+            }
+          }
+        },
+        "dam": {
+          "name": "May Bloom",
+          "year": "1861",
+          "sire": {
+            "name": "Newminster",
+            "year": "1848",
+            "sire": {
+              "name": "Touchstone"
+            },
+            "dam": {
+              "name": "Beeswing"
+            }
+          },
+          "dam": {
+            "name": "May Queen",
+            "sire": {
+              "name": "Melbourne"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Pocahontas 3×4のインブリード（Stockwellの母 × King Tomの母）"
+  },
+  "nameDisplayPed": "Bona<br/>Vista<br/><small>1889</small>",
+  "offspring": [
+    {
+      "name": "Cyllene",
+      "year": "1895",
+      "desc": "Ascot Gold Cup, Jockey Club Stakes。エプソムダービー馬4頭の父。英愛リーディングサイアー2回",
+      "link": "cyllene"
+    },
+    {
+      "name": "Bonarosa",
+      "year": "1897",
+      "desc": "Woodcote Stakes, St. James's Palace Stakes"
+    },
+    {
+      "name": "Santa Casa",
+      "year": "1896",
+      "desc": "Fitzwilliam Stakes, Triennial Stakes。障害競走の名馬Devon Lochの祖母"
+    },
+    {
+      "name": "Vahren",
+      "year": "1897",
+      "desc": "繁殖牝馬として大成功。無敗の名馬The Tetrarchの母"
+    },
+    {
+      "name": "Patience",
+      "year": "1902",
+      "desc": "ハンガリー産駒。9戦9勝の無敗馬。Magyar Kanca Díj（ハンガリーオークス）"
+    },
+    {
+      "name": "Bony",
+      "year": "1903",
+      "desc": "ハンガリー産駒。Magyar St. Leger (1907)"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Bend Or",
+      "year": "1877",
+      "current": false,
+      "slug": "bend-or"
+    },
+    {
+      "name": "Bona Vista",
+      "year": "1889",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Cyllene",
+      "year": "1895",
+      "current": false,
+      "slug": "cyllene"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Bona Vista — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Bona_Vista"
+        },
+        {
+          "text": "Bona Vista — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/BonaVista.html"
+        },
+        {
+          "text": "Bona Vista — Pedigree Query",
+          "url": "https://www.pedigreequery.com/bona+vista"
+        },
+        {
+          "text": "Bona Vista — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/BonaVista.htm"
+        },
+        {
+          "text": "Cyllene: the sire who became a staple ingredient — Thoroughbred Racing Commentary",
+          "url": "https://www.thoroughbredracing.com/articles/3714/tony-morriss-100-shapers-breed-sire-who-became-staple-ingredient/"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Bona Vista"
+}

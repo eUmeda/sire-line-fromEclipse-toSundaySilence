@@ -1,0 +1,424 @@
+{
+  "id": "hail-to-reason",
+  "era": "e5",
+  "generation": "XIX",
+  "nav": {
+    "prev": {
+      "slug": "turn-to",
+      "name": "Turn-to"
+    },
+    "next": {
+      "slug": "halo",
+      "name": "Halo"
+    }
+  },
+  "eraLabel": "20世紀後半",
+  "name": "Hail to Reason",
+  "dates": "1958 – 1976",
+  "epithet": "わずか9ヶ月の閃光――2歳王者にして偉大なる種牡馬",
+  "birthYear": 1958,
+  "cardDesc": "2歳時に9戦8勝の圧倒的強さを見せたが骨折により早期引退。種牡馬としてRoberto、Haloらを輩出し、父系を世界に広げた。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1958年4月18日"
+    },
+    {
+      "label": "没年月日",
+      "value": "1976年2月24日（17歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛（Dark Bay/Brown）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "アメリカ合衆国（ケンタッキー州）"
+    },
+    {
+      "label": "生産者",
+      "value": "Bieber-Jacobs Stable"
+    },
+    {
+      "label": "馬主",
+      "value": "Bieber-Jacobs Stable（Hirsch Jacobs & Isidore Bieber）"
+    },
+    {
+      "label": "調教師",
+      "value": "Hirsch Jacobs"
+    }
+  ],
+  "biography": [
+    "Hail to Reasonは1958年4月18日、ケンタッキー州のHagyard Farmで生まれた。共同馬主のIsidore Bieberが国際政治に因んだ馬名をつける習慣を持っていたことから、その名が付けられた。父Turn-toは愛国産の名種牡馬、母Nothirdchanceは1951年のエイコーンSを制した良血牝馬である。",
+    "1960年1月21日、サンタアニタでのデビュー戦から競走生活を開始し、2歳のわずか9ヶ月間に18戦を消化するという、当時としても異例のハイペースでキャリアを積んだ。アケダクトでのデビュー戦では5ハロンを58秒1/5のコースレコードで快勝。その後もユースフルS、グレートアメリカンS、トレモントSをアケダクトで連勝し、サラトガではサンフォードSを制した。モンマスではサプリングS、アトランティックシティではワールズ・プレイグラウンドSにも勝利した。",
+    "圧巻はサラトガのホープフルSで、6ハロン半を走り10馬身差の圧勝劇を演じた。しかし、9月18日のアケダクトでの調教中に落鉄し、左前脚の種子骨を骨折。わずか18戦9勝（うちステークス7勝）という鮮烈な戦績を残して引退を余儀なくされた。それでもなお、1960年の全米最優秀2歳牡馬に選出され、エクスペリメンタル・フリー・ハンデでは最高の126ポンドが課せられた。",
+    "種牡馬としてはレキシントン近郊のHagyard Farmに繋養され、1970年には北米リーディングサイアーに輝いた。産駒からは1965年ベルモントS勝ちのHail to All、1967年ケンタッキーダービー馬Proud Clarion、1970年プリークネスS勝ちのPersonality、そして1972年英ダービー馬Robertoと、米英の主要クラシック勝ち馬を輩出。さらにHalo、Stop the Music、Mr. Leader、Bold Reasonらが種牡馬として成功し、319頭の登録産駒から218頭の勝ち馬（68.3%）と43頭のステークス勝ち馬（13.5%）を送り出した。特にHaloを通じてSunday Silence、そしてDeep Impactへと続く父系は、21世紀の日本競馬を支配するサイアーラインとなった。",
+    "1976年2月24日、17歳で安楽死処分され、Hagyard Farmに埋葬された。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "18",
+      "wins": "9",
+      "seconds": "2",
+      "thirds": "2"
+    },
+    "narrative": "全戦績は2歳時のみ。9ヶ月間で18戦を消化し、うち7つのステークスを制覇。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1960 Youthful Stakes",
+          "1960 Great American Stakes",
+          "1960 Tremont Stakes",
+          "1960 Sanford Stakes",
+          "1960 Sapling Stakes",
+          "1960 World's Playground Stakes",
+          "1960 Hopeful Stakes"
+        ]
+      },
+      {
+        "title": "主な表彰",
+        "items": [
+          "1960 Champion Two-Year-Old Colt（全米最優秀2歳牡馬）",
+          "1960 Experimental Free Handicap 最高斤量（126ポンド）",
+          "1970 Leading Sire in North America（北米リーディングサイアー）",
+          "2012 米国競馬殿堂入り"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Turn-to",
+      "year": "1951",
+      "sireLine": true,
+      "link": "turn-to",
+      "sire": {
+        "name": "Royal Charger",
+        "year": "1942",
+        "sireLine": true,
+        "link": "royal-charger",
+        "sire": {
+          "name": "Nearco",
+          "year": "1935",
+          "sireLine": true,
+          "link": "nearco",
+          "sire": {
+            "name": "Pharos",
+            "year": "1920",
+            "sireLine": true,
+            "link": "pharos",
+            "sire": {
+              "name": "Phalaris",
+              "sireLine": true,
+              "link": "phalaris"
+            },
+            "dam": {
+              "name": "Scapa Flow"
+            }
+          },
+          "dam": {
+            "name": "Nogara",
+            "year": "1928",
+            "sire": {
+              "name": "Havresac II"
+            },
+            "dam": {
+              "name": "Catnip"
+            }
+          }
+        },
+        "dam": {
+          "name": "Sun Princess",
+          "year": "1937",
+          "sire": {
+            "name": "Solario",
+            "year": "1922",
+            "sire": {
+              "name": "Gainsborough"
+            },
+            "dam": {
+              "name": "Sun Worship"
+            }
+          },
+          "dam": {
+            "name": "Mumtaz Begum",
+            "year": "1932",
+            "sire": {
+              "name": "Blenheim II"
+            },
+            "dam": {
+              "name": "Mumtaz Mahal"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Source Sucree",
+        "year": "1940",
+        "sire": {
+          "name": "Admiral Drake",
+          "year": "1931",
+          "sire": {
+            "name": "Craig an Eran",
+            "year": "1918",
+            "sire": {
+              "name": "Sunstar"
+            },
+            "dam": {
+              "name": "Maid of the Mist"
+            }
+          },
+          "dam": {
+            "name": "Plucky Liege",
+            "year": "1912",
+            "sire": {
+              "name": "Spearmint"
+            },
+            "dam": {
+              "name": "Concertina"
+            }
+          }
+        },
+        "dam": {
+          "name": "Donatella",
+          "year": "1937",
+          "sire": {
+            "name": "Donatello",
+            "year": "1934",
+            "sire": {
+              "name": "Blenheim II"
+            },
+            "dam": {
+              "name": "Dorina"
+            }
+          },
+          "dam": {
+            "name": "Dorine",
+            "sire": {
+              "name": "Donatello"
+            },
+            "dam": {
+              "name": "Doubloon"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Nothirdchance",
+      "year": "1948",
+      "sire": {
+        "name": "Blue Swords",
+        "year": "1940",
+        "sire": {
+          "name": "Blue Larkspur",
+          "year": "1926",
+          "sire": {
+            "name": "Black Servant",
+            "year": "1918",
+            "sire": {
+              "name": "Black Toney"
+            },
+            "dam": {
+              "name": "Padua"
+            }
+          },
+          "dam": {
+            "name": "Blossom Time",
+            "year": "1917",
+            "sire": {
+              "name": "North Star III"
+            },
+            "dam": {
+              "name": "Vaila"
+            }
+          }
+        },
+        "dam": {
+          "name": "Flaming Swords",
+          "year": "1933",
+          "sire": {
+            "name": "Man o' War",
+            "year": "1917",
+            "sire": {
+              "name": "Fair Play"
+            },
+            "dam": {
+              "name": "Mahubah"
+            }
+          },
+          "dam": {
+            "name": "Flambino",
+            "year": "1924",
+            "sire": {
+              "name": "Wrack"
+            },
+            "dam": {
+              "name": "Flambette"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Galla Colors",
+        "year": "1943",
+        "sire": {
+          "name": "Sir Gallahad III",
+          "year": "1920",
+          "sire": {
+            "name": "Teddy",
+            "year": "1913",
+            "sire": {
+              "name": "Ajax"
+            },
+            "dam": {
+              "name": "Rondeau"
+            }
+          },
+          "dam": {
+            "name": "Plucky Liege",
+            "year": "1912",
+            "sire": {
+              "name": "Spearmint"
+            },
+            "dam": {
+              "name": "Concertina"
+            }
+          }
+        },
+        "dam": {
+          "name": "Rouge et Noir",
+          "year": "1934",
+          "sire": {
+            "name": "St Germans",
+            "year": "1921",
+            "sire": {
+              "name": "Swynford"
+            },
+            "dam": {
+              "name": "Hamoaze"
+            }
+          },
+          "dam": {
+            "name": "Donatella II",
+            "sire": {
+              "name": "Donatello"
+            },
+            "dam": {
+              "name": "Donatella"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Plucky Liege 4×4のインブリード（Admiral Drakeの母 × Sir Gallahad IIIの母）"
+  },
+  "nameDisplayPed": "Hail to<br/>Reason<br/><small>1958</small>",
+  "offspring": [
+    {
+      "name": "Hail to All",
+      "year": "1962",
+      "desc": "Belmont Stakes (1965)。初年度産駒のクラシックウイナー"
+    },
+    {
+      "name": "Straight Deal",
+      "year": "1962",
+      "desc": "1967年全米チャンピオンハンデキャップ牝馬"
+    },
+    {
+      "name": "Proud Clarion",
+      "year": "1964",
+      "desc": "Kentucky Derby (1967)"
+    },
+    {
+      "name": "Mr. Leader",
+      "year": "1966",
+      "desc": "Jerome Handicap (1969) 他重賞4勝。種牡馬としてステークス勝ち馬80頭を輩出"
+    },
+    {
+      "name": "Personality",
+      "year": "1967",
+      "desc": "Preakness Stakes (1970)。種牡馬としても活躍"
+    },
+    {
+      "name": "Roberto",
+      "year": "1969",
+      "desc": "Epsom Derby (1972)。種牡馬として Kris S., Brian's Time, Real Shadai らを輩出"
+    },
+    {
+      "name": "Halo",
+      "year": "1969",
+      "desc": "United Nations Handicap (G1) 他。種牡馬としてSunday Silence, Devil's Bagらを輩出し、父系を現代に伝えた",
+      "link": "halo"
+    },
+    {
+      "name": "Bold Reason",
+      "year": "1968",
+      "desc": "Travers Stakes (1971)。種牡馬としても成功"
+    },
+    {
+      "name": "Stop the Music",
+      "year": "1970",
+      "desc": "Champagne Stakes, Saratoga Special (1972)。種牡馬としてステークス勝ち馬44頭を輩出"
+    },
+    {
+      "name": "Trillion",
+      "year": "1974",
+      "desc": "仏オークス、ガネー賞 他G1を5勝。名繁殖牝馬としてTryptichらを輩出"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Turn-to",
+      "year": "1951",
+      "current": false,
+      "slug": "turn-to"
+    },
+    {
+      "name": "Hail to Reason",
+      "year": "1958",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Halo",
+      "year": "1969",
+      "current": false,
+      "slug": "halo"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Hail to Reason — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Hail_To_Reason"
+        },
+        {
+          "text": "Hail to Reason — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/hail-to-reason.html"
+        },
+        {
+          "text": "Hirsch Jacobs' Poster Child Hail to Reason — BloodHorse",
+          "url": "https://www.bloodhorse.com/horse-racing/articles/238078/hirsch-jacobs-poster-child-hail-to-reason"
+        },
+        {
+          "text": "Hail to Reason (USA) — JBIS-Search",
+          "url": "https://www.jbis.jp/horse/0000334286/"
+        },
+        {
+          "text": "Hail to Reason — Horse Racing Nation",
+          "url": "https://www.horseracingnation.com/horse/Hail_To_Reason"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Hail to Reason"
+}

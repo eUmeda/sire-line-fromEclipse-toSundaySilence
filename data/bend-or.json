@@ -1,0 +1,384 @@
+{
+  "id": "bend-or",
+  "era": "e3",
+  "generation": "X",
+  "nav": {
+    "prev": {
+      "slug": "doncaster",
+      "name": "Doncaster"
+    },
+    "next": {
+      "slug": "bona-vista",
+      "name": "Bona Vista"
+    }
+  },
+  "eraLabel": "19世紀後半",
+  "name": "Bend Or",
+  "dates": "1877 – 1903",
+  "epithet": "金色に輝く栗毛のダービー馬 — 現代サラブレッド父系の礎を築いた大種牡馬",
+  "birthYear": 1877,
+  "cardDesc": "1880年エプソムダービー優勝。鮮やかな栗毛の美しい馬体で「黄金の馬」と称された、ヴィクトリア朝の名馬。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1877年"
+    },
+    {
+      "label": "没年",
+      "value": "1903年初頭（26歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "栗毛（Chestnut）— 金色の輝きと銀色のたてがみを持つ"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イングランド（チェシャー州、Eaton Stud）"
+    },
+    {
+      "label": "生産者 / 馬主",
+      "value": "初代ウェストミンスター公爵 Hugh Lupus Grosvenor"
+    },
+    {
+      "label": "調教師",
+      "value": "Robert Peck（Eaton Hall、チェシャー州）"
+    },
+    {
+      "label": "主戦騎手",
+      "value": "Fred Archer"
+    }
+  ],
+  "biography": [
+    "Bend Orは1877年、チェシャー州にある初代ウェストミンスター公爵Hugh Lupus Grosvenorの名門Eaton Studで生まれた。父は1873年のエプソムダービー馬Doncaster、母Rouge Roseは1860年のダービー馬Thormanbyの産駒である。金色に輝く栗毛の馬体は際立つ美しさで、銀色のたてがみと尾を持ち、首や肩には黒い斑点があった。体高は16.1ハンドに達する堂々たる馬格であった。",
+    "Robert Peck調教師のもと、名手Fred Archerを鞍上に迎えた2歳シーズンの1879年、Bend Orは5戦全勝の完璧な成績を残した。3歳時の1880年、エプソムダービーにおいてRobert the Devilとの激闘をアタマ差で制し、戴冠を果たした。この勝利の後、敗れたRobert the Devilの陣営から「出走馬は実はBend Orではなく、母がRouge RoseではなくClemenceである別の馬Tadcasterだ」という異議が提出された。ジョッキークラブは調査の末にこの異議を退けたが、論争は一世紀以上にわたって続いた。2012年の遺伝子解析により、Bend Orのミトコンドリア DNAはRouge Roseの系統ではなくClemenceの系統と一致することが判明し、歴史的な謎に科学的決着がつけられた。",
+    "4歳シーズンの1881年にはCity and Suburban HdicapとChampion Stakesを含む3勝を挙げ、通算成績は14戦10勝、2着2回という優れた戦績を残して引退した。",
+    "引退後はEaton Studで種牡馬となり、その種牡馬成績は競走成績をも凌駕するものであった。英国三冠馬Ormonde（16戦無敗）、2000ギニー馬Bona Vista、さらにはGaltee More（三冠馬）の父Kendalなど、数多くの名馬を輩出した。Bona Vistaの子Cylleneを通じて、現代サラブレッドの父系の大部分はBend Orに遡る。1903年初頭、Eaton Studにて心臓発作により26歳で死亡した。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "14",
+      "wins": "10",
+      "seconds": "2",
+      "thirds": "0"
+    },
+    "narrative": "通算14戦10勝（勝率71.4%）。2歳時は5戦全勝。生涯獲得賞金 £16,466。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1880 Epsom Derby Stakes（エプソム、1m 4f — アタマ差でRobert the Devilを破る）",
+          "1880 St James's Palace Stakes（アスコット）",
+          "1881 City and Suburban Handicap（エプソム、1m 2f — 9st 7lb 斤量で1馬身半差）",
+          "1881 Champion Stakes（ニューマーケット）",
+          "1881 Epsom Gold Cup（エプソム）"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Doncaster",
+      "year": "1870",
+      "sireLine": true,
+      "link": "doncaster",
+      "sire": {
+        "name": "Stockwell",
+        "year": "1849",
+        "sireLine": true,
+        "link": "stockwell",
+        "sire": {
+          "name": "The Baron",
+          "year": "1842",
+          "sireLine": true,
+          "link": "the-baron",
+          "sire": {
+            "name": "Birdcatcher",
+            "year": "1833",
+            "sireLine": true,
+            "link": "birdcatcher",
+            "sire": {
+              "name": "Sir Hercules",
+              "sireLine": true,
+              "link": "sir-hercules"
+            },
+            "dam": {
+              "name": "Guiccioli"
+            }
+          },
+          "dam": {
+            "name": "Echidna",
+            "year": "1838",
+            "sire": {
+              "name": "Economist"
+            },
+            "dam": {
+              "name": "Miss Pratt"
+            }
+          }
+        },
+        "dam": {
+          "name": "Pocahontas",
+          "year": "1837",
+          "sire": {
+            "name": "Glencoe",
+            "year": "1831",
+            "sire": {
+              "name": "Sultan"
+            },
+            "dam": {
+              "name": "Trampoline"
+            }
+          },
+          "dam": {
+            "name": "Marpessa",
+            "year": "1830",
+            "sire": {
+              "name": "Muley"
+            },
+            "dam": {
+              "name": "Clare"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Marigold",
+        "year": "1860",
+        "sire": {
+          "name": "Teddington",
+          "year": "1848",
+          "sire": {
+            "name": "Orlando",
+            "year": "1841",
+            "sire": {
+              "name": "Touchstone"
+            },
+            "dam": {
+              "name": "Vulture"
+            }
+          },
+          "dam": {
+            "name": "Miss Twickenham",
+            "sire": {
+              "name": "Rockingham"
+            },
+            "dam": {
+              "name": "Charity"
+            }
+          }
+        },
+        "dam": {
+          "name": "Ellen Middleton",
+          "sire": {
+            "name": "Bay Middleton",
+            "year": "1833",
+            "sire": {
+              "name": "Sultan"
+            },
+            "dam": {
+              "name": "Cobweb"
+            }
+          },
+          "dam": {
+            "name": "Myrrha",
+            "sire": {
+              "name": "Malek"
+            },
+            "dam": {
+              "name": "Bessy Bedlam"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Rouge Rose",
+      "year": "1865",
+      "sire": {
+        "name": "Thormanby",
+        "year": "1857",
+        "sire": {
+          "name": "Windhound",
+          "year": "1847",
+          "sire": {
+            "name": "Pantaloon",
+            "year": "1824",
+            "sire": {
+              "name": "Castrel"
+            },
+            "dam": {
+              "name": "Idalia"
+            }
+          },
+          "dam": {
+            "name": "Phryne",
+            "year": "1840",
+            "sire": {
+              "name": "Touchstone"
+            },
+            "dam": {
+              "name": "Decoy"
+            }
+          }
+        },
+        "dam": {
+          "name": "Alice Hawthorn",
+          "year": "1838",
+          "sire": {
+            "name": "Muley Moloch",
+            "sire": {
+              "name": "Muley"
+            },
+            "dam": {
+              "name": "Nancy"
+            }
+          },
+          "dam": {
+            "name": "Rebecca",
+            "year": "1831",
+            "sire": {
+              "name": "Lottery"
+            },
+            "dam": {
+              "name": "Lardella"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Ellen Horne",
+        "sire": {
+          "name": "Redshank",
+          "sire": {
+            "name": "Sandbeck",
+            "sire": {
+              "name": "Catton"
+            },
+            "dam": {
+              "name": "Orvillina"
+            }
+          },
+          "dam": {
+            "name": "Doris",
+            "sire": {
+              "name": "Douro"
+            },
+            "dam": {
+              "name": "Doris Mare"
+            }
+          }
+        },
+        "dam": {
+          "name": "Delhi",
+          "sire": {
+            "name": "Plenipotentiary",
+            "year": "1831",
+            "sire": {
+              "name": "Emilius"
+            },
+            "dam": {
+              "name": "Harriet"
+            }
+          },
+          "dam": {
+            "name": "Doris",
+            "sire": {
+              "name": "Douro"
+            },
+            "dam": {
+              "name": "Doris Mare"
+            }
+          }
+        }
+      }
+    },
+    "note": "* 2012年のDNA解析により、実母はRouge RoseではなくClemenceであった可能性が科学的に示唆されている。Sultan 4×5のインブリード（Bay Middleton経由 × Glencoe経由）"
+  },
+  "nameDisplayPed": "Bend Or<br/><small>1877</small>",
+  "offspring": [
+    {
+      "name": "Ormonde",
+      "year": "1883",
+      "desc": "英国三冠馬：2000 Guineas, Epsom Derby, St Leger (1886)。16戦無敗。Grand Prix de Parisも制覇"
+    },
+    {
+      "name": "Kendal",
+      "year": "1883",
+      "desc": "英国三冠馬Galtee More (1894) の父として種牡馬としても成功"
+    },
+    {
+      "name": "Melody",
+      "year": "1888",
+      "desc": "1000 Guineas (1891)。牝馬"
+    },
+    {
+      "name": "Bona Vista",
+      "year": "1889",
+      "desc": "2000 Guineas (1892)。Cylleneの父として現代サラブレッド父系に直結",
+      "link": "bona-vista"
+    },
+    {
+      "name": "Orbit",
+      "year": "1884",
+      "desc": "アルゼンチンに輸出され大成功。「南米のStockwell」と称される"
+    },
+    {
+      "name": "Doricles",
+      "year": "1889",
+      "desc": "Jubilee Stakes。障害・平地の両方で活躍した種牡馬"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Doncaster",
+      "year": "1870",
+      "current": false,
+      "slug": "doncaster"
+    },
+    {
+      "name": "Bend Or",
+      "year": "1877",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Bona Vista",
+      "year": "1889",
+      "current": false,
+      "slug": "bona-vista"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Bend Or — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Bend_Or"
+        },
+        {
+          "text": "Bend Or — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/BendOr.html"
+        },
+        {
+          "text": "Bend Or: racing's huge debt to an 'imposter' — Thoroughbred Racing Commentary",
+          "url": "https://www.thoroughbredracing.com/articles/3078/tony-morriss-100-shapers-breed-racings-huge-debt-imposter/"
+        },
+        {
+          "text": "Bend Or — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/BendOr.htm"
+        },
+        {
+          "text": "The mystery of Bend Or — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/the-mystery-of-bend-or.html"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Bend Or"
+}

@@ -1,0 +1,404 @@
+{
+  "id": "pharos",
+  "era": "e4",
+  "generation": "XV",
+  "nav": {
+    "prev": {
+      "slug": "phalaris",
+      "name": "Phalaris"
+    },
+    "next": {
+      "slug": "nearco",
+      "name": "Nearco"
+    }
+  },
+  "eraLabel": "20世紀前半",
+  "name": "Pharos",
+  "dates": "1920 – 1937",
+  "epithet": "不敗のNearcoを世に送り出し、現代サラブレッドの血脈を決定づけた名種牡馬",
+  "birthYear": 1920,
+  "cardDesc": "仏・英でリーディングサイアーに輝いた名種牡馬。不世出の名馬Nearcoを送り出し、血統史に不朽の名を刻んだ。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1920年4月4日"
+    },
+    {
+      "label": "没年月日",
+      "value": "1937年4月30日（17歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "黒鹿毛（Dark Bay/Brown）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス（サフォーク州ニューマーケット、Stanley House Stud）"
+    },
+    {
+      "label": "生産者・馬主",
+      "value": "Edward Stanley, 17th Earl of Derby"
+    },
+    {
+      "label": "調教師",
+      "value": "George Lambton"
+    }
+  ],
+  "biography": [
+    "Pharosは1920年4月4日、イギリス・ニューマーケットのStanley House Studで誕生した。第17代ダービー伯爵Edward Stanleyの生産馬で、父Phalarisは当時台頭しつつあった新興のサイアーライン、母Scapa FlowはChaucerの血を引くステイヤー牝馬であった。全弟にFairway（31勝、リーディングサイアー4回）、全妹にFair Isle（1000ギニー勝ち馬）がいる。",
+    "体高16ハンドの黒鹿毛馬で、白徴はなく、優れた肩と臀部を持つ好馬体であった。気性は穏やかで勝負根性に富んでいたと伝えられる。名伯楽George Lambtonのもと、2歳から5歳まで4シーズンにわたって競走生活を送り、30戦14勝の成績を残した。",
+    "2歳シーズンの1922年は9戦6勝と好成績を収め、チェシャムステークス（アスコット）、ベッドフォードステークス、ハーストパーク大2歳ステークスなどを制した。3歳の1923年にはヘイスティングスステークス、マーチステークスを勝ったが、エプソムダービーではPapyrusに1馬身差の2着に敗れた。騎手の戦術的ミスが悔やまれる敗戦であった。",
+    "4歳の1924年にはリバプールサマーカップを6馬身差で圧勝し、さらにチャンピオンステークスで凱旋門賞馬Parthを4馬身差で破って10ハロンの王者の座を確立した。5歳の1925年にはデュークオブヨークハンデキャップを連覇して引退。",
+    "引退後はダービー伯爵のWoodland Studで3シーズン供用された後、1929年にフランス・ノルマンディーのHaras d'Ouillyに移動。35頭以上のステークス勝ち馬を輩出し、英愛リーディングサイアー（1931年）、仏リーディングサイアー（1939年）に輝いた。最大の遺産は、イタリアで生産された不敗の名馬Nearcoである。Nearcoを通じて現代サラブレッドの血統に計り知れない影響を与えた。1937年4月30日、フランスで死亡。享年17歳。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "30",
+      "wins": "14",
+      "seconds": "5",
+      "thirds": "6"
+    },
+    "narrative": "生涯獲得賞金 £15,694。10ハロン路線の第一人者。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1922 Chesham Stakes（アスコット）",
+          "1922 Bedford Stakes（ニューマーケット）",
+          "1922 Great Two-Year-Old Stakes（ハーストパーク）",
+          "1922 Mersey Stakes（リバプール）",
+          "1923 Hastings Stakes（ニューマーケット）",
+          "1923 March Stakes（ニューマーケット）",
+          "1923 Royal Stakes（ニューベリー）",
+          "1924 Liverpool Summer Cup（エイントリー）",
+          "1924 Champion Stakes（ニューマーケット）",
+          "1924 Duke of York Handicap（ケンプトンパーク）",
+          "1925 Duke of York Handicap（ケンプトンパーク）— 連覇"
+        ]
+      },
+      {
+        "title": "主な惜敗",
+        "items": [
+          "1923 Derby Stakes 2着（エプソム）— 優勝馬Papyrusに1馬身差"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Phalaris",
+      "year": "1913",
+      "sireLine": true,
+      "link": "phalaris",
+      "sire": {
+        "name": "Polymelus",
+        "year": "1902",
+        "sireLine": true,
+        "sire": {
+          "name": "Cyllene",
+          "year": "1895",
+          "sireLine": true,
+          "sire": {
+            "name": "Bona Vista",
+            "year": "1889",
+            "sireLine": true,
+            "sire": {
+              "name": "Bend Or",
+              "sireLine": true
+            },
+            "dam": {
+              "name": "Vista"
+            }
+          },
+          "dam": {
+            "name": "Arcadia",
+            "year": "1887",
+            "sire": {
+              "name": "Isonomy"
+            },
+            "dam": {
+              "name": "Distant Shore"
+            }
+          }
+        },
+        "dam": {
+          "name": "Maid Marian",
+          "year": "1886",
+          "sire": {
+            "name": "Hampton",
+            "year": "1872",
+            "sire": {
+              "name": "Lord Clifden"
+            },
+            "dam": {
+              "name": "Lady Langden"
+            }
+          },
+          "dam": {
+            "name": "Quiver",
+            "year": "1872",
+            "sire": {
+              "name": "Toxophilite"
+            },
+            "dam": {
+              "name": "The Arrow"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Bromus",
+        "year": "1905",
+        "sire": {
+          "name": "Sainfoin",
+          "year": "1887",
+          "sire": {
+            "name": "Springfield",
+            "year": "1873",
+            "sire": {
+              "name": "St. Albans"
+            },
+            "dam": {
+              "name": "Viridis"
+            }
+          },
+          "dam": {
+            "name": "Sanda",
+            "year": "1878",
+            "sire": {
+              "name": "Wenlock"
+            },
+            "dam": {
+              "name": "Sandal"
+            }
+          }
+        },
+        "dam": {
+          "name": "Cheery",
+          "year": "1896",
+          "sire": {
+            "name": "St. Simon",
+            "year": "1881",
+            "sire": {
+              "name": "Galopin"
+            },
+            "dam": {
+              "name": "St. Angela"
+            }
+          },
+          "dam": {
+            "name": "Sunrise",
+            "sire": {
+              "name": "Springfield"
+            },
+            "dam": {
+              "name": "—"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Scapa Flow",
+      "year": "1914",
+      "sire": {
+        "name": "Chaucer",
+        "year": "1900",
+        "sire": {
+          "name": "St. Simon",
+          "year": "1881",
+          "sire": {
+            "name": "Galopin",
+            "year": "1872",
+            "sire": {
+              "name": "Vedette"
+            },
+            "dam": {
+              "name": "Flying Duchess"
+            }
+          },
+          "dam": {
+            "name": "St. Angela",
+            "year": "1865",
+            "sire": {
+              "name": "King Tom"
+            },
+            "dam": {
+              "name": "Adeline"
+            }
+          }
+        },
+        "dam": {
+          "name": "Canterbury Pilgrim",
+          "year": "1893",
+          "sire": {
+            "name": "Tristan",
+            "year": "1878",
+            "sire": {
+              "name": "Hermit"
+            },
+            "dam": {
+              "name": "Thrift"
+            }
+          },
+          "dam": {
+            "name": "Pilgrimage",
+            "year": "1875",
+            "sire": {
+              "name": "The Palmer"
+            },
+            "dam": {
+              "name": "Lady Audley"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Anchora",
+        "year": "1905",
+        "sire": {
+          "name": "Love Wisely",
+          "year": "1898",
+          "sire": {
+            "name": "Doubloon",
+            "year": "1891",
+            "sire": {
+              "name": "—"
+            },
+            "dam": {
+              "name": "—"
+            }
+          },
+          "dam": {
+            "name": "Doris",
+            "sire": {
+              "name": "—"
+            },
+            "dam": {
+              "name": "—"
+            }
+          }
+        },
+        "dam": {
+          "name": "Eryholme",
+          "year": "1898",
+          "sire": {
+            "name": "—",
+            "sire": {
+              "name": "—"
+            },
+            "dam": {
+              "name": "—"
+            }
+          },
+          "dam": {
+            "name": "—",
+            "sire": {
+              "name": "—"
+            },
+            "dam": {
+              "name": "—"
+            }
+          }
+        }
+      }
+    },
+    "note": "St. Simon 4×3、Springfield 4×5、Hermit 5×5のインブリード"
+  },
+  "nameDisplayPed": "Pharos<br/><small>1920</small>",
+  "offspring": [
+    {
+      "name": "Nearco",
+      "year": "1935",
+      "desc": "イタリア産。全14戦無敗。伊ダービー、パリ大賞など制覇。20世紀最高の種牡馬の一頭"
+    },
+    {
+      "name": "Cameronian",
+      "year": "1928",
+      "desc": "1931年 2000ギニー、エプソムダービー優勝。英二冠馬"
+    },
+    {
+      "name": "Pharis",
+      "year": "1936",
+      "desc": "仏ジョッケクルブ賞（仏ダービー）、パリ大賞優勝。無敗。仏リーディングサイアー3回"
+    },
+    {
+      "name": "Firdaussi",
+      "year": "1929",
+      "desc": "1932年 セントレジャーステークス優勝"
+    },
+    {
+      "name": "Phideas",
+      "year": "1934",
+      "desc": "愛2000ギニー、愛ダービー優勝"
+    },
+    {
+      "name": "Rhodes Scholar",
+      "year": "1933",
+      "desc": "エクリプスステークス優勝。種牡馬としても成功"
+    },
+    {
+      "name": "Donatello II",
+      "year": "1934",
+      "desc": "イタリアの重賞勝ち馬。種牡馬として米国で成功"
+    },
+    {
+      "name": "Pharamond II",
+      "year": "1925",
+      "desc": "米国で種牡馬として活躍。Cosmic Bombの父としてCosmahを通じHaloの母系に影響"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Phalaris",
+      "year": "1913",
+      "current": false,
+      "slug": "phalaris"
+    },
+    {
+      "name": "Pharos",
+      "year": "1920",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Nearco",
+      "year": "1935",
+      "current": false,
+      "slug": "nearco"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Pharos (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Pharos_(horse)"
+        },
+        {
+          "text": "Pharos — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/pharos-gb.html"
+        },
+        {
+          "text": "Pharos — netkeiba",
+          "url": "https://en.netkeiba.com/db/horse/000a001180/"
+        },
+        {
+          "text": "Pharos — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/Pharos.html"
+        },
+        {
+          "text": "Pharos — Horse Racing Nation",
+          "url": "https://www.horseracingnation.com/horse/Pharos"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Pharos"
+}

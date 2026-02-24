@@ -1,0 +1,414 @@
+{
+  "id": "halo",
+  "era": "e5",
+  "generation": "XX",
+  "nav": {
+    "prev": {
+      "slug": "hail-to-reason",
+      "name": "Hail to Reason"
+    },
+    "next": {
+      "slug": "sunday-silence",
+      "name": "Sunday Silence"
+    }
+  },
+  "eraLabel": "20世紀後半",
+  "name": "Halo",
+  "dates": "1969 – 2000",
+  "epithet": "ダート不振から芝の王者へ、そして大種牡馬の系譜を拓いた転換者",
+  "birthYear": 1969,
+  "cardDesc": "米国の名競走馬にして名種牡馬。Sunday Silence、Devil's Bagなど数々のGI馬を世に送り出し、血統の黄金期を築いた。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1969年2月7日"
+    },
+    {
+      "label": "没年月日",
+      "value": "2000年11月28日（31歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛（Dark Bay/Brown）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "アメリカ合衆国（ケンタッキー州レキシントン、Gainesway Farm）"
+    },
+    {
+      "label": "生産者",
+      "value": "John R. Gaines"
+    },
+    {
+      "label": "馬主",
+      "value": "Cragwood Stable（Charles W. Engelhard Jr. / Jane Engelhard）"
+    },
+    {
+      "label": "調教師",
+      "value": "MacKenzie Miller"
+    }
+  ],
+  "biography": [
+    "Haloは1969年、ケンタッキー州レキシントンのGainesway Farmで生まれた。生産者John R. Gainesの手により育てられた後、キーンランドのセリで32,000ドルで落札され、Charles W. Engelhard Jr.率いるCragwood Stableの所有となった。MacKenzie Miller調教師のもと、当初はダート路線で競走生活を送ったが、結果は凡庸そのものだった。",
+    "転機は3歳時に訪れた。Miller調教師がダートから芝への転向を決断すると、Haloの才能は一気に花開いた。芝コースでの切れ味は別馬のようで、1974年にはアメリカ芝の頂上決戦であるユナイテッドネーションズハンデキャップ（G1）を制覇。他にもタイダルハンデキャップ、ローレンスリアライゼーションステークス、ヴォーターズハンデキャップなど重賞を次々と制し、通算31戦9勝・獲得賞金259,558ドルの成績を残した。",
+    "しかしHaloの真の偉大さは、種牡馬としてのキャリアにおいて発揮された。1983年と1989年に北米リーディングサイアーの座に輝き、通算62頭のステークスウィナーと7頭のチャンピオンホースを送り出した。その産駒にはケンタッキーダービー馬Sunny's Halo、2歳チャンピオンDevil's Bag、そしてフランスでCoup de Folieを経由し名牝系を構築したほか、Southern Haloを通じて南米にも血脈を広げた。",
+    "何より特筆すべきは、1986年産のSunday Silenceの存在である。日本に渡ったこの息子は、日本競馬の歴史そのものを塗り替える大種牡馬となり、ディープインパクトをはじめ数え切れない名馬を世に送り出した。Haloの血は太平洋を越え、21世紀の世界競馬を支える一大サイアーラインへと発展した。2000年11月28日、ケンタッキー州パリスのStone Farmにて31歳で死亡。アメリカ競馬史上最も重要な種牡馬の一頭として、その名は永遠に記憶される。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "31",
+      "wins": "9",
+      "seconds": "8",
+      "thirds": "5"
+    },
+    "narrative": "ダートから芝への転向で才能が開花。生涯獲得賞金 $259,558。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1974 United Nations Handicap (G1)",
+          "1974 Tidal Handicap",
+          "1973 Lawrence Realization Stakes",
+          "1973 Voters Handicap"
+        ]
+      },
+      {
+        "title": "種牡馬成績",
+        "items": [
+          "北米リーディングサイア 1983年、1989年",
+          "62頭のステークスウィナー、7頭のチャンピオンホース"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Hail to Reason",
+      "year": "1958",
+      "sireLine": true,
+      "link": "hail-to-reason",
+      "sire": {
+        "name": "Turn-to",
+        "year": "1951",
+        "sireLine": true,
+        "link": "turn-to",
+        "sire": {
+          "name": "Royal Charger",
+          "year": "1942",
+          "sireLine": true,
+          "link": "royal-charger",
+          "sire": {
+            "name": "Nearco",
+            "year": "1935",
+            "sireLine": true,
+            "link": "nearco",
+            "sire": {
+              "name": "Pharos",
+              "sireLine": true,
+              "link": "pharos"
+            },
+            "dam": {
+              "name": "Nogara"
+            }
+          },
+          "dam": {
+            "name": "Sun Princess",
+            "year": "1937",
+            "sire": {
+              "name": "Solario"
+            },
+            "dam": {
+              "name": "Dorina"
+            }
+          }
+        },
+        "dam": {
+          "name": "Source Sucree",
+          "year": "1940",
+          "sire": {
+            "name": "Admiral Drake",
+            "year": "1931",
+            "sire": {
+              "name": "Craig an Eran"
+            },
+            "dam": {
+              "name": "Donatella"
+            }
+          },
+          "dam": {
+            "name": "Donatella",
+            "year": "1926",
+            "sire": {
+              "name": "Donatello"
+            },
+            "dam": {
+              "name": "Donatella Mare"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Nothirdchance",
+        "year": "1948",
+        "sire": {
+          "name": "Blue Swords",
+          "year": "1940",
+          "sire": {
+            "name": "Blue Larkspur",
+            "year": "1926",
+            "sire": {
+              "name": "Black Servant"
+            },
+            "dam": {
+              "name": "Blossom Time"
+            }
+          },
+          "dam": {
+            "name": "Flaming Swords",
+            "year": "1934",
+            "sire": {
+              "name": "Sickle"
+            },
+            "dam": {
+              "name": "Doubloon"
+            }
+          }
+        },
+        "dam": {
+          "name": "Galla Colors",
+          "year": "1943",
+          "sire": {
+            "name": "Sir Gallahad III",
+            "year": "1920",
+            "sire": {
+              "name": "Teddy"
+            },
+            "dam": {
+              "name": "Plucky Liege"
+            }
+          },
+          "dam": {
+            "name": "Rouge et Noir",
+            "year": "1938",
+            "sire": {
+              "name": "Donatello"
+            },
+            "dam": {
+              "name": "Red Letter"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Cosmah",
+      "year": "1953",
+      "sire": {
+        "name": "Cosmic Bomb",
+        "year": "1944",
+        "sire": {
+          "name": "Pharamond II",
+          "year": "1925",
+          "sireLine": true,
+          "link": "pharos",
+          "sire": {
+            "name": "Phalaris",
+            "year": "1913",
+            "sireLine": true,
+            "link": "phalaris",
+            "sire": {
+              "name": "Polymelus"
+            },
+            "dam": {
+              "name": "Bromus"
+            }
+          },
+          "dam": {
+            "name": "Selene",
+            "year": "1919",
+            "sire": {
+              "name": "Chaucer"
+            },
+            "dam": {
+              "name": "Serenissima"
+            }
+          }
+        },
+        "dam": {
+          "name": "Banish Fear",
+          "year": "1937",
+          "sire": {
+            "name": "Blue Larkspur",
+            "year": "1926",
+            "sire": {
+              "name": "Black Servant"
+            },
+            "dam": {
+              "name": "Blossom Time"
+            }
+          },
+          "dam": {
+            "name": "Miaou",
+            "year": "1930",
+            "sire": {
+              "name": "Donatello"
+            },
+            "dam": {
+              "name": "Donatella"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Almahmoud",
+        "year": "1947",
+        "sire": {
+          "name": "Mahmoud",
+          "year": "1933",
+          "sire": {
+            "name": "Blenheim II",
+            "year": "1927",
+            "sire": {
+              "name": "Blandford"
+            },
+            "dam": {
+              "name": "Malva"
+            }
+          },
+          "dam": {
+            "name": "Mah Mahal",
+            "year": "1928",
+            "sire": {
+              "name": "Gainsborough"
+            },
+            "dam": {
+              "name": "Mumtaz Mahal"
+            }
+          }
+        },
+        "dam": {
+          "name": "Arbitrator",
+          "year": "1937",
+          "sire": {
+            "name": "Peace Chance",
+            "year": "1931",
+            "sire": {
+              "name": "Chance Play"
+            },
+            "dam": {
+              "name": "Donatella"
+            }
+          },
+          "dam": {
+            "name": "Mother Goose",
+            "year": "1921",
+            "sire": {
+              "name": "Chicle"
+            },
+            "dam": {
+              "name": "Donatella"
+            }
+          }
+        }
+      }
+    },
+    "note": "Blue Larkspur 4×4のインブリード（Blue Swordsの父 × Banish Fearの父）"
+  },
+  "nameDisplayPed": "Halo<br/><small>1969</small>",
+  "offspring": [
+    {
+      "name": "Glorious Song",
+      "year": "1976",
+      "desc": "Canadian Horse of the Year。Rahy, Singspielの母"
+    },
+    {
+      "name": "Sunny's Halo",
+      "year": "1980",
+      "desc": "Kentucky Derby (G1) 優勝"
+    },
+    {
+      "name": "Devil's Bag",
+      "year": "1981",
+      "desc": "Eclipse Award 最優秀2歳牡馬。種牡馬としても成功"
+    },
+    {
+      "name": "Coup de Folie",
+      "year": "1982",
+      "desc": "仏 Marcel Boussac賞 (G1)。Machiavellianの母"
+    },
+    {
+      "name": "Southern Halo",
+      "year": "1983",
+      "desc": "アルゼンチン・リーディングサイア。More Than Readyの父"
+    },
+    {
+      "name": "Goodbye Halo",
+      "year": "1985",
+      "desc": "Eclipse Award 最優秀2歳牝馬、最優秀3歳牝馬"
+    },
+    {
+      "name": "Sunday Silence",
+      "year": "1986",
+      "desc": "Kentucky Derby (G1)、Preakness Stakes (G1)、Breeders' Cup Classic (G1)。日本リーディングサイア13年連続。ディープインパクトの父",
+      "link": "sunday-silence"
+    },
+    {
+      "name": "Saint Ballado",
+      "year": "1989",
+      "desc": "重賞3勝。種牡馬として成功、Ashado等の父"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Hail to Reason",
+      "year": "1958",
+      "current": false,
+      "slug": "hail-to-reason"
+    },
+    {
+      "name": "Halo",
+      "year": "1969",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Sunday Silence",
+      "year": "1986",
+      "current": false,
+      "slug": "sunday-silence"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Halo (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Halo_(horse)"
+        },
+        {
+          "text": "ヘイロー (競走馬) — Wikipedia (JA)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%98%E3%82%A4%E3%83%AD%E3%83%BC_(%E7%AB%B6%E8%B5%B0%E9%A6%AC)"
+        },
+        {
+          "text": "Halo — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/halo.html"
+        },
+        {
+          "text": "Halo — Pedigree Query",
+          "url": "https://www.pedigreequery.com/halo"
+        },
+        {
+          "text": "Halo — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/Halo.html"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Halo"
+}

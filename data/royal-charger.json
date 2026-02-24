@@ -1,0 +1,401 @@
+{
+  "id": "royal-charger",
+  "era": "e4",
+  "generation": "XVII",
+  "nav": {
+    "prev": {
+      "slug": "nearco",
+      "name": "Nearco"
+    },
+    "next": {
+      "slug": "turn-to",
+      "name": "Turn-to"
+    }
+  },
+  "eraLabel": "20世紀前半",
+  "name": "Royal Charger",
+  "dates": "1942 – 1961",
+  "epithet": "競走成績を超えた血の力で近代サイアーラインを築いた名種牡馬",
+  "birthYear": 1942,
+  "cardDesc": "英国産の良血馬。北米に渡り種牡馬として成功し、Turn-toを通じて父系を新大陸に根付かせた架け橋的存在。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1942年"
+    },
+    {
+      "label": "没年月日",
+      "value": "1961年11月26日（19歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "栗毛（Chestnut）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス"
+    },
+    {
+      "label": "生産者・馬主",
+      "value": "Sir John Jarvis"
+    },
+    {
+      "label": "調教師",
+      "value": "Jack Jarvis（ニューマーケット）"
+    }
+  ],
+  "biography": [
+    "Royal Chargerは1942年、イギリスでSir John Jarvisにより生産された栗毛の牡馬である。父は20世紀最高の種牡馬の一頭Nearco、母Sun PrincessはSolarioの産駒で、母の母Mumtaz Begumを通じて伝説的牝馬Mumtaz Mahalの血を引く。体高16.1ハンドの端正な馬体を持ちながら、前脚の球節がやや直立気味という弱点を抱えていた。",
+    "第二次世界大戦中の1944年に2歳でデビュー。フリーハンデキャップでは同世代10位に留まり、一流馬とは認められなかった。3歳シーズンの1945年にはチャレンジステークスを制したが、フリーハンデキャップでは首位Danteから11ポンド差の10位と評価された。4歳の1946年にはロイヤルアスコットのクイーンアンステークスを勝ち、さらにAyr Gold Cupを133ポンドの斤量を背負いながら制して気性の激しさと底力を証明した。",
+    "1946年末に競走馬を引退し、52,000ポンドでアイルランド国立種馬場（Irish National Stud）に売却された。アイルランドでの数シーズンでTurn-toをはじめとする優秀な産駒を送り出すと、1953年にアメリカの名馬主George D. Widener Jr.が300,000ドルで購入し、ケンタッキー州レキシントンに移送。以後、アメリカでも種牡馬として大きな成功を収め、55頭以上のステークス勝ち馬を輩出した。1961年11月26日、19歳で死亡。",
+    "競走馬としては一流半の評価に留まったが、種牡馬としてはNearcoの三大後継（Nasrullah、Royal Charger、Nearctic）の一角を担い、Turn-toを通じてHail to Reason、Roberto、Haloへと続くサイアーラインを確立した。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "20",
+      "wins": "6",
+      "seconds": "7",
+      "thirds": "2"
+    },
+    "narrative": "生涯獲得賞金 £5,057。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1945 Challenge Stakes（ニューマーケット）",
+          "1946 Queen Anne Stakes（ロイヤルアスコット）",
+          "1946 Ayr Gold Cup（エア）",
+          "1946 Coronation Plate"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Nearco",
+      "year": "1935",
+      "sireLine": true,
+      "link": "nearco",
+      "sire": {
+        "name": "Pharos",
+        "year": "1920",
+        "sireLine": true,
+        "link": "pharos",
+        "sire": {
+          "name": "Phalaris",
+          "year": "1913",
+          "sireLine": true,
+          "link": "phalaris",
+          "sire": {
+            "name": "Polymelus",
+            "year": "1902",
+            "sireLine": true,
+            "sire": {
+              "name": "Cyllene",
+              "sireLine": true
+            },
+            "dam": {
+              "name": "Maid Marian"
+            }
+          },
+          "dam": {
+            "name": "Bromus",
+            "year": "1905",
+            "sire": {
+              "name": "Sainfoin"
+            },
+            "dam": {
+              "name": "Cheery"
+            }
+          }
+        },
+        "dam": {
+          "name": "Scapa Flow",
+          "year": "1914",
+          "sire": {
+            "name": "Chaucer",
+            "year": "1900",
+            "sire": {
+              "name": "St. Simon"
+            },
+            "dam": {
+              "name": "Canterbury Pilgrim"
+            }
+          },
+          "dam": {
+            "name": "Anchora",
+            "year": "1905",
+            "sire": {
+              "name": "Love Wisely"
+            },
+            "dam": {
+              "name": "Eryholme"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Nogara",
+        "year": "1928",
+        "sire": {
+          "name": "Havresac II",
+          "year": "1915",
+          "sire": {
+            "name": "Rabelais",
+            "year": "1900",
+            "sire": {
+              "name": "St. Simon"
+            },
+            "dam": {
+              "name": "Satirical"
+            }
+          },
+          "dam": {
+            "name": "Hors Concours",
+            "year": "1907",
+            "sire": {
+              "name": "Ajax"
+            },
+            "dam": {
+              "name": "Simona"
+            }
+          }
+        },
+        "dam": {
+          "name": "Catnip",
+          "year": "1910",
+          "sire": {
+            "name": "Spearmint",
+            "year": "1903",
+            "sire": {
+              "name": "Carbine"
+            },
+            "dam": {
+              "name": "Maid of the Mint"
+            }
+          },
+          "dam": {
+            "name": "Sibola",
+            "year": "1896",
+            "sire": {
+              "name": "The Sailor Prince"
+            },
+            "dam": {
+              "name": "Saluda"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Sun Princess",
+      "year": "1937",
+      "sire": {
+        "name": "Solario",
+        "year": "1922",
+        "sire": {
+          "name": "Gainsborough",
+          "year": "1915",
+          "sire": {
+            "name": "Bayardo",
+            "year": "1906",
+            "sire": {
+              "name": "Bay Ronald"
+            },
+            "dam": {
+              "name": "Galicia"
+            }
+          },
+          "dam": {
+            "name": "Rosedrop",
+            "year": "1907",
+            "sire": {
+              "name": "St. Frusquin"
+            },
+            "dam": {
+              "name": "Rosaline"
+            }
+          }
+        },
+        "dam": {
+          "name": "Sun Worship",
+          "year": "1912",
+          "sire": {
+            "name": "Sundridge",
+            "year": "1898",
+            "sire": {
+              "name": "Amphion"
+            },
+            "dam": {
+              "name": "Sierra"
+            }
+          },
+          "dam": {
+            "name": "Doctrine",
+            "year": "1899",
+            "sire": {
+              "name": "Ayrshire"
+            },
+            "dam": {
+              "name": "Doxa"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Mumtaz Begum",
+        "year": "1932",
+        "sire": {
+          "name": "Blenheim",
+          "year": "1927",
+          "sire": {
+            "name": "Blandford",
+            "year": "1919",
+            "sire": {
+              "name": "Swynford"
+            },
+            "dam": {
+              "name": "Blanche"
+            }
+          },
+          "dam": {
+            "name": "Malva",
+            "year": "1919",
+            "sire": {
+              "name": "Charles O'Malley"
+            },
+            "dam": {
+              "name": "Wild Arum"
+            }
+          }
+        },
+        "dam": {
+          "name": "Mumtaz Mahal",
+          "year": "1921",
+          "sire": {
+            "name": "The Tetrarch",
+            "year": "1911",
+            "sire": {
+              "name": "Roi Herode"
+            },
+            "dam": {
+              "name": "Vahren"
+            }
+          },
+          "dam": {
+            "name": "Lady Josephine",
+            "year": "1912",
+            "sire": {
+              "name": "Sundridge"
+            },
+            "dam": {
+              "name": "Americus Girl"
+            }
+          }
+        }
+      }
+    },
+    "note": "母系にMumtaz Mahalの血を持ち、Sundridge 4×5のインブリード"
+  },
+  "nameDisplayPed": "Royal<br/>Charger<br/><small>1942</small>",
+  "offspring": [
+    {
+      "name": "Turn-to",
+      "year": "1951",
+      "desc": "アイルランド産。米国で活躍し、Hail to Reason→Roberto→Haloへ続くサイアーラインの祖"
+    },
+    {
+      "name": "Copenhagen",
+      "year": "1949",
+      "desc": "アイルランド産のステークス勝ち馬"
+    },
+    {
+      "name": "Dorina",
+      "year": "1948",
+      "desc": "1000ギニー2着。繁殖牝馬として成功"
+    },
+    {
+      "name": "Idun",
+      "year": "1955",
+      "desc": "1957年 米国最優秀2歳牝馬、1958年 米国最優秀3歳牝馬"
+    },
+    {
+      "name": "Mongo",
+      "year": "1959",
+      "desc": "1963年 米国最優秀芝牡馬。Washington, D.C. International (G1) 勝ち馬"
+    },
+    {
+      "name": "Royal Native",
+      "year": "1956",
+      "desc": "1959年 米国最優秀3歳牝馬、1960年 米国最優秀ハンデ牝馬"
+    },
+    {
+      "name": "Royal Orbit",
+      "year": "1956",
+      "desc": "1959年 Preakness Stakes (G1) 優勝"
+    },
+    {
+      "name": "Gay Hostess",
+      "year": "1955",
+      "desc": "アメリカのステークス勝ち牝馬"
+    },
+    {
+      "name": "Knight's Romance",
+      "year": "1953",
+      "desc": "アメリカのステークス勝ち馬"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Nearco",
+      "year": "1935",
+      "current": false,
+      "slug": "nearco"
+    },
+    {
+      "name": "Royal Charger",
+      "year": "1942",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Turn-to",
+      "year": "1951",
+      "current": false,
+      "slug": "turn-to"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Royal Charger — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Royal_Charger"
+        },
+        {
+          "text": "Royal Charger — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/royal-charger-gb.html"
+        },
+        {
+          "text": "Royal Charger (GB) — JBIS-Search",
+          "url": "https://www.jbis.jp/horse/0000334857/"
+        },
+        {
+          "text": "Royal Charger — netkeiba",
+          "url": "https://en.netkeiba.com/db/horse/000a001181/"
+        },
+        {
+          "text": "Royal Charger — Horse Racing Nation",
+          "url": "https://www.horseracingnation.com/horse/Royal_Charger"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Royal Charger"
+}

@@ -1,0 +1,385 @@
+{
+  "id": "sir-hercules",
+  "era": "e2",
+  "generation": "V",
+  "nav": {
+    "prev": {
+      "slug": "whalebone",
+      "name": "Whalebone"
+    },
+    "next": {
+      "slug": "birdcatcher",
+      "name": "Birdcatcher"
+    }
+  },
+  "eraLabel": "19世紀前半",
+  "name": "Sir Hercules",
+  "dates": "1826 – 1855",
+  "epithet": "アイルランドを世界的馬産地へと導いた黒鹿毛の巨人",
+  "birthYear": 1826,
+  "cardDesc": "アイルランド産の名馬。その名の通り強靭な体躯を持ち、種牡馬として多くの優駿を世に送り出した。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1826年"
+    },
+    {
+      "label": "没年",
+      "value": "1855年（29歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "黒毛（Black）— 尾に灰色の毛、脇腹に淡い斑点あり"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "体高",
+      "value": "15ハンド2インチ"
+    },
+    {
+      "label": "生産国",
+      "value": "イングランド（Petworth Stud）— アイルランドで繋養"
+    },
+    {
+      "label": "馬主",
+      "value": "Hercules Langford Rowley, 2nd Baron Langford（1831年より）"
+    }
+  ],
+  "biography": [
+    "Sir Herculesは1826年、イングランドのPetworth Studで生まれた。父は1810年エプソムダービー馬Whalebone、母はWanderer産駒のPeriである。母Periは3歳時にWhaleboneと交配され、Sir Herculesはその最初の仔として誕生した。Peri自身がWhaleboneの胎仔を宿した状態でアイルランドに渡ったため、Sir Herculesは実質的にアイルランドで育てられた。",
+    "2歳時の1828年、カラ競馬場のSweepstakesで4頭を破ってデビュー勝ち。続くマッチレースでもMount Eagleを100ソヴリン賭けの一騎打ちで退け、この年のアイルランド最強2歳馬と評された。3歳の1829年にはイングランドに遠征し、5月のヨーク春季Sweepstakesを2マイルで制覇。9月のドンカスター・セントレジャーではRowtonとVoltaireに次ぐ3着に敗れたが、その3日後にはSweepstakes（1マイル）を勝利で飾った。4歳時にはニューマーケットのClaret Stakes（200ソヴリン）を制している。",
+    "1831年、Baron Langfordに購入され、ミース州サマーヒルのLangford Studで種牡馬生活を開始。翌年にはカラのRossmore Lodgeに移された。以後イングランドとアイルランドの各地で種牡馬として供用され、平地競走馬だけでなく障害競走馬の父としても名声を博した。産駒からはBirdcatcher、Coronation（エプソムダービー）、The Corsair（2000ギニー）、Faugh-a-Ballagh（セントレジャー、アイルランド産馬として初の英クラシック制覇）、Discount（グランドナショナル）など、歴史的名馬が続出した。",
+    "種付け料は当初10ポンドだったが、1838年には30ポンドまで上昇。晩年はBushbury Studで過ごし、1855年に29歳で没した。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "7",
+      "wins": "5",
+      "seconds": "0",
+      "thirds": "1"
+    },
+    "narrative": "アイルランドでは無敗。唯一の着外はセントレジャーの3着のみ。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1828 Sweepstakes（カラ、2歳戦）",
+          "1828 Match Race vs Mount Eagle（カラ、100ソヴリン）",
+          "1829 York Spring Sweepstakes（ヨーク、2マイル）",
+          "1829 Doncaster Sweepstakes（ドンカスター、1マイル）",
+          "1830 Claret Stakes（ニューマーケット、200ソヴリン）"
+        ]
+      },
+      {
+        "title": "その他",
+        "items": [
+          "1829 St. Leger Stakes（ドンカスター）— 19頭中3着"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Whalebone",
+      "year": "1807",
+      "sireLine": true,
+      "link": "whalebone",
+      "sire": {
+        "name": "Waxy",
+        "year": "1790",
+        "sireLine": true,
+        "link": "waxy",
+        "sire": {
+          "name": "Pot-8-Os",
+          "year": "1773",
+          "sireLine": true,
+          "link": "pot-8-os",
+          "sire": {
+            "name": "Eclipse",
+            "year": "1764",
+            "sireLine": true,
+            "link": "eclipse",
+            "sire": {
+              "name": "Marske"
+            },
+            "dam": {
+              "name": "Spiletta"
+            }
+          },
+          "dam": {
+            "name": "Sportsmistress",
+            "sire": {
+              "name": "Warren's Sportsman"
+            },
+            "dam": {
+              "name": "Golden Locks"
+            }
+          }
+        },
+        "dam": {
+          "name": "Maria",
+          "sire": {
+            "name": "Herod",
+            "year": "1758",
+            "sire": {
+              "name": "Tartar"
+            },
+            "dam": {
+              "name": "Cypron"
+            }
+          },
+          "dam": {
+            "name": "Lisette",
+            "sire": {
+              "name": "Snap"
+            },
+            "dam": {
+              "name": "Miss Windsor"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Penelope",
+        "year": "1798",
+        "sire": {
+          "name": "Trumpator",
+          "year": "1782",
+          "sire": {
+            "name": "Conductor",
+            "year": "1767",
+            "sire": {
+              "name": "Matchem"
+            },
+            "dam": {
+              "name": "Snap Mare"
+            }
+          },
+          "dam": {
+            "name": "Brunette",
+            "sire": {
+              "name": "Squirrel"
+            },
+            "dam": {
+              "name": "Dove"
+            }
+          }
+        },
+        "dam": {
+          "name": "Prunella",
+          "year": "1788",
+          "sire": {
+            "name": "Highflyer",
+            "year": "1774",
+            "sire": {
+              "name": "Herod"
+            },
+            "dam": {
+              "name": "Rachel"
+            }
+          },
+          "dam": {
+            "name": "Promise",
+            "year": "1768",
+            "sire": {
+              "name": "Snap"
+            },
+            "dam": {
+              "name": "Julia"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Peri",
+      "year": "1822",
+      "sire": {
+        "name": "Wanderer",
+        "year": "1811",
+        "sire": {
+          "name": "Gohanna",
+          "year": "1790",
+          "sire": {
+            "name": "Mercury",
+            "year": "1778",
+            "sire": {
+              "name": "Eclipse"
+            },
+            "dam": {
+              "name": "Tartar Mare"
+            }
+          },
+          "dam": {
+            "name": "Herod Mare",
+            "sire": {
+              "name": "Herod"
+            },
+            "dam": {
+              "name": "Maiden"
+            }
+          }
+        },
+        "dam": {
+          "name": "Catherine",
+          "sire": {
+            "name": "Woodpecker",
+            "year": "1773",
+            "sire": {
+              "name": "Herod"
+            },
+            "dam": {
+              "name": "Miss Ramsden"
+            }
+          },
+          "dam": {
+            "name": "Camilla",
+            "sire": {
+              "name": "Trentham"
+            },
+            "dam": {
+              "name": "Coquette"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Thalestris",
+        "year": "1809",
+        "sire": {
+          "name": "Alexander",
+          "year": "1782",
+          "sire": {
+            "name": "Eclipse",
+            "year": "1764",
+            "sire": {
+              "name": "Marske"
+            },
+            "dam": {
+              "name": "Spiletta"
+            }
+          },
+          "dam": {
+            "name": "Grecian Princess",
+            "sire": {
+              "name": "Dorimant"
+            },
+            "dam": {
+              "name": "Grecian Queen"
+            }
+          }
+        },
+        "dam": {
+          "name": "Rival",
+          "year": "1800",
+          "sire": {
+            "name": "Sir Peter",
+            "year": "1784",
+            "sire": {
+              "name": "Highflyer"
+            },
+            "dam": {
+              "name": "Papillon"
+            }
+          },
+          "dam": {
+            "name": "Hornet",
+            "sire": {
+              "name": "Drone"
+            },
+            "dam": {
+              "name": "Manilla"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Herod 3×4のインブリード（Mariaの父 × Highflyerの父）。Eclipse 3S×4Dのクロス（Pot-8-Osの父 × Alexanderの父）"
+  },
+  "nameDisplayPed": "Sir<br/>Hercules<br/><small>1826</small>",
+  "offspring": [
+    {
+      "name": "Birdcatcher",
+      "year": "1833",
+      "desc": "アイルランドの名馬。英リーディングサイアー2回。The Baron, Daniel O'Rourkeなど多数のクラシック馬を輩出",
+      "link": "birdcatcher"
+    },
+    {
+      "name": "The Corsair",
+      "year": "1836",
+      "desc": "2,000 Guineas (1839)"
+    },
+    {
+      "name": "Coronation",
+      "year": "1838",
+      "desc": "Epsom Derby (1841)"
+    },
+    {
+      "name": "Discount",
+      "year": "1838",
+      "desc": "Grand National (1844)。障害競走馬としても優れた産駒を輩出した証"
+    },
+    {
+      "name": "Faugh-a-Ballagh",
+      "year": "1841",
+      "desc": "St. Leger Stakes (1844)。アイルランド産馬として初の英クラシック制覇"
+    },
+    {
+      "name": "Mickey Free",
+      "year": "1841",
+      "desc": "Cesarewitch Handicap (1843)"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Whalebone",
+      "year": "1807",
+      "current": false,
+      "slug": "whalebone"
+    },
+    {
+      "name": "Sir Hercules",
+      "year": "1826",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Birdcatcher",
+      "year": "1833",
+      "current": false,
+      "slug": "birdcatcher"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Sir Hercules — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Sir_Hercules"
+        },
+        {
+          "text": "Sir Hercules — TB Heritage",
+          "url": "https://www.tbheritage.com/Portraits/SirHercules.html"
+        },
+        {
+          "text": "Sir Hercules — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/SirHercules.htm"
+        },
+        {
+          "text": "Sir Hercules Pedigree — SporthorseData",
+          "url": "https://sporthorse-data.com/pedigree/sir-hercules-0"
+        },
+        {
+          "text": "Sir Hercules 五代血統表 — JBIS-Search",
+          "url": "https://www.jbis.jp/horse/0000334787/pedigree/"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Sir Hercules"
+}

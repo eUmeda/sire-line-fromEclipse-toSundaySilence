@@ -1,0 +1,398 @@
+{
+  "id": "cyllene",
+  "era": "e3",
+  "generation": "XII",
+  "nav": {
+    "prev": {
+      "slug": "bona-vista",
+      "name": "Bona Vista"
+    },
+    "next": {
+      "slug": "polymelus",
+      "name": "Polymelus"
+    }
+  },
+  "eraLabel": "19世紀後半",
+  "name": "Cyllene",
+  "dates": "1895 – 1925",
+  "epithet": "4頭のダービー馬を送り出し、現代サラブレッドの礎を築いた名種牡馬",
+  "birthYear": 1895,
+  "cardDesc": "アスコットゴールドカップなど重賞を多数制覇。種牡馬として4頭の英ダービー馬を送り出した大種牡馬。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1895年5月28日"
+    },
+    {
+      "label": "没年",
+      "value": "1925年（30歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "栗毛（Chestnut）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス（バークシャー州パングボーン、Hardwicke Stud）"
+    },
+    {
+      "label": "生産者",
+      "value": "Charles Day Rose"
+    },
+    {
+      "label": "馬主",
+      "value": "Charles Day Rose"
+    },
+    {
+      "label": "調教師",
+      "value": "William Jarvis（ニューマーケット）"
+    }
+  ],
+  "biography": [
+    "Cylleneは1895年5月28日、バークシャー州パングボーン近郊のHardwicke StudでCharles Day Roseにより生産された。幼駒時代は小柄で貧弱な体格だったが、成長するにつれ均整の取れた美しい馬体へと変貌を遂げた。父Bona Vistaは1892年の2000ギニー馬、母Arcadiaはアスコットゴールドカップ2勝のIsonomyを父に持つ良血馬であった。",
+    "2歳シーズンの1897年、エイントリー競馬場でのデビュー戦を3馬身差で快勝すると、以後National Breeders' Produce Sなど4戦4勝。唯一の敗戦は斤量10ポンドを背負ったインペリアルプロデュースSの2着で、世代最強の評価は揺るがなかった。3歳時の1898年はニューマーケットSをレコードタイムで4馬身差勝ち、秋にはジョッキークラブSでクラシック馬AirsやJeddahらを6馬身差で一蹴した。",
+    "4歳時の1899年、ロイヤルアスコット開催に照準を絞り、トライエニアルSを2馬身差で快勝した翌々日、アスコットゴールドカップに出走。2マイル半の長丁場をSam Loates騎手の手綱のもと8馬身差の圧勝で飾り、現役を引退した。通算11戦9勝、獲得賞金25,567ポンド。",
+    "種牡馬としてはHardwicke Studで供用を開始し、1905年にWilliam Bassに30,000ギニーで売却されEgerton Park Studへ移動。英愛リーディングサイアーを1909年と1910年に獲得し、エプソムダービー馬を4頭（Cicero、Minoru、Lemberg、Tagalie）送り出すという驚異的な記録を残した。最も影響力のある産駒はPolymelusで、その子孫Phalarisを通じて現代サラブレッドの90%以上に血脈が受け継がれている。1908年にアルゼンチンのHaras Ojo de Aguaに25,000ポンドで売却され、同地でも1913年にリーディングサイアーとなった。1925年、30歳で没。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "11",
+      "wins": "9",
+      "seconds": "1",
+      "thirds": "1"
+    },
+    "narrative": "全11戦9勝。生涯獲得賞金 £25,567。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1897 National Breeders' Produce Stakes（サンダウン）",
+          "1897 Triennial Stakes（ロイヤルアスコット）",
+          "1898 Newmarket Stakes",
+          "1898 Jockey Club Stakes",
+          "1898 Sandown Park Foal Stakes",
+          "1899 Triennial Stakes（ロイヤルアスコット）",
+          "1899 Ascot Gold Cup"
+        ]
+      },
+      {
+        "title": "主な表彰",
+        "items": [
+          "1909, 1910 英愛リーディングサイアー",
+          "1913 アルゼンチン・リーディングサイアー"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Bona Vista",
+      "year": "1889",
+      "sireLine": true,
+      "link": "bona-vista",
+      "sire": {
+        "name": "Bend Or",
+        "year": "1877",
+        "sireLine": true,
+        "link": "bend-or",
+        "sire": {
+          "name": "Doncaster",
+          "year": "1870",
+          "sireLine": true,
+          "sire": {
+            "name": "Stockwell",
+            "year": "1849",
+            "sireLine": true,
+            "sire": {
+              "name": "The Baron",
+              "sireLine": true
+            },
+            "dam": {
+              "name": "Pocahontas"
+            }
+          },
+          "dam": {
+            "name": "Marigold",
+            "year": "1860",
+            "sire": {
+              "name": "Teddington"
+            },
+            "dam": {
+              "name": "Ellen Middleton"
+            }
+          }
+        },
+        "dam": {
+          "name": "Rouge Rose",
+          "year": "1865",
+          "sire": {
+            "name": "Thormanby",
+            "year": "1857",
+            "sire": {
+              "name": "Windhound"
+            },
+            "dam": {
+              "name": "Alice Hawthorn"
+            }
+          },
+          "dam": {
+            "name": "Ellen Horne",
+            "sire": {
+              "name": "Redshank"
+            },
+            "dam": {
+              "name": "Delhi"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Vista",
+        "year": "1879",
+        "sire": {
+          "name": "Macaroni",
+          "year": "1860",
+          "sire": {
+            "name": "Sweetmeat",
+            "year": "1842",
+            "sire": {
+              "name": "Gladiator"
+            },
+            "dam": {
+              "name": "Lollypop"
+            }
+          },
+          "dam": {
+            "name": "Jocose",
+            "sire": {
+              "name": "Pantaloon"
+            },
+            "dam": {
+              "name": "Banter"
+            }
+          }
+        },
+        "dam": {
+          "name": "Verdure",
+          "year": "1867",
+          "sire": {
+            "name": "King Tom",
+            "year": "1851",
+            "sire": {
+              "name": "Harkaway"
+            },
+            "dam": {
+              "name": "Pocahontas"
+            }
+          },
+          "dam": {
+            "name": "May Bloom",
+            "year": "1861",
+            "sire": {
+              "name": "Newminster"
+            },
+            "dam": {
+              "name": "May Queen"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Arcadia",
+      "year": "1887",
+      "sire": {
+        "name": "Isonomy",
+        "year": "1875",
+        "sire": {
+          "name": "Sterling",
+          "year": "1868",
+          "sire": {
+            "name": "Oxford",
+            "year": "1857",
+            "sire": {
+              "name": "Birdcatcher"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          },
+          "dam": {
+            "name": "Whisper",
+            "year": "1857",
+            "sire": {
+              "name": "Flatcatcher"
+            },
+            "dam": {
+              "name": "Vexation"
+            }
+          }
+        },
+        "dam": {
+          "name": "Isola Bella",
+          "year": "1868",
+          "sire": {
+            "name": "Stockwell",
+            "year": "1849",
+            "sire": {
+              "name": "The Baron"
+            },
+            "dam": {
+              "name": "Pocahontas"
+            }
+          },
+          "dam": {
+            "name": "Isoline",
+            "sire": {
+              "name": "Ethelbert"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Distant Shore",
+        "year": "1880",
+        "sire": {
+          "name": "Hermit",
+          "year": "1864",
+          "sire": {
+            "name": "Newminster",
+            "year": "1848",
+            "sire": {
+              "name": "Touchstone"
+            },
+            "dam": {
+              "name": "Beeswing"
+            }
+          },
+          "dam": {
+            "name": "Seclusion",
+            "year": "1857",
+            "sire": {
+              "name": "Tadmor"
+            },
+            "dam": {
+              "name": "Miss Sellon"
+            }
+          }
+        },
+        "dam": {
+          "name": "Land's End",
+          "sire": {
+            "name": "Douro",
+            "sire": {
+              "name": "Beadsman"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          },
+          "dam": {
+            "name": "Ferintosh",
+            "sire": {
+              "name": "Blair Athol"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Stockwell 4×4、Pocahontas 5×5のインブリード"
+  },
+  "nameDisplayPed": "Cyllene<br/><small>1895</small>",
+  "offspring": [
+    {
+      "name": "Cicero",
+      "year": "1902",
+      "desc": "Epsom Derby (1905)。Cylleneの最初のダービー馬"
+    },
+    {
+      "name": "Polymelus",
+      "year": "1902",
+      "desc": "英愛リーディングサイアー5回。Phalarisの父として現代血統の源流を形成"
+    },
+    {
+      "name": "Your Majesty",
+      "year": "1905",
+      "desc": "St. Leger Stakes (1908)"
+    },
+    {
+      "name": "Minoru",
+      "year": "1906",
+      "desc": "2000 Guineas, Epsom Derby (1909)。国王エドワード7世の勝負服で制した唯一のダービー馬"
+    },
+    {
+      "name": "Lemberg",
+      "year": "1907",
+      "desc": "Epsom Derby (1910)"
+    },
+    {
+      "name": "Tagalie",
+      "year": "1909",
+      "desc": "1000 Guineas, Epsom Derby (1912)。牝馬によるダービー制覇"
+    },
+    {
+      "name": "Night Hawk",
+      "year": "1910",
+      "desc": "アルゼンチン産駒。同国で成功した種牡馬"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Bona Vista",
+      "year": "1889",
+      "current": false,
+      "slug": "bona-vista"
+    },
+    {
+      "name": "Cyllene",
+      "year": "1895",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Polymelus",
+      "year": "1902",
+      "current": false,
+      "slug": "polymelus"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Cyllene (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Cyllene_(horse)"
+        },
+        {
+          "text": "Cyllene — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/cyllene-gb.html"
+        },
+        {
+          "text": "Cyllene: the sire who became a staple ingredient — Thoroughbred Racing Commentary",
+          "url": "https://www.thoroughbredracing.com/articles/3714/tony-morriss-100-shapers-breed-sire-who-became-staple-ingredient/"
+        },
+        {
+          "text": "Cyllene — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/Cyllene.htm"
+        },
+        {
+          "text": "Cyllene — Pedigree Query",
+          "url": "https://www.pedigreequery.com/cyllene"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Cyllene"
+}

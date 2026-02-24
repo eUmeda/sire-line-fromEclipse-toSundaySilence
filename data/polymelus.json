@@ -1,0 +1,409 @@
+{
+  "id": "polymelus",
+  "era": "e4",
+  "generation": "XIII",
+  "nav": {
+    "prev": {
+      "slug": "cyllene",
+      "name": "Cyllene"
+    },
+    "next": {
+      "slug": "phalaris",
+      "name": "Phalaris"
+    }
+  },
+  "eraLabel": "20世紀前半",
+  "name": "Polymelus",
+  "dates": "1902 – 1924",
+  "epithet": "5度の英リーディングサイアーに輝いた近代血統の礎",
+  "birthYear": 1902,
+  "cardDesc": "英国リーディングサイアー5回。20世紀初頭の英国競馬界に君臨し、近代血統の方向性を決定づけた大種牡馬。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1902年"
+    },
+    {
+      "label": "没年月日",
+      "value": "1924年3月24日（22歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛（Bay）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス"
+    },
+    {
+      "label": "生産者",
+      "value": "Robert Crewe-Milnes, 1st Marquess of Crewe"
+    },
+    {
+      "label": "馬主",
+      "value": "Marquess of Crewe → Solomon Barnato Joel"
+    },
+    {
+      "label": "調教師",
+      "value": "John Porter / Charles Peck"
+    }
+  ],
+  "biography": [
+    "Polymelusは1902年、初代クルー侯爵ロバート・クルー=ミルンズの牧場で生まれた。父Cylleneはアスコットゴールドカップ勝ち馬にして9戦9勝の名馬、母Maid Marianはヴィクトリア女王の牧場で生まれた良血馬で、名牝Memoir（オークス、セントレジャー）やLa Fleche（オークス、セントレジャー、1000ギニー）の半姉にあたる。",
+    "1904年に2歳でデビューし、リッチモンドステークスなどの重要2歳戦を勝利。3歳ではセントレジャーで2着に入ったものの、その後はマイル前後の距離を主戦場とした。4歳時にチャンピオンステークスとケンブリッジシャーハンデを制し、5歳でもプリンセスオブウェールズステークスを勝って引退。全31戦11勝、7回の2着を記録した。主戦騎手は名ジョッキーのダニー・マーハーが務めた。",
+    "引退後、バークシャー州レディングのMaiden Erlegh Studで種牡馬入り。初期の種付け料は98ギニーだったが、産駒の活躍により300ギニーにまで上昇した。英リーディングサイアーに5度（1914年、1915年、1916年、1920年、1921年）輝き、産駒は延べ500頭以上の勝ち馬を出し、総獲得賞金は24万ポンドを超えた。",
+    "最大の功績は、ダービー伯爵のBromusとの間に生まれたPhalarisを送り出したことである。Phalaris自身は競走馬として平凡だったが、種牡馬としてPharos、Fairwayを輩出し、現代サラブレッドの父系の大半を支配するサイアーラインを築いた。他にも英三冠馬Pommern、牝馬でダービーとオークスを制したFinfinella、ダービー馬Humoristなどクラシック馬を多数輩出。1924年3月24日、骨盤の負傷とリウマチにより22歳で安楽死。その骨格はケンブリッジ大学動物学博物館に展示され、サラブレッドの理想的な体型の標本として今も保存されている。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "31",
+      "wins": "11",
+      "seconds": "7",
+      "thirds": "2"
+    },
+    "narrative": "全31戦11勝。1904年から1907年まで4シーズンにわたり活躍。生涯獲得賞金 £16,803。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1904 Richmond Stakes（Goodwood）",
+          "1904 Rous Memorial Stakes（Ascot）",
+          "1904 Criterion Stakes（Newmarket）",
+          "1905 Duke of York Stakes（York）",
+          "1905 Triennial Stakes（Ascot）",
+          "1906 Duke of York Stakes（Kempton Park）",
+          "1906 Cambridgeshire Handicap（Newmarket）",
+          "1906 Champion Stakes（Newmarket）",
+          "1907 Princess of Wales's Stakes（Newmarket）"
+        ]
+      },
+      {
+        "title": "種牡馬成績",
+        "items": [
+          "英リーディングサイアー 5回（1914年、1915年、1916年、1920年、1921年）",
+          "産駒勝ち馬 500頭以上、ステークス勝ち馬 約220頭"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Cyllene",
+      "year": "1895",
+      "sireLine": true,
+      "link": "cyllene",
+      "sire": {
+        "name": "Bona Vista",
+        "year": "1889",
+        "sireLine": true,
+        "link": "bona-vista",
+        "sire": {
+          "name": "Bend Or",
+          "year": "1877",
+          "sireLine": true,
+          "link": "bend-or",
+          "sire": {
+            "name": "Doncaster",
+            "year": "1870",
+            "sireLine": true,
+            "link": "doncaster",
+            "sire": {
+              "name": "Stockwell",
+              "sireLine": true,
+              "link": "stockwell"
+            },
+            "dam": {
+              "name": "Marigold"
+            }
+          },
+          "dam": {
+            "name": "Rouge Rose",
+            "year": "1865",
+            "sire": {
+              "name": "Thormanby"
+            },
+            "dam": {
+              "name": "Ellen Horne"
+            }
+          }
+        },
+        "dam": {
+          "name": "Vista",
+          "year": "1879",
+          "sire": {
+            "name": "Macaroni",
+            "year": "1860",
+            "sire": {
+              "name": "Sweetmeat"
+            },
+            "dam": {
+              "name": "Jocose"
+            }
+          },
+          "dam": {
+            "name": "Doralice",
+            "year": "1868",
+            "sire": {
+              "name": "Toxophilite"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Arcadia",
+        "year": "1887",
+        "sire": {
+          "name": "Isonomy",
+          "year": "1875",
+          "sire": {
+            "name": "Sterling",
+            "year": "1868",
+            "sire": {
+              "name": "Oxford"
+            },
+            "dam": {
+              "name": "Whisper"
+            }
+          },
+          "dam": {
+            "name": "Isola Bella",
+            "year": "1868",
+            "sire": {
+              "name": "Stockwell"
+            },
+            "dam": {
+              "name": "Isoline"
+            }
+          }
+        },
+        "dam": {
+          "name": "Distant Shore",
+          "year": "1880",
+          "sire": {
+            "name": "Hermit",
+            "year": "1864",
+            "sire": {
+              "name": "Newminster"
+            },
+            "dam": {
+              "name": "Seclusion"
+            }
+          },
+          "dam": {
+            "name": "Land's End",
+            "year": "1873",
+            "sire": {
+              "name": "Trumpeter"
+            },
+            "dam": {
+              "name": "Dorigen"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Maid Marian",
+      "year": "1886",
+      "sire": {
+        "name": "Hampton",
+        "year": "1872",
+        "sire": {
+          "name": "Lord Clifden",
+          "year": "1860",
+          "sire": {
+            "name": "Newminster",
+            "year": "1848",
+            "sire": {
+              "name": "Touchstone"
+            },
+            "dam": {
+              "name": "Beeswing"
+            }
+          },
+          "dam": {
+            "name": "The Slave",
+            "year": "1852",
+            "sire": {
+              "name": "Melbourne"
+            },
+            "dam": {
+              "name": "Volley"
+            }
+          }
+        },
+        "dam": {
+          "name": "Lady Langden",
+          "year": "1868",
+          "sire": {
+            "name": "Kettledrum",
+            "year": "1858",
+            "sire": {
+              "name": "Rataplan"
+            },
+            "dam": {
+              "name": "Hybla"
+            }
+          },
+          "dam": {
+            "name": "Haricot",
+            "year": "1847",
+            "sire": {
+              "name": "Lanercost"
+            },
+            "dam": {
+              "name": "Queen Mary"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Quiver",
+        "year": "1872",
+        "sire": {
+          "name": "Toxophilite",
+          "year": "1855",
+          "sire": {
+            "name": "Longbow",
+            "year": "1849",
+            "sire": {
+              "name": "Ithuriel"
+            },
+            "dam": {
+              "name": "Miss Bowe"
+            }
+          },
+          "dam": {
+            "name": "Legerdemain",
+            "year": "1846",
+            "sire": {
+              "name": "Pantaloon"
+            },
+            "dam": {
+              "name": "Deceit"
+            }
+          }
+        },
+        "dam": {
+          "name": "The Arrow",
+          "year": "1856",
+          "sire": {
+            "name": "Slane",
+            "year": "1833",
+            "sire": {
+              "name": "Royal Oak"
+            },
+            "dam": {
+              "name": "Guildford Nan"
+            }
+          },
+          "dam": {
+            "name": "Dorigen",
+            "year": "1847",
+            "sire": {
+              "name": "Orlando"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Stockwell 4×4のインブリード（Doncaster × Isola Bella経由）。Newminster 4×4のインブリード（Lord Clifden × Hermit経由）"
+  },
+  "nameDisplayPed": "Polymelus<br/><small>1902</small>",
+  "offspring": [
+    {
+      "name": "Doris",
+      "year": "1905",
+      "desc": "1000 Guineas。Polymelus初期の代表産駒"
+    },
+    {
+      "name": "Black Jester",
+      "year": "1911",
+      "desc": "St. Leger Stakes (1914)"
+    },
+    {
+      "name": "Pommern",
+      "year": "1912",
+      "desc": "英三冠馬：2000 Guineas, Epsom Derby, St. Leger Stakes (1915)"
+    },
+    {
+      "name": "Fifinella",
+      "year": "1913",
+      "desc": "Epsom Derby, Oaks Stakes (1916)。牝馬によるダービー制覇"
+    },
+    {
+      "name": "Phalaris",
+      "year": "1913",
+      "desc": "英リーディングサイアー2回。Pharos, Fairwayの父として現代サイアーラインを確立"
+    },
+    {
+      "name": "Humorist",
+      "year": "1918",
+      "desc": "Epsom Derby (1921)"
+    },
+    {
+      "name": "Cinna",
+      "year": "1916",
+      "desc": "1000 Guineas (1919)"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Cyllene",
+      "year": "1895",
+      "current": false,
+      "slug": "cyllene"
+    },
+    {
+      "name": "Polymelus",
+      "year": "1902",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Phalaris",
+      "year": "1913",
+      "current": false,
+      "slug": "phalaris"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Polymelus — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Polymelus"
+        },
+        {
+          "text": "Polymelus (GB) — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/polymelus-gb.html"
+        },
+        {
+          "text": "Polymelus — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/Polymelus.htm"
+        },
+        {
+          "text": "Polymelus — netkeiba",
+          "url": "https://en.netkeiba.com/db/horse/000a00114a/"
+        },
+        {
+          "text": "Polymelus — University of Cambridge Museum of Zoology",
+          "url": "https://www.cam.ac.uk/research/news/%E2%80%98picture-this-14%E2%80%B2-polymelus-museum-of-zoology"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Polymelus"
+}

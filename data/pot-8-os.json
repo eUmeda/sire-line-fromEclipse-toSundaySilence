@@ -1,0 +1,392 @@
+{
+  "id": "pot-8-os",
+  "era": "e1",
+  "generation": "II",
+  "nav": {
+    "prev": {
+      "slug": "eclipse",
+      "name": "Eclipse"
+    },
+    "next": {
+      "slug": "waxy",
+      "name": "Waxy"
+    }
+  },
+  "eraLabel": "18世紀",
+  "name": "Pot-8-Os",
+  "dates": "1773 – 1800",
+  "epithet": "Eclipseの最良の息子 — 名をPotatoesと読む伝説の快速馬",
+  "birthYear": 1773,
+  "cardDesc": "名は「Potatoes」の語呂合わせ。Eclipseの血を最も力強く次代に伝えた後継種牡馬であり、偉大な父系の礎を築いた。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1773年"
+    },
+    {
+      "label": "没年",
+      "value": "1800年11月（27歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "栗毛（Chestnut）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス"
+    },
+    {
+      "label": "生産者",
+      "value": "Willoughby Bertie, 4th Earl of Abingdon"
+    },
+    {
+      "label": "馬主",
+      "value": "Earl of Abingdon → Richard Grosvenor, 1st Earl Grosvenor"
+    },
+    {
+      "label": "調教師",
+      "value": "不詳",
+      "unknown": true
+    }
+  ],
+  "biography": [
+    "Pot-8-Osは1773年、アビンドン伯ウィロビー・バーティーにより生産された栗毛の牡馬である。父は無敗の名馬Eclipse、母はWarren's Sportsman産駒のSportsmistress。その名前はPotatoes（ジャガイモ）に由来し、厩務員が飼い葉桶に名前を書く際「Pot」の後に8つのOを並べて書いたという逸話で広く知られる。正式な綴りはPotooooooooとも表記される。",
+    "1776年にデビューすると、父Eclipseの速力を受け継ぎ圧倒的な強さを見せた。約40戦に出走し30勝以上を挙げ、同時代の最強馬として賭けの対象としても絶大な人気を誇った。1778年、レース中にアビンドン伯がグロスヴナー伯リチャード・グロスヴナーに1,500ギニーで売却するという異例の取引が行われたが、Pot-8-Osはそのレースも勝利した。",
+    "引退後は種牡馬として大きな成功を収め、エプソムダービー優勝馬をWaxy、Champion、Tyrantの3頭輩出。特にWaxyを通じてEclipseのサイアーラインを次世代へ繋ぐ重要な架け橋となった。1800年11月に27歳で没した。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "c.40",
+      "wins": "30+",
+      "seconds": "?",
+      "thirds": "?"
+    },
+    "narrative": "約40戦で30勝以上。1776年〜1783年の8シーズンにわたり活躍。当時最高の競走馬と評された。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "King's Plate（複数回）",
+          "Jockey Club Plate",
+          "Subscription Purse（Newmarket）",
+          "各地のSweepstakes・Match Race多数"
+        ]
+      },
+      {
+        "title": "種牡馬成績",
+        "items": [
+          "Leading Sire（英チャンピオンサイアー）",
+          "エプソムダービー優勝馬3頭を輩出（Waxy, Champion, Tyrant）"
+        ]
+      }
+    ],
+    "unknownStats": [
+      "seconds",
+      "thirds"
+    ],
+    "historicalNote": "※ 18世紀の競走馬のため、一部の記録は現存する史料に基づく推定値です"
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Eclipse",
+      "year": "1764",
+      "sireLine": true,
+      "link": "eclipse",
+      "sire": {
+        "name": "Marske",
+        "year": "1750",
+        "sireLine": true,
+        "sire": {
+          "name": "Squirt",
+          "year": "1732",
+          "sireLine": true,
+          "sire": {
+            "name": "Bartlett's Childers",
+            "year": "c.1716",
+            "sireLine": true,
+            "sire": {
+              "name": "Darley Arabian",
+              "sireLine": true
+            },
+            "dam": {
+              "name": "A Natural Barb Mare"
+            }
+          },
+          "dam": {
+            "name": "Snake Mare",
+            "sire": {
+              "name": "Snake"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "Ruby Mare",
+          "sire": {
+            "name": "Hutton's Blacklegs",
+            "year": "c.1725",
+            "sire": {
+              "name": "Bay Bolton"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "Fox Cub Mare",
+            "sire": {
+              "name": "Fox Cub"
+            },
+            "dam": {
+              "name": "Coneyskins Mare"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Spilletta",
+        "year": "1749",
+        "sire": {
+          "name": "Regulus",
+          "year": "1739",
+          "sire": {
+            "name": "Godolphin Arabian",
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "Grey Robinson",
+            "sire": {
+              "name": "Bald Galloway"
+            },
+            "dam": {
+              "name": "Snake Mare"
+            }
+          }
+        },
+        "dam": {
+          "name": "Mother Western",
+          "sire": {
+            "name": "Easby Snake",
+            "year": "c.1725",
+            "sire": {
+              "name": "Snake"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "Old Montagu Mare",
+            "sire": {
+              "name": "Old Montagu"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Sportsmistress",
+      "year": "1765",
+      "sire": {
+        "name": "Warren's Sportsman",
+        "sire": {
+          "name": "Cade",
+          "year": "1734",
+          "sire": {
+            "name": "Godolphin Arabian",
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "Roxana",
+            "sire": {
+              "name": "Bald Galloway"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "不詳",
+          "unknown": true,
+          "sire": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Golden Locks",
+        "sire": {
+          "name": "Crab",
+          "year": "c.1722",
+          "sire": {
+            "name": "Alcock's Arabian",
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "Miss Slammerkin",
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "Crab Mare",
+          "sire": {
+            "name": "Crab",
+            "year": "c.1722",
+            "sire": {
+              "name": "Alcock's Arabian"
+            },
+            "dam": {
+              "name": "Miss Slammerkin"
+            }
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      }
+    },
+    "note": "※ 18世紀の競走馬のため、一部の記録は現存する史料に基づく推定値です。Golden LocksはCrab 2×2のインブリード"
+  },
+  "nameDisplayPed": "Pot-8-Os<br/><small>1773</small>",
+  "offspring": [
+    {
+      "name": "Waxy",
+      "year": "1790",
+      "desc": "Epsom Derby (1793)。4頭のダービー馬を輩出した大種牡馬。サイアーラインの後継者",
+      "link": "waxy"
+    },
+    {
+      "name": "Champion",
+      "year": "1797",
+      "desc": "Epsom Derby (1800)"
+    },
+    {
+      "name": "Tyrant",
+      "year": "1799",
+      "desc": "Epsom Derby (1802)"
+    },
+    {
+      "name": "Sir Thomas",
+      "year": "1785",
+      "desc": "Epsom Derby (1788)。母Sportsmistressの産駒（Pot-8-Osの半弟）"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Eclipse",
+      "year": "1764",
+      "current": false,
+      "slug": "eclipse"
+    },
+    {
+      "name": "Pot-8-Os",
+      "year": "1773",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Waxy",
+      "year": "1790",
+      "current": false,
+      "slug": "waxy"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Potoooooooo — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Potoooooooo"
+        },
+        {
+          "text": "Pot8os — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/Pot8os.htm"
+        },
+        {
+          "text": "Pot-8-Os — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/Pot-8-Os.html"
+        },
+        {
+          "text": "The rise and fall of Pot-8-Os — Class Horse TV",
+          "url": "https://www.classhorsetv.com/new/the-rise-and-fall-of-pot-8-os-the-sire-horse"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Sunday Silence"
+}

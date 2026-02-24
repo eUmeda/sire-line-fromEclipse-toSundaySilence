@@ -1,0 +1,398 @@
+{
+  "id": "turn-to",
+  "era": "e5",
+  "generation": "XVIII",
+  "nav": {
+    "prev": {
+      "slug": "royal-charger",
+      "name": "Royal Charger"
+    },
+    "next": {
+      "slug": "hail-to-reason",
+      "name": "Hail to Reason"
+    }
+  },
+  "eraLabel": "20世紀後半",
+  "name": "Turn-to",
+  "dates": "1951 – 1973",
+  "epithet": "アイルランド生まれの快速馬、アメリカ競馬に偉大なサイアーラインを刻んだ種牡馬",
+  "birthYear": 1951,
+  "cardDesc": "アイルランド産、米国で活躍。種牡馬として新たなスピード血統の潮流を生み出し、米国競馬の血統地図を塗り替えた先駆者。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1951年"
+    },
+    {
+      "label": "没年月日",
+      "value": "1973年6月15日（22歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛（Bay）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "アイルランド"
+    },
+    {
+      "label": "生産者",
+      "value": "Claude Tanner（アイルランド）"
+    },
+    {
+      "label": "馬主",
+      "value": "Cain Hoy Stable（Capt. Harry F. Guggenheim）"
+    },
+    {
+      "label": "調教師",
+      "value": "Eddie Hayward"
+    }
+  ],
+  "biography": [
+    "Turn-toは1951年、アイルランドで生まれた。父Royal Chargerはイギリスの名種牡馬Nearcoの直仔であり、母Source Sucreeはフランスの名種牡馬Admiral Drakeの娘という良血馬であった。しかし、生産者のクロード・タナーが間もなく死去したため、タナー未亡人が当歳馬のTurn-toをアメリカに輸出し、1952年のキーンランド・サマーセールにクレイボーンファームを通じて上場した。",
+    "ハリー・F・グッゲンハイム大佐が2万ドルで購入し、ケインホイ・ステーブルの勝負服でエディ・ヘイワード厩舎に入厩した。深い胸郭と筋肉質な好馬体を持つ鹿毛馬で、気品と天性のスピードを兼ね備えていたと伝えられる。",
+    "2歳時（1953年）、騎手ヘンリー・モレノを背にサラトガスペシャルSを制覇。さらに当時世界最高賞金レースとして名を馳せたガーデンステートフューチュリティを制し、一躍全米の注目を集めた。3歳時（1954年）にはフラミンゴSを勝利するなど活躍したが、脚部の故障により早期に引退を余儀なくされた。",
+    "1955年、ケンタッキー州のクレイボーンファームで種牡馬入り。その後、馬主グッゲンハイムとアーサー・B・ハンコックとの意見の相違からスペンドスリフトファームに移動した。1958年には140万ドルの評価額でシンジケートが組まれ、同年アメリカ2歳リーディングサイアーに輝いた。",
+    "種牡馬としてのTurn-toは、First Landing（リヴァリッジの父）、Sir Gaylord（サーアイヴァーの父）、そして何より競馬史上屈指の影響力を誇るHail to Reasonを輩出した。Hail to Reasonの血脈はRoberto、Halo、Sunday Silence、そしてDeep Impactへと連なり、日本競馬をも根底から変革した。サラブレッド史における最重要種牡馬の一頭であり、1973年6月15日、22歳でこの世を去った。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "12",
+      "wins": "6",
+      "seconds": "3",
+      "thirds": "1"
+    },
+    "narrative": "脚部故障のため短い競走生活となったが、天性のスピードで重賞を制覇。引退後は偉大な種牡馬として名を残した。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1953 Saratoga Special Stakes",
+          "1953 Garden State Futurity",
+          "1954 Flamingo Stakes"
+        ]
+      },
+      {
+        "title": "種牡馬成績",
+        "items": [
+          "1958 アメリカ2歳リーディングサイアー",
+          "通算345頭の産駒から204頭の勝馬（59.1%）、25頭のステークス勝馬（7.2%）",
+          "1958年シンジケート評価額 $1,400,000"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Royal Charger",
+      "year": "1942",
+      "sireLine": true,
+      "link": "royal-charger",
+      "sire": {
+        "name": "Nearco",
+        "year": "1935",
+        "sireLine": true,
+        "link": "nearco",
+        "sire": {
+          "name": "Pharos",
+          "year": "1920",
+          "sireLine": true,
+          "link": "pharos",
+          "sire": {
+            "name": "Phalaris",
+            "year": "1913",
+            "sireLine": true,
+            "link": "phalaris",
+            "sire": {
+              "name": "Polymelus",
+              "sireLine": true,
+              "link": "polymelus"
+            },
+            "dam": {
+              "name": "Bromus"
+            }
+          },
+          "dam": {
+            "name": "Scapa Flow",
+            "year": "1914",
+            "sire": {
+              "name": "Chaucer"
+            },
+            "dam": {
+              "name": "Anchora"
+            }
+          }
+        },
+        "dam": {
+          "name": "Nogara",
+          "year": "1928",
+          "sire": {
+            "name": "Havresac II",
+            "year": "1915",
+            "sire": {
+              "name": "Rabelais"
+            },
+            "dam": {
+              "name": "Donatrice"
+            }
+          },
+          "dam": {
+            "name": "Catnip",
+            "year": "1910",
+            "sire": {
+              "name": "Spearmint"
+            },
+            "dam": {
+              "name": "Donatrice *"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Sun Princess",
+        "year": "1937",
+        "sire": {
+          "name": "Solario",
+          "year": "1922",
+          "sire": {
+            "name": "Gainsborough",
+            "year": "1915",
+            "sire": {
+              "name": "Bayardo"
+            },
+            "dam": {
+              "name": "Rosedrop"
+            }
+          },
+          "dam": {
+            "name": "Sun Worship",
+            "year": "1915",
+            "sire": {
+              "name": "Sundridge"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          }
+        },
+        "dam": {
+          "name": "Mumtaz Begum",
+          "year": "1932",
+          "sire": {
+            "name": "Blenheim II",
+            "year": "1927",
+            "sire": {
+              "name": "Blandford"
+            },
+            "dam": {
+              "name": "Malva"
+            }
+          },
+          "dam": {
+            "name": "Mumtaz Mahal",
+            "year": "1921",
+            "sire": {
+              "name": "The Tetrarch"
+            },
+            "dam": {
+              "name": "Lady Josephine"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Source Sucree",
+      "year": "1940",
+      "sire": {
+        "name": "Admiral Drake",
+        "year": "1931",
+        "sire": {
+          "name": "Craig an Eran",
+          "year": "1918",
+          "sire": {
+            "name": "Sunstar",
+            "year": "1908",
+            "sire": {
+              "name": "Sundridge"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          },
+          "dam": {
+            "name": "Maid of the Mist",
+            "year": "1906",
+            "sire": {
+              "name": "Sceptre"
+            },
+            "dam": {
+              "name": "Frizette"
+            }
+          }
+        },
+        "dam": {
+          "name": "Plucky Liege",
+          "year": "1912",
+          "sire": {
+            "name": "Spearmint",
+            "year": "1903",
+            "sire": {
+              "name": "Carbine"
+            },
+            "dam": {
+              "name": "Maid of the Mint"
+            }
+          },
+          "dam": {
+            "name": "Concertina",
+            "year": "1896",
+            "sire": {
+              "name": "St. Simon"
+            },
+            "dam": {
+              "name": "Comic Song"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Lavendula",
+        "year": "1930",
+        "sire": {
+          "name": "Pharos",
+          "year": "1920",
+          "link": "pharos",
+          "sire": {
+            "name": "Phalaris",
+            "year": "1913",
+            "link": "phalaris",
+            "sire": {
+              "name": "Polymelus",
+              "link": "polymelus"
+            },
+            "dam": {
+              "name": "Bromus"
+            }
+          },
+          "dam": {
+            "name": "Scapa Flow",
+            "year": "1914",
+            "sire": {
+              "name": "Chaucer"
+            },
+            "dam": {
+              "name": "Anchora"
+            }
+          }
+        },
+        "dam": {
+          "name": "Sweet Lavender",
+          "year": "1923",
+          "sire": {
+            "name": "Swynford",
+            "year": "1907",
+            "sire": {
+              "name": "John o'Gaunt"
+            },
+            "dam": {
+              "name": "Canterbury Pilgrim"
+            }
+          },
+          "dam": {
+            "name": "Sweet Briar II",
+            "sire": {
+              "name": "St. Frusquin"
+            },
+            "dam": {
+              "name": "Donatrice"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Pharos 3×3 のインブリード（Nearcoの父 × Lavendulaの父）。Phalaris 4×4。Donatrice は Havresac II の母 / Catnip の母 に同名馬が登場。"
+  },
+  "nameDisplayPed": "Turn-to<br/><small>1951</small>",
+  "offspring": [
+    {
+      "name": "First Landing",
+      "year": "1956",
+      "desc": "Garden State S勝馬。種牡馬としてRiva Ridge（ケンタッキーダービー・ベルモントS勝馬）を輩出"
+    },
+    {
+      "name": "Hail to Reason",
+      "year": "1958",
+      "desc": "2歳時18戦9勝。米年度代表2歳牡馬。Roberto, Halo, Sunday Silence, Deep Impactへ至るサイアーラインの起点",
+      "link": "hail-to-reason"
+    },
+    {
+      "name": "Sir Gaylord",
+      "year": "1959",
+      "desc": "Secretariatの母Somethingroyalとの間にSir Ivor（英ダービー馬）を輩出した名種牡馬"
+    },
+    {
+      "name": "Cyane",
+      "year": "1959",
+      "desc": "牝馬。Monmouth Oaks勝馬。繁殖牝馬としても成功"
+    },
+    {
+      "name": "Best Turn",
+      "year": "1966",
+      "desc": "種牡馬としてCox's Ridge、Davona Dale（米牝馬三冠）を輩出"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Royal Charger",
+      "year": "1942",
+      "current": false,
+      "slug": "royal-charger"
+    },
+    {
+      "name": "Turn-to",
+      "year": "1951",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Hail to Reason",
+      "year": "1958",
+      "current": false,
+      "slug": "hail-to-reason"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Turn-To — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Turn-To"
+        },
+        {
+          "text": "Turn-to (IRE) — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/turn-to-ire.html"
+        },
+        {
+          "text": "Turn-to — Horse Racing Nation",
+          "url": "https://www.horseracingnation.com/horse/Turn_to"
+        },
+        {
+          "text": "Turn-To — SporthorseData Pedigree",
+          "url": "https://sporthorse-data.com/pedigree/turn"
+        },
+        {
+          "text": "Hail to Reason Sire Line — JBIS-Search",
+          "url": "https://www.jbis.jp/horse/0000334286/pedigree/sire/"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Turn-to"
+}

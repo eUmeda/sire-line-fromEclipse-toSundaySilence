@@ -1,0 +1,411 @@
+{
+  "id": "birdcatcher",
+  "era": "e2",
+  "generation": "VI",
+  "nav": {
+    "prev": {
+      "slug": "sir-hercules",
+      "name": "Sir Hercules"
+    },
+    "next": {
+      "slug": "the-baron",
+      "name": "The Baron"
+    }
+  },
+  "eraLabel": "19世紀前半",
+  "name": "Birdcatcher",
+  "dates": "1833 – 1860",
+  "epithet": "「Birdcatcherスポット」の名祖にして、アイルランド競馬の名声を世界に轟かせた大種牡馬",
+  "birthYear": 1833,
+  "cardDesc": "アイルランドの快速馬。体に現れる独特の白斑は「Birdcatcher spots」として今日でもその名で呼ばれている。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1833年"
+    },
+    {
+      "label": "没年",
+      "value": "1860年3月（27歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "栗毛（Chestnut）— 白い斑点（Birdcatcher spots）が特徴"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "体高",
+      "value": "15.3ハンド"
+    },
+    {
+      "label": "生産国",
+      "value": "アイルランド（キルデア州カラ、Brownstown Stud）"
+    },
+    {
+      "label": "生産者",
+      "value": "George Knox"
+    },
+    {
+      "label": "馬主",
+      "value": "William Disney（Lark Lodge）"
+    }
+  ],
+  "biography": [
+    "Birdcatcherは1833年、アイルランド・キルデア州カラのBrownstown StudでGeorge Knoxにより生産された栗毛の牡馬である。父Sir Hercules、母Guiccioli（父Bob Booty）という血統を持ち、母Guiccioliは自身も優れた競走馬であった。",
+    "2歳時の1835年にカラ競馬場でデビューしたが、初戦のPaget Stakesでは凡走に終わった。しかし3歳の1836年に本格化し、Madrid Stakesでの初勝利を皮切りに、Milltown Stakes、そして14ハロンのPeel Stakesを制した。Peel Stakesでは、ゴール後もさらに1マイルを走り続けるほどの驚異的なスタミナを見せつけたという。4歳時にはKildare Stakes、Wellington Stakes（ウォークオーバー）、King's Plate（2マイル）と勝利を重ね、アイルランドを代表する競走馬としての地位を確立した。",
+    "引退後は種牡馬としてさらに大きな成功を収めた。1852年と1856年にイギリスのリーディングサイアーに輝き、通算15回トップサイアーにランクインした。産駒からはThe Baron（セントレジャー）、Daniel O'Rourke（エプソムダービー）、Songstress（オークス）、Knight of St. George（セントレジャー）など、7頭のクラシック勝馬を輩出。アイルランド産馬として初めてイギリスクラシックの勝馬を送り出した種牡馬となった。",
+    "その被毛に現れた特徴的な白い斑点は「Birdcatcher spots（Birdcatcher ticks）」と呼ばれ、子孫にも受け継がれる遺伝的特徴として現代に至るまで知られている。1860年3月、カラにて27歳で没した。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "15",
+      "wins": "7",
+      "seconds": "4",
+      "thirds": "3"
+    },
+    "narrative": "全15戦、すべてカラ競馬場で出走。2歳から4歳まで競走生活を送った。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1836 Madrid Stakes（カラ）",
+          "1836 Milltown Stakes（カラ）",
+          "1836 Peel Stakes（カラ、14f）",
+          "1837 Kildare Stakes（カラ）",
+          "1837 Wellington Stakes（カラ、ウォークオーバー）",
+          "1837 King's Plate（カラ、2マイル）"
+        ]
+      },
+      {
+        "title": "種牡馬成績",
+        "items": [
+          "1852, 1856 英リーディングサイアー",
+          "通算15回トップサイアーにランクイン",
+          "200頭以上の勝馬を輩出"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Sir Hercules",
+      "year": "1826",
+      "sireLine": true,
+      "link": "sir-hercules",
+      "sire": {
+        "name": "Whalebone",
+        "year": "1807",
+        "sireLine": true,
+        "link": "whalebone",
+        "sire": {
+          "name": "Waxy",
+          "year": "1790",
+          "sireLine": true,
+          "link": "waxy",
+          "sire": {
+            "name": "Pot-8-Os",
+            "year": "1773",
+            "sireLine": true,
+            "link": "pot-8-os",
+            "sire": {
+              "name": "Eclipse",
+              "sireLine": true,
+              "link": "eclipse"
+            },
+            "dam": {
+              "name": "Sportsmistress"
+            }
+          },
+          "dam": {
+            "name": "Maria",
+            "sire": {
+              "name": "Herod"
+            },
+            "dam": {
+              "name": "Lisette"
+            }
+          }
+        },
+        "dam": {
+          "name": "Penelope",
+          "year": "1798",
+          "sire": {
+            "name": "Trumpator",
+            "year": "1782",
+            "sire": {
+              "name": "Conductor"
+            },
+            "dam": {
+              "name": "Brunette"
+            }
+          },
+          "dam": {
+            "name": "Prunella",
+            "year": "1788",
+            "sire": {
+              "name": "Highflyer"
+            },
+            "dam": {
+              "name": "Promise"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Peri",
+        "year": "1822",
+        "sire": {
+          "name": "Wanderer",
+          "year": "1811",
+          "sire": {
+            "name": "Gohanna",
+            "year": "1790",
+            "sire": {
+              "name": "Mercury"
+            },
+            "dam": {
+              "name": "Herod Mare"
+            }
+          },
+          "dam": {
+            "name": "Catherine",
+            "sire": {
+              "name": "Woodpecker"
+            },
+            "dam": {
+              "name": "Camilla"
+            }
+          }
+        },
+        "dam": {
+          "name": "Thalestris",
+          "year": "1809",
+          "sire": {
+            "name": "Alexander",
+            "year": "1782",
+            "sire": {
+              "name": "Eclipse"
+            },
+            "dam": {
+              "name": "Grecian Princess"
+            }
+          },
+          "dam": {
+            "name": "Rival",
+            "year": "1800",
+            "sire": {
+              "name": "Sir Peter"
+            },
+            "dam": {
+              "name": "Hornet"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Guiccioli",
+      "year": "1823",
+      "sire": {
+        "name": "Bob Booty",
+        "year": "1804",
+        "sire": {
+          "name": "Chanticleer",
+          "year": "1787",
+          "sire": {
+            "name": "Woodpecker",
+            "year": "1773",
+            "sire": {
+              "name": "Herod"
+            },
+            "dam": {
+              "name": "Miss Ramsden"
+            }
+          },
+          "dam": {
+            "name": "Siskin",
+            "sire": {
+              "name": "Snap"
+            },
+            "dam": {
+              "name": "Miss Cleveland"
+            }
+          }
+        },
+        "dam": {
+          "name": "Ierne",
+          "year": "1790",
+          "sire": {
+            "name": "Bagot",
+            "year": "1780",
+            "sire": {
+              "name": "Herod"
+            },
+            "dam": {
+              "name": "Lisette"
+            }
+          },
+          "dam": {
+            "name": "Gamahoe",
+            "sire": {
+              "name": "Dorimant"
+            },
+            "dam": {
+              "name": "Miss Elliott"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Flight",
+        "year": "1809",
+        "sire": {
+          "name": "Escape",
+          "year": "1785",
+          "sire": {
+            "name": "Highflyer",
+            "year": "1774",
+            "sire": {
+              "name": "Herod"
+            },
+            "dam": {
+              "name": "Rachel"
+            }
+          },
+          "dam": {
+            "name": "Squirrel Mare",
+            "sire": {
+              "name": "Squirrel"
+            },
+            "dam": {
+              "name": "Sist. to Ancaster"
+            }
+          }
+        },
+        "dam": {
+          "name": "Y. Heroine",
+          "year": "1797",
+          "sire": {
+            "name": "Bagot",
+            "year": "1780",
+            "sire": {
+              "name": "Herod"
+            },
+            "dam": {
+              "name": "Lisette"
+            }
+          },
+          "dam": {
+            "name": "Heroine",
+            "sire": {
+              "name": "Hero"
+            },
+            "dam": {
+              "name": "Maiden"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Bagot 4×4のインブリード（Ierneの父 × Y. Heroineの父）。Herod 5×5×5×5の多重クロス"
+  },
+  "nameDisplayPed": "Bird-<br/>catcher<br/><small>1833</small>",
+  "offspring": [
+    {
+      "name": "The Baron",
+      "year": "1842",
+      "desc": "St. Leger Stakes (1845)。種牡馬としてStockwell（\"Emperor of Stallions\"）を輩出"
+    },
+    {
+      "name": "Daniel O'Rourke",
+      "year": "1849",
+      "desc": "Epsom Derby (1852)。Birdcatcher spotsの特徴を受け継いだ"
+    },
+    {
+      "name": "Songstress",
+      "year": "1849",
+      "desc": "Oaks Stakes (1852)"
+    },
+    {
+      "name": "Knight of St. George",
+      "year": "1851",
+      "desc": "St. Leger Stakes (1854)"
+    },
+    {
+      "name": "Habena",
+      "year": "1852",
+      "desc": "1,000 Guineas (1855)"
+    },
+    {
+      "name": "Manganese",
+      "year": "1853",
+      "desc": "1,000 Guineas (1856)"
+    },
+    {
+      "name": "Warlock",
+      "year": "1853",
+      "desc": "St. Leger Stakes (1856)"
+    },
+    {
+      "name": "Rataplan",
+      "year": "1850",
+      "desc": "種牡馬としてKettledrum（Epsom Derby 1861）を輩出"
+    },
+    {
+      "name": "Oxford",
+      "year": "1857",
+      "desc": "Birdcatcherのもう一つの父系ラインを確立。Sterling → Isonzoへと続く"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Sir Hercules",
+      "year": "1826",
+      "current": false,
+      "slug": "sir-hercules"
+    },
+    {
+      "name": "Birdcatcher",
+      "year": "1833",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "The Baron",
+      "year": "1842",
+      "current": false,
+      "slug": "the-baron"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Birdcatcher (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Birdcatcher_(horse)"
+        },
+        {
+          "text": "Birdcatcher: the 19th century sire who transformed the reputation of Irish racing — Thoroughbred Racing Commentary",
+          "url": "https://www.thoroughbredracing.com/articles/5597/"
+        },
+        {
+          "text": "Birdcatcher — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/Birdcatcher.htm"
+        },
+        {
+          "text": "Birdcatcher — TB Heritage",
+          "url": "https://www.tbheritage.com/Portraits/Birdcatcher.html"
+        },
+        {
+          "text": "Birdcatcher Pedigree — SporthorseData",
+          "url": "https://sporthorse-data.com/pedigree/birdcatcher"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Birdcatcher"
+}

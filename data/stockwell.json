@@ -1,0 +1,424 @@
+{
+  "id": "stockwell",
+  "era": "e2",
+  "generation": "VIII",
+  "nav": {
+    "prev": {
+      "slug": "the-baron",
+      "name": "The Baron"
+    },
+    "next": {
+      "slug": "doncaster",
+      "name": "Doncaster"
+    }
+  },
+  "eraLabel": "19世紀前半",
+  "name": "Stockwell",
+  "dates": "1849 – 1870",
+  "epithet": "Emperor of Stallions — 英国リーディングサイアー7回の種牡馬の帝王",
+  "birthYear": 1849,
+  "cardDesc": "「種牡馬の帝王（Emperor of Stallions）」——英国リーディングサイアー7回の金字塔。19世紀最高の種牡馬と称される。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1849年"
+    },
+    {
+      "label": "没年月日",
+      "value": "1870年5月5日（21歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "栗毛（Chestnut）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イングランド（サリー州ストックウェル）"
+    },
+    {
+      "label": "生産者",
+      "value": "William Theobald"
+    },
+    {
+      "label": "馬主",
+      "value": "2nd Marquess of Exeter → 1st Baron Londesborough"
+    },
+    {
+      "label": "調教師",
+      "value": "John Scott（マルトン）"
+    }
+  ],
+  "biography": [
+    "Stockwellは1849年、サリー州ストックウェルにあるWilliam Theobaldの牧場で生まれた。父The Baron、母Pocahontasという当時最高の血統を持ちながら、その容姿は美しいとは言い難く、あるターフライターから「醜さの権化」と評されるほどだった。平凡な頭部にはローマ鼻があり、後躯は荷馬車馬のようだったという。",
+    "2歳時は未勝利に終わったが、3歳シーズンに才能が爆発する。1852年、2000ギニーを10対1のオッズで制すと、続くニューマーケットSも勝利。エプソムダービーでは8着に敗れたものの（歯の膿瘍の治療直後だったとされる）、セントレジャーでは2着Harbingerに10馬身差の圧勝を見せた。3歳シーズンは2回のウォークオーバーを含む8連勝で締めくくった。",
+    "4歳時にはアスコットゴールドカップ（皇帝陛下御賞）でハナ差の2着。5歳時にはThe Whipで出走し、故障を起こしたKingstonに30馬身差で勝利した。通算成績は16戦12勝。",
+    "1855年から種牡馬生活を開始し、その成果は圧倒的だった。英国リーディングサイアーを7度（1860-62年、1864-67年）獲得し、産駒は合計1,147勝を挙げ、賞金総額362,451ポンドを稼いだ。412頭の産駒のうち209頭が勝ち馬となり、12頭の産駒が17のクラシックレースを制覇した。「種牡馬の帝王（Emperor of Stallions）」の異名は彼のためにあった。1870年5月5日、種付け中の事故により21歳で死亡した。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "16",
+      "wins": "12",
+      "seconds": "2",
+      "thirds": "0"
+    },
+    "narrative": "通算16戦12勝。3歳シーズンは8連勝（うち2回ウォークオーバー）を記録。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1852 2000 Guineas Stakes",
+          "1852 Newmarket Stakes",
+          "1852 St Leger Stakes",
+          "1852 Great Yorkshire Stakes",
+          "1852 Grand Duke Michael Stakes",
+          "1854 The Whip"
+        ]
+      },
+      {
+        "title": "種牡馬成績",
+        "items": [
+          "英国リーディングサイアー 7回（1860, 1861, 1862, 1864, 1865, 1866, 1867）",
+          "産駒通算 1,147勝 — 賞金総額 £362,451",
+          "412頭の産駒から209頭の勝ち馬、17のクラシック勝利"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "The Baron",
+      "year": "1842",
+      "sireLine": true,
+      "link": "the-baron",
+      "sire": {
+        "name": "Birdcatcher",
+        "year": "1833",
+        "sireLine": true,
+        "link": "birdcatcher",
+        "sire": {
+          "name": "Sir Hercules",
+          "year": "1826",
+          "sireLine": true,
+          "sire": {
+            "name": "Whalebone",
+            "year": "1807",
+            "sireLine": true,
+            "sire": {
+              "name": "Waxy",
+              "sireLine": true
+            },
+            "dam": {
+              "name": "Penelope"
+            }
+          },
+          "dam": {
+            "name": "Peri",
+            "year": "1822",
+            "sire": {
+              "name": "Wanderer"
+            },
+            "dam": {
+              "name": "Thalestris"
+            }
+          }
+        },
+        "dam": {
+          "name": "Guiccioli",
+          "year": "1823",
+          "sire": {
+            "name": "Bob Booty",
+            "year": "1804",
+            "sire": {
+              "name": "Chanticleer"
+            },
+            "dam": {
+              "name": "Ierne"
+            }
+          },
+          "dam": {
+            "name": "Flight",
+            "year": "1809",
+            "sire": {
+              "name": "Escape"
+            },
+            "dam": {
+              "name": "Y. Heroine"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Echidna",
+        "year": "1838",
+        "sire": {
+          "name": "Economist",
+          "year": "1825",
+          "sire": {
+            "name": "Whisker",
+            "year": "1812",
+            "sire": {
+              "name": "Waxy"
+            },
+            "dam": {
+              "name": "Penelope"
+            }
+          },
+          "dam": {
+            "name": "Floranthe",
+            "year": "1818",
+            "sire": {
+              "name": "Octavian"
+            },
+            "dam": {
+              "name": "Caprice"
+            }
+          }
+        },
+        "dam": {
+          "name": "Miss Pratt",
+          "year": "1825",
+          "sire": {
+            "name": "Blacklock",
+            "year": "1814",
+            "sire": {
+              "name": "Whitelock"
+            },
+            "dam": {
+              "name": "Coriander Mare"
+            }
+          },
+          "dam": {
+            "name": "Gadabout",
+            "year": "1812",
+            "sire": {
+              "name": "Orville"
+            },
+            "dam": {
+              "name": "Minstrel Mare"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Pocahontas",
+      "year": "1837",
+      "sire": {
+        "name": "Glencoe",
+        "year": "1831",
+        "sire": {
+          "name": "Sultan",
+          "year": "1816",
+          "sire": {
+            "name": "Selim",
+            "year": "1802",
+            "sire": {
+              "name": "Buzzard"
+            },
+            "dam": {
+              "name": "Alexander Mare"
+            }
+          },
+          "dam": {
+            "name": "Bacchante",
+            "year": "1809",
+            "sire": {
+              "name": "W's Ditto"
+            },
+            "dam": {
+              "name": "Evelina"
+            }
+          }
+        },
+        "dam": {
+          "name": "Trampoline",
+          "year": "1825",
+          "sire": {
+            "name": "Tramp",
+            "year": "1810",
+            "sire": {
+              "name": "Dick Andrews"
+            },
+            "dam": {
+              "name": "Gohanna Mare"
+            }
+          },
+          "dam": {
+            "name": "Web",
+            "year": "1808",
+            "sire": {
+              "name": "Waxy"
+            },
+            "dam": {
+              "name": "Penelope"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Marpessa",
+        "year": "1830",
+        "sire": {
+          "name": "Muley",
+          "year": "1810",
+          "sire": {
+            "name": "Orville",
+            "year": "1799",
+            "sire": {
+              "name": "Beningbrough"
+            },
+            "dam": {
+              "name": "Evelina"
+            }
+          },
+          "dam": {
+            "name": "Eleanor",
+            "year": "1798",
+            "sire": {
+              "name": "Whiskey"
+            },
+            "dam": {
+              "name": "Y. Giantess"
+            }
+          }
+        },
+        "dam": {
+          "name": "Clare",
+          "year": "1824",
+          "sire": {
+            "name": "Marmion",
+            "year": "1806",
+            "sire": {
+              "name": "Whiskey"
+            },
+            "dam": {
+              "name": "Harpalice"
+            }
+          },
+          "dam": {
+            "name": "Harpalice",
+            "year": "1814",
+            "sire": {
+              "name": "Gohanna"
+            },
+            "dam": {
+              "name": "Amazon"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Waxy 4×4、Penelope 4×4のインブリード（父系Birdcatcher経由 × 母系Glencoe/Marpessa経由）。Orville 5×4のインブリードも持つ。"
+  },
+  "nameDisplayPed": "Stockwell<br/><small>1849</small>",
+  "offspring": [
+    {
+      "name": "St Albans",
+      "year": "1857",
+      "desc": "St Leger Stakes (1860)。種牡馬としてSpringfieldの父"
+    },
+    {
+      "name": "Caller Ou",
+      "year": "1858",
+      "desc": "St Leger Stakes (1861)。牝馬"
+    },
+    {
+      "name": "The Marquis",
+      "year": "1859",
+      "desc": "2000 Guineas, St Leger Stakes (1862)"
+    },
+    {
+      "name": "Lady Augusta",
+      "year": "1860",
+      "desc": "1000 Guineas (1863)。牝馬"
+    },
+    {
+      "name": "Blair Athol",
+      "year": "1861",
+      "desc": "Epsom Derby, St Leger Stakes (1864)。Stockwell産駒最強と評される名馬"
+    },
+    {
+      "name": "Lord Lyon",
+      "year": "1863",
+      "desc": "英国三冠馬：2000 Guineas, Epsom Derby, St Leger Stakes (1866)"
+    },
+    {
+      "name": "Repulse",
+      "year": "1863",
+      "desc": "1000 Guineas (1866)。牝馬"
+    },
+    {
+      "name": "Achievement",
+      "year": "1864",
+      "desc": "1000 Guineas, St Leger Stakes (1867)。牝馬"
+    },
+    {
+      "name": "Doncaster",
+      "year": "1870",
+      "desc": "Epsom Derby (1873)。Bend Orの父として現代サラブレッドの父系に直結する最重要後継種牡馬"
+    },
+    {
+      "name": "Gang Forward",
+      "year": "1870",
+      "desc": "2000 Guineas (1873)"
+    },
+    {
+      "name": "Bothwell",
+      "year": "1868",
+      "desc": "2000 Guineas (1871)"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "The Baron",
+      "year": "1842",
+      "current": false,
+      "slug": "the-baron"
+    },
+    {
+      "name": "Stockwell",
+      "year": "1849",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Doncaster",
+      "year": "1870",
+      "current": false,
+      "slug": "doncaster"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Stockwell (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Stockwell_(horse)"
+        },
+        {
+          "text": "Stockwell: why he deserved to be known as the 'Emperor of Stallions' — Thoroughbred Racing Commentary",
+          "url": "https://www.thoroughbredracing.com/articles/4278/stockwell-why-he-deserved-be-known-emperor-stallions/"
+        },
+        {
+          "text": "Stockwell — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/Stockwell.htm"
+        },
+        {
+          "text": "Stockwell Stud — Yorkshire Racing",
+          "url": "https://www.yorkshire-racing.co.uk/stockwell.htm"
+        },
+        {
+          "text": "Stockwell — Pedigree Query",
+          "url": "https://www.pedigreequery.com/stockwell"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Stockwell"
+}

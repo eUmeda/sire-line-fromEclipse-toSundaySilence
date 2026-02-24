@@ -1,0 +1,393 @@
+{
+  "id": "doncaster",
+  "era": "e3",
+  "generation": "IX",
+  "nav": {
+    "prev": {
+      "slug": "stockwell",
+      "name": "Stockwell"
+    },
+    "next": {
+      "slug": "bend-or",
+      "name": "Bend Or"
+    }
+  },
+  "eraLabel": "19世紀後半",
+  "name": "Doncaster",
+  "dates": "1870 – 1892",
+  "epithet": "45対1のダービー馬 — 種牡馬の帝王Stockwellから現代父系への架け橋",
+  "birthYear": 1870,
+  "cardDesc": "1873年エプソムダービー優勝。父Stockwellの偉大な血統を競走と繁殖の両面で継承し、次世代へと橋渡しした。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1870年"
+    },
+    {
+      "label": "没年",
+      "value": "1892年1月（22歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "栗毛（Chestnut）— 白い流星あり"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イングランド（ヨークシャー州、Sledmere Stud）"
+    },
+    {
+      "label": "生産者",
+      "value": "Sir Tatton Sykes（第5代準男爵）"
+    },
+    {
+      "label": "馬主",
+      "value": "James Merry → 初代ウェストミンスター公爵 → オーストリア皇后エリーザベト"
+    },
+    {
+      "label": "調教師",
+      "value": "Robert Peck"
+    }
+  ],
+  "biography": [
+    "Doncasterは1870年、ヨークシャー州のSledmere StudでSir Tatton Sykesにより生産された。父は「種牡馬の帝王（Emperor of Stallions）」と称されるStockwell、母Marigoldはダービー馬Teddingtonの産駒である。スコットランドの実業家James Merryが950ギニーでこの栗毛の牡馬を購入し、Doncaster（ドンカスター競馬場に因む）と命名してRobert Peck調教師に預けた。",
+    "膝の故障のため2歳時は出走せず、3歳シーズンの1873年に競走デビューを果たした。初戦の2000ギニーではGang Forwardに敗れたが、続くエプソムダービーでは45対1という大穴ながら、Gang ForwardとKaiserに1馬身半差をつけて快勝した。その後、パリ大賞（Grand Prix de Paris）ではBoiïardの3着に入り、セントレジャーではMarie Stuartにアタマ差の2着に惜敗した。",
+    "4歳時の1874年、アスコットゴールドカップでFlageoletと同着の2着。グッドウッドカップではKing of the Forestを2馬身差で下して勝利した。5歳シーズンの1875年にはアスコットゴールドカップをQuicklimeに4馬身差で制覇し、さらにアレクサンドラプレートも勝利するなど、ステイヤーとしての真価を発揮した。",
+    "引退後、Robert Peck調教師が10,000ポンドでDoncasterを購入し、直ちに初代ウェストミンスター公爵に14,000ポンドで転売した。公爵のEaton Studで種牡馬生活を開始し、1880年のダービー馬Bend Orを筆頭に優秀な産駒を送り出した。後にオーストリア皇后エリーザベト（「シシィ」）に5,000ポンドで売却され、ハンガリーのKisber Studに移された。1892年1月、22歳でその生涯を閉じた。Bend Orを通じて、現代サラブレッドの父系の大部分はDoncasterに遡ることになる。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "10",
+      "wins": "4",
+      "seconds": "2",
+      "thirds": "1"
+    },
+    "narrative": "通算10戦4勝。長距離で真価を発揮したステイヤー。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1873 Epsom Derby Stakes（エプソム、1m 4f — 45/1の人気薄で1馬身半差の快勝）",
+          "1874 Goodwood Cup（グッドウッド、2m 4f — King of the Forestに2馬身差）",
+          "1875 Ascot Gold Cup（アスコット、2m 4f — Quicklimeに4馬身差）",
+          "1875 Alexandra Plate（アスコット、3m）"
+        ]
+      },
+      {
+        "title": "主な敗戦",
+        "items": [
+          "1873 St Leger Stakes — 2着（Marie Stuartにアタマ差）",
+          "1873 Grand Prix de Paris — 3着（Boiïardの後塵を拝す）",
+          "1874 Ascot Gold Cup — Flageoletと同着の2着"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Stockwell",
+      "year": "1849",
+      "sireLine": true,
+      "link": "stockwell",
+      "sire": {
+        "name": "The Baron",
+        "year": "1842",
+        "sireLine": true,
+        "link": "the-baron",
+        "sire": {
+          "name": "Birdcatcher",
+          "year": "1833",
+          "sireLine": true,
+          "link": "birdcatcher",
+          "sire": {
+            "name": "Sir Hercules",
+            "year": "1826",
+            "sireLine": true,
+            "link": "sir-hercules",
+            "sire": {
+              "name": "Whalebone",
+              "sireLine": true
+            },
+            "dam": {
+              "name": "Peri"
+            }
+          },
+          "dam": {
+            "name": "Guiccioli",
+            "year": "1823",
+            "sire": {
+              "name": "Bob Booty"
+            },
+            "dam": {
+              "name": "Flight"
+            }
+          }
+        },
+        "dam": {
+          "name": "Echidna",
+          "year": "1838",
+          "sire": {
+            "name": "Economist",
+            "year": "1825",
+            "sire": {
+              "name": "Whisker"
+            },
+            "dam": {
+              "name": "Floranthe"
+            }
+          },
+          "dam": {
+            "name": "Miss Pratt",
+            "year": "1825",
+            "sire": {
+              "name": "Blacklock"
+            },
+            "dam": {
+              "name": "Gadabout"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Pocahontas",
+        "year": "1837",
+        "sire": {
+          "name": "Glencoe",
+          "year": "1831",
+          "sire": {
+            "name": "Sultan",
+            "year": "1816",
+            "sire": {
+              "name": "Selim"
+            },
+            "dam": {
+              "name": "Bacchante"
+            }
+          },
+          "dam": {
+            "name": "Trampoline",
+            "year": "1825",
+            "sire": {
+              "name": "Tramp"
+            },
+            "dam": {
+              "name": "Web"
+            }
+          }
+        },
+        "dam": {
+          "name": "Marpessa",
+          "year": "1830",
+          "sire": {
+            "name": "Muley",
+            "year": "1810",
+            "sire": {
+              "name": "Orville"
+            },
+            "dam": {
+              "name": "Eleanor"
+            }
+          },
+          "dam": {
+            "name": "Clare",
+            "year": "1824",
+            "sire": {
+              "name": "Marmion"
+            },
+            "dam": {
+              "name": "Harpalice"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Marigold",
+      "year": "1860",
+      "sire": {
+        "name": "Teddington",
+        "year": "1848",
+        "sire": {
+          "name": "Orlando",
+          "year": "1841",
+          "sire": {
+            "name": "Touchstone",
+            "year": "1831",
+            "sire": {
+              "name": "Camel"
+            },
+            "dam": {
+              "name": "Banter"
+            }
+          },
+          "dam": {
+            "name": "Vulture",
+            "sire": {
+              "name": "Langar"
+            },
+            "dam": {
+              "name": "Kite"
+            }
+          }
+        },
+        "dam": {
+          "name": "Miss Twickenham",
+          "sire": {
+            "name": "Rockingham",
+            "year": "1833",
+            "sire": {
+              "name": "Humphrey Clinker"
+            },
+            "dam": {
+              "name": "Matilda"
+            }
+          },
+          "dam": {
+            "name": "Charity",
+            "sire": {
+              "name": "Douro"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Ellen Middleton",
+        "sire": {
+          "name": "Bay Middleton",
+          "year": "1833",
+          "sire": {
+            "name": "Sultan",
+            "year": "1816",
+            "sire": {
+              "name": "Selim"
+            },
+            "dam": {
+              "name": "Bacchante"
+            }
+          },
+          "dam": {
+            "name": "Cobweb",
+            "year": "1821",
+            "sire": {
+              "name": "Phantom"
+            },
+            "dam": {
+              "name": "Filagree"
+            }
+          }
+        },
+        "dam": {
+          "name": "Myrrha",
+          "sire": {
+            "name": "Malek",
+            "sire": {
+              "name": "Douro"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          },
+          "dam": {
+            "name": "Bessy Bedlam",
+            "sire": {
+              "name": "Douro"
+            },
+            "dam": {
+              "name": "Bedlamite"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Sultan 3×4のインブリード（Glencoeの父 × Bay Middletonの父）"
+  },
+  "nameDisplayPed": "Doncaster<br/><small>1870</small>",
+  "offspring": [
+    {
+      "name": "Muncaster",
+      "year": "1877",
+      "desc": "Sarabandの父。名牝Pretty Pollyの母父としても知られる"
+    },
+    {
+      "name": "Bend Or",
+      "year": "1877",
+      "desc": "Epsom Derby (1880)。Ormonde、Bona Vistaの父として現代サラブレッド父系に直結する最重要後継種牡馬",
+      "link": "bend-or"
+    },
+    {
+      "name": "Sir Reuben",
+      "year": "1878",
+      "desc": "Prince of Wales's Stakes (1881)"
+    },
+    {
+      "name": "Sandiway",
+      "year": "1881",
+      "desc": "Coronation Stakes (1884)。牝馬。米国に輸出され、Dr. Fagerの祖先となる"
+    },
+    {
+      "name": "Cambusmore",
+      "year": "1881",
+      "desc": "St James's Palace Stakes (1884)"
+    },
+    {
+      "name": "Farewell",
+      "year": "1882",
+      "desc": "1000 Guineas (1885)。牝馬。母はLily Agnes（Macaroni産駒）"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Stockwell",
+      "year": "1849",
+      "current": false,
+      "slug": "stockwell"
+    },
+    {
+      "name": "Doncaster",
+      "year": "1870",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Bend Or",
+      "year": "1877",
+      "current": false,
+      "slug": "bend-or"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Doncaster (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Doncaster_(horse)"
+        },
+        {
+          "text": "Doncaster — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/doncaster-gb.html"
+        },
+        {
+          "text": "Doncaster — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/Doncaster.htm"
+        },
+        {
+          "text": "Doncaster — TBHeritage",
+          "url": "https://www.tbheritage.com/Portraits/Doncaster.html"
+        },
+        {
+          "text": "Doncaster — Pedigree Query",
+          "url": "https://www.pedigreequery.com/doncaster"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Doncaster"
+}

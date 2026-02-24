@@ -1,0 +1,436 @@
+{
+  "id": "sunday-silence",
+  "era": "e5",
+  "generation": "XXI",
+  "nav": {
+    "prev": {
+      "slug": "halo",
+      "name": "Halo"
+    },
+    "next": null
+  },
+  "eraLabel": "20世紀後半",
+  "name": "Sunday Silence",
+  "dates": "1986 – 2002",
+  "epithet": "日本競馬の歴史を塗り替えた空前絶後の大種牡馬",
+  "birthYear": 1986,
+  "cardDesc": "1989年ケンタッキーダービー・プリークネスS優勝、米年度代表馬。日本に渡り空前絶後の大種牡馬として君臨。リーディングサイアー13年連続——日本競馬の歴史そのものを塗り替えた。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1986年3月25日"
+    },
+    {
+      "label": "没年月日",
+      "value": "2002年8月19日（16歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "青毛（Dark Bay/Brown）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "アメリカ合衆国（ケンタッキー州パリス）"
+    },
+    {
+      "label": "生産者",
+      "value": "Oak Cliff Thoroughbreds, Ltd."
+    },
+    {
+      "label": "馬主",
+      "value": "H-G-W Partners（A.B. Hancock III, C. Whittingham, E. Gaillard）"
+    },
+    {
+      "label": "調教師",
+      "value": "Charles Whittingham"
+    }
+  ],
+  "biography": [
+    "Sunday Silenceは1986年、ケンタッキー州パリスで生まれた。幼駒時代は見栄えのしない馬体から買い手がつかず、セリで2度も売れ残るという不遇のスタートを切った。しかし、名伯楽チャーリー・ウィッティンガム調教師の手に渡ると、その秘められた才能が開花する。",
+    "1989年、3歳シーズンにサンタアニタダービーを11馬身差で圧勝し、全米にその名を轟かせた。続くケンタッキーダービーでは宿命のライバルEasy Goerを2馬身半差で退け戴冠。プリークネスSではハナ差の死闘を制した。ベルモントSこそEasy Goerに敗れたが、年末のブリーダーズカップ・クラシックで再びEasy Goerを破り、エクリプス賞年度代表馬に輝いた。",
+    "1990年、脚部の靭帯を負傷し引退。翌年、社台グループの吉田善哉に750万ドルで購入され、北海道の社台スタリオンステーションで種牡馬生活を開始した。この決断が日本競馬の歴史を根底から変えることになる。",
+    "初年度産駒からフジキセキ、ジェニュイン、ダンスパートナー、タヤスツヨシとGI馬が続出。以後、サイレンススズカ、スペシャルウィーク、アグネスタキオン、マンハッタンカフェ、ゼンノロブロイ、ダイワメジャー、ハーツクライ、そしてディープインパクトに至るまで、日本競馬史上最高の種牡馬として君臨し続けた。リーディングサイアー13年連続（1995-2007年）という空前絶後の記録を打ち立て、2002年8月19日、蹄葉炎の合併症により16歳でこの世を去った。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "14",
+      "wins": "9",
+      "seconds": "5",
+      "thirds": "0"
+    },
+    "narrative": "全14戦で3着以下なし。生涯獲得賞金 $4,968,554。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1989 Santa Anita Derby (G1)",
+          "1989 Kentucky Derby (G1)",
+          "1989 Preakness Stakes (G1)",
+          "1989 Super Derby (G1)",
+          "1989 Breeders' Cup Classic (G1)",
+          "1990 Californian Stakes (G1)"
+        ]
+      },
+      {
+        "title": "主な表彰",
+        "items": [
+          "1989 Eclipse Award 年度代表馬",
+          "1989 Eclipse Award 最優秀3歳牡馬",
+          "1996 米国競馬殿堂入り"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Halo",
+      "year": "1969",
+      "sireLine": true,
+      "link": "halo",
+      "sire": {
+        "name": "Hail to Reason",
+        "year": "1958",
+        "sireLine": true,
+        "link": "hail-to-reason",
+        "sire": {
+          "name": "Turn-to",
+          "year": "1951",
+          "sireLine": true,
+          "link": "turn-to",
+          "sire": {
+            "name": "Royal Charger",
+            "year": "1942",
+            "sireLine": true,
+            "link": "royal-charger",
+            "sire": {
+              "name": "Nearco",
+              "sireLine": true,
+              "link": "nearco"
+            },
+            "dam": {
+              "name": "Sun Princess"
+            }
+          },
+          "dam": {
+            "name": "Source Sucree",
+            "year": "1940",
+            "sire": {
+              "name": "Admiral Drake"
+            },
+            "dam": {
+              "name": "Donatella"
+            }
+          }
+        },
+        "dam": {
+          "name": "Nothirdchance",
+          "year": "1948",
+          "sire": {
+            "name": "Blue Swords",
+            "year": "1940",
+            "sire": {
+              "name": "Blue Larkspur"
+            },
+            "dam": {
+              "name": "Flaming Swords"
+            }
+          },
+          "dam": {
+            "name": "Galla Colors",
+            "year": "1943",
+            "sire": {
+              "name": "Sir Gallahad III"
+            },
+            "dam": {
+              "name": "Rouge et Noir"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Cosmah",
+        "year": "1953",
+        "sire": {
+          "name": "Cosmic Bomb",
+          "year": "1944",
+          "sire": {
+            "name": "Pharamond II",
+            "year": "1925",
+            "sireLine": true,
+            "link": "pharos",
+            "sire": {
+              "name": "Phalaris",
+              "sireLine": true,
+              "link": "phalaris"
+            },
+            "dam": {
+              "name": "Selene"
+            }
+          },
+          "dam": {
+            "name": "Banish Fear",
+            "sire": {
+              "name": "Blue Larkspur"
+            },
+            "dam": {
+              "name": "Miaou"
+            }
+          }
+        },
+        "dam": {
+          "name": "Almahmoud",
+          "year": "1947",
+          "sire": {
+            "name": "Mahmoud",
+            "year": "1933",
+            "sire": {
+              "name": "Blenheim II"
+            },
+            "dam": {
+              "name": "Mah Mahal"
+            }
+          },
+          "dam": {
+            "name": "Arbitrator",
+            "year": "1937",
+            "sire": {
+              "name": "Peace Chance"
+            },
+            "dam": {
+              "name": "Mother Goose"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Wishing Well",
+      "year": "1975",
+      "sire": {
+        "name": "Understanding",
+        "year": "1963",
+        "sire": {
+          "name": "Promised Land",
+          "year": "1954",
+          "sire": {
+            "name": "Palestinian",
+            "year": "1946",
+            "sire": {
+              "name": "Sun Again"
+            },
+            "dam": {
+              "name": "Donatana"
+            }
+          },
+          "dam": {
+            "name": "Mahmoudess",
+            "year": "1942",
+            "sire": {
+              "name": "Mahmoud *"
+            },
+            "dam": {
+              "name": "Donatella"
+            }
+          }
+        },
+        "dam": {
+          "name": "Pretty Ways",
+          "year": "1953",
+          "sire": {
+            "name": "Stymie",
+            "year": "1941",
+            "sire": {
+              "name": "Equestrian"
+            },
+            "dam": {
+              "name": "Stop Watch"
+            }
+          },
+          "dam": {
+            "name": "Pretty Jo",
+            "sire": {
+              "name": "Bull Dog"
+            },
+            "dam": {
+              "name": "Pretty Does"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Mountain Flower",
+        "year": "1964",
+        "sire": {
+          "name": "Montparnasse",
+          "year": "1956",
+          "sire": {
+            "name": "Gulf Stream",
+            "sire": {
+              "name": "Victrix"
+            },
+            "dam": {
+              "name": "Dorine"
+            }
+          },
+          "dam": {
+            "name": "Mignon",
+            "sire": {
+              "name": "Fox Club"
+            },
+            "dam": {
+              "name": "Dorine II"
+            }
+          }
+        },
+        "dam": {
+          "name": "Edelweiss",
+          "year": "1959",
+          "sire": {
+            "name": "Hillary",
+            "sire": {
+              "name": "Khaled"
+            },
+            "dam": {
+              "name": "Snow Bunny"
+            }
+          },
+          "dam": {
+            "name": "Donatella II",
+            "sire": {
+              "name": "Free France"
+            },
+            "dam": {
+              "name": "Donatella"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Mahmoud 4×5のインブリード（Almahmoudの父 × Mahmoudessの父）"
+  },
+  "nameDisplayPed": "Sunday<br/>Silence<br/><small>1986</small>",
+  "offspring": [
+    {
+      "name": "Fuji Kiseki",
+      "year": "1992",
+      "desc": "朝日杯3歳S (G1)。種牡馬としても成功"
+    },
+    {
+      "name": "Tayasu Tsuyoshi",
+      "year": "1992",
+      "desc": "東京優駿/日本ダービー (G1)"
+    },
+    {
+      "name": "Bubble Gum Fellow",
+      "year": "1993",
+      "desc": "天皇賞・秋 (G1)、朝日杯3歳S (G1)"
+    },
+    {
+      "name": "Dance in the Dark",
+      "year": "1993",
+      "desc": "菊花賞 (G1)。種牡馬として成功"
+    },
+    {
+      "name": "Silence Suzuka",
+      "year": "1994",
+      "desc": "宝塚記念 (G1)。大逃げの天才"
+    },
+    {
+      "name": "Stay Gold",
+      "year": "1994",
+      "desc": "香港ヴァーズ (G1)、ドバイシーマクラシック (G1)。Orfevre, Goldshipの父"
+    },
+    {
+      "name": "Special Week",
+      "year": "1995",
+      "desc": "日本ダービー (G1)、天皇賞・春秋 (G1)、ジャパンカップ (G1)"
+    },
+    {
+      "name": "Agnes Tachyon",
+      "year": "1998",
+      "desc": "皐月賞 (G1)。ディープスカイの父"
+    },
+    {
+      "name": "Manhattan Cafe",
+      "year": "1998",
+      "desc": "菊花賞 (G1)、有馬記念 (G1)、天皇賞・春 (G1)"
+    },
+    {
+      "name": "Neo Universe",
+      "year": "2000",
+      "desc": "皐月賞 (G1)、日本ダービー (G1)"
+    },
+    {
+      "name": "Zenno Rob Roy",
+      "year": "2000",
+      "desc": "天皇賞・秋 (G1)、ジャパンカップ (G1)、有馬記念 (G1)"
+    },
+    {
+      "name": "Still in Love",
+      "year": "2000",
+      "desc": "牝馬三冠：桜花賞・オークス・秋華賞 (全G1, 2003)"
+    },
+    {
+      "name": "Daiwa Major",
+      "year": "2001",
+      "desc": "皐月賞 (G1)、天皇賞・秋 (G1)、マイルCS (G1) ×2"
+    },
+    {
+      "name": "Heart's Cry",
+      "year": "2001",
+      "desc": "有馬記念 (G1)、ドバイシーマクラシック (G1)。リスグラシューの父"
+    },
+    {
+      "name": "Deep Impact",
+      "year": "2002",
+      "desc": "三冠馬：皐月賞・ダービー・菊花賞 + 天皇賞・春、宝塚記念、ジャパンカップ、有馬記念。日本史上最高の種牡馬の一頭"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Halo",
+      "year": "1969",
+      "current": false,
+      "slug": "halo"
+    },
+    {
+      "name": "Sunday Silence",
+      "year": "1986",
+      "current": true,
+      "slug": null
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Sunday Silence — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Sunday_Silence"
+        },
+        {
+          "text": "サンデーサイレンス — Wikipedia (JA)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%AC%E3%83%B3%E3%82%B9"
+        },
+        {
+          "text": "Sunday Silence (USA) — JBIS-Search",
+          "url": "https://www.jbis.jp/horse/0000333862/"
+        },
+        {
+          "text": "Sunday Silence — National Museum of Racing Hall of Fame",
+          "url": "https://www.racingmuseum.org/hall-of-fame/horse/sunday-silence-ky"
+        },
+        {
+          "text": "Sunday Silence — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/sunday-silence.html"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Sunday Silence"
+}

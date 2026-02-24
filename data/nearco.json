@@ -1,0 +1,437 @@
+{
+  "id": "nearco",
+  "era": "e4",
+  "generation": "XVI",
+  "nav": {
+    "prev": {
+      "slug": "pharos",
+      "name": "Pharos"
+    },
+    "next": {
+      "slug": "royal-charger",
+      "name": "Royal Charger"
+    }
+  },
+  "eraLabel": "20世紀前半",
+  "name": "Nearco",
+  "dates": "1935 – 1957",
+  "epithet": "無敗の14戦14勝、20世紀最大の種牡馬系統の祖",
+  "birthYear": 1935,
+  "cardDesc": "イタリアの英雄。14戦全勝——第二次大戦前に英国へ渡り、20世紀最大の影響力を持つ種牡馬に。現代サラブレッドの大半がこの馬に遡る。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1935年1月24日"
+    },
+    {
+      "label": "没年月日",
+      "value": "1957年6月27日（22歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛（Brown）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イタリア（ドルメッロ、ピエモンテ州）"
+    },
+    {
+      "label": "生産者",
+      "value": "Federico Tesio（ドルメッロ＝オルジアータ牧場）"
+    },
+    {
+      "label": "馬主",
+      "value": "Federico Tesio → Martin H. Benson"
+    },
+    {
+      "label": "調教師",
+      "value": "Federico Tesio"
+    }
+  ],
+  "biography": [
+    "Nearcoは1935年1月24日、イタリア北部ピエモンテ州ドルメッロにあるフェデリコ・テシオの牧場で生まれた。テシオは「20世紀最大のブリーダー」と称されるイタリアの天才馬産家であり、Nearcoはその生涯における最高傑作のひとつであった。母Nogaraはテシオが1915年のニューマーケット・ディセンバー・セールでわずか75ギニーで購入した小柄な牝馬Catnipの娘で、テシオの独創的な配合理論から生まれた傑作であった。",
+    "2歳の1937年、デビューから7連勝を飾り、グラン・クリテリウムなどを制してイタリア最優秀2歳馬に選出された。3歳の1938年にはプレミオ・パリオリ（イタリア2000ギニー）を勝つと、グラン・プレミオ・デル・レ（ダービー・イタリアーノ）、グラン・プレミオ・ディタリア、グラン・プレミオ・ディ・ミラノと主要競走を次々と制覇。6月にはフランスのロンシャン競馬場で行われたグランプリ・ド・パリに遠征し、距離3000mの長丁場でフランスの強豪を相手に圧勝した。こうして全14戦14勝の無敗記録を打ち立て、イタリア年度代表馬に輝いた。",
+    "1938年、ムッソリーニ政権下のイタリアがナチス・ドイツとの同盟を強め、戦争の足音が迫るなか、テシオは愛馬の将来を案じ、イギリスのマーティン・H・ベンソンに当時の世界レコードとなる6万ポンドでNearcoを売却した。ニューマーケットのビーチハウス・スタッドで種牡馬生活を開始したNearcoは、たちまちその類稀なる遺伝力を発揮し、イギリス・アイルランドのリーディングサイアーに輝く。",
+    "種牡馬としてのNearcoの功績は計り知れない。直仔のNasrullahからはBold Ruler、Never Bend、Secretariatへと繋がる北米の主流血統が生まれた。Royal Chargerの系統はTurn-to、Hail to Reason、Halo、Sunday Silenceを経て日本競馬を席巻した。さらにNearctic経由でNorthern Dancerが誕生し、Nijinsky、Sadler’s Wells、Galileoへと繋がる欧州の支配的血統を形成。現代のサラブレッドの圧倒的多数がNearcoの父系子孫にあたり、1985年から2010年までの凱旋門賞優勝馬はすべてNearcoの血を引く。1957年6月27日、癌のためビーチハウス・スタッドで死去し、同牧場に埋葬された。20世紀のサラブレッド血統史において、Nearcoほど深く広範な影響を残した種牡馬は他にいない。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "14",
+      "wins": "14",
+      "seconds": "0",
+      "thirds": "0"
+    },
+    "narrative": "全14戦無敗。1000mから3000mまで全距離を制覇した史上屈指の名馬。",
+    "subsections": [
+      {
+        "title": "1937年（2歳） — 7戦7勝",
+        "items": [
+          "Premio Colico（サンシーロ）",
+          "Premio Menaggio（サンシーロ）",
+          "Premio Vimercate（サンシーロ）",
+          "Criterium Nazionale（サンシーロ）",
+          "Gran Criterium（サンシーロ）",
+          "Premio Tevere（カパネッレ）",
+          "Premio Chiusura（サンシーロ）"
+        ]
+      },
+      {
+        "title": "1938年（3歳） — 7戦7勝",
+        "items": [
+          "Premio Ministero Agricoltura e Foreste（ピサ）",
+          "Premio Parioli / イタリア2000ギニー（カパネッレ）",
+          "Premio Principe Emanuele Filiberto（サンシーロ）",
+          "Gran Premio del Re / ダービー・イタリアーノ（カパネッレ）",
+          "Gran Premio d’Italia（サンシーロ）",
+          "Gran Premio di Milano（サンシーロ）",
+          "Grand Prix de Paris（ロンシャン）"
+        ]
+      },
+      {
+        "title": "主な表彰",
+        "items": [
+          "1937 イタリア最優秀2歳馬",
+          "1938 イタリア最優秀3歳馬・年度代表馬"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Pharos",
+      "year": "1920",
+      "sireLine": true,
+      "link": "pharos",
+      "sire": {
+        "name": "Phalaris",
+        "year": "1913",
+        "sireLine": true,
+        "link": "phalaris",
+        "sire": {
+          "name": "Polymelus",
+          "year": "1902",
+          "sireLine": true,
+          "link": "polymelus",
+          "sire": {
+            "name": "Cyllene",
+            "year": "1895",
+            "sireLine": true,
+            "link": "cyllene",
+            "sire": {
+              "name": "Bona Vista",
+              "sireLine": true,
+              "link": "bona-vista"
+            },
+            "dam": {
+              "name": "Arcadia"
+            }
+          },
+          "dam": {
+            "name": "Maid Marian",
+            "year": "1886",
+            "sire": {
+              "name": "Hampton"
+            },
+            "dam": {
+              "name": "Quiver"
+            }
+          }
+        },
+        "dam": {
+          "name": "Bromus",
+          "year": "1905",
+          "sire": {
+            "name": "Sainfoin",
+            "year": "1887",
+            "sire": {
+              "name": "Springfield"
+            },
+            "dam": {
+              "name": "Sanda"
+            }
+          },
+          "dam": {
+            "name": "Cheery",
+            "year": "1896",
+            "sire": {
+              "name": "St. Simon"
+            },
+            "dam": {
+              "name": "Sunrise"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Scapa Flow",
+        "year": "1914",
+        "sire": {
+          "name": "Chaucer",
+          "year": "1900",
+          "sire": {
+            "name": "St. Simon",
+            "year": "1881",
+            "sire": {
+              "name": "Galopin"
+            },
+            "dam": {
+              "name": "St. Angela"
+            }
+          },
+          "dam": {
+            "name": "Canterbury Pilgrim",
+            "year": "1893",
+            "sire": {
+              "name": "Tristan"
+            },
+            "dam": {
+              "name": "Pilgrimage"
+            }
+          }
+        },
+        "dam": {
+          "name": "Anchora",
+          "year": "1905",
+          "sire": {
+            "name": "Love Wisely",
+            "year": "1898",
+            "sire": {
+              "name": "Donotello"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          },
+          "dam": {
+            "name": "Eryholme",
+            "year": "1896",
+            "sire": {
+              "name": "Donatello"
+            },
+            "dam": {
+              "name": "Dorlodot"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Nogara",
+      "year": "1928",
+      "sire": {
+        "name": "Havresac II",
+        "year": "1915",
+        "sire": {
+          "name": "Rabelais",
+          "year": "1900",
+          "sire": {
+            "name": "St. Simon",
+            "year": "1881",
+            "sire": {
+              "name": "Galopin"
+            },
+            "dam": {
+              "name": "St. Angela"
+            }
+          },
+          "dam": {
+            "name": "Satirical",
+            "year": "1892",
+            "sire": {
+              "name": "Satiety"
+            },
+            "dam": {
+              "name": "Chaff"
+            }
+          }
+        },
+        "dam": {
+          "name": "Hors Concours",
+          "year": "1906",
+          "sire": {
+            "name": "Ajax",
+            "year": "1901",
+            "sire": {
+              "name": "Flying Fox"
+            },
+            "dam": {
+              "name": "Amie"
+            }
+          },
+          "dam": {
+            "name": "Doris",
+            "year": "1898",
+            "sire": {
+              "name": "Donatello"
+            },
+            "dam": {
+              "name": "Doretta"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Catnip",
+        "year": "1910",
+        "sire": {
+          "name": "Spearmint",
+          "year": "1903",
+          "sire": {
+            "name": "Carbine",
+            "year": "1885",
+            "sire": {
+              "name": "Musket"
+            },
+            "dam": {
+              "name": "Mersey"
+            }
+          },
+          "dam": {
+            "name": "Maid of the Mint",
+            "year": "1897",
+            "sire": {
+              "name": "Minting"
+            },
+            "dam": {
+              "name": "Warble"
+            }
+          }
+        },
+        "dam": {
+          "name": "Sibola",
+          "year": "1896",
+          "sire": {
+            "name": "The Sailor Prince",
+            "year": "1880",
+            "sire": {
+              "name": "Albert Victor"
+            },
+            "dam": {
+              "name": "Doris"
+            }
+          },
+          "dam": {
+            "name": "Saluda",
+            "year": "1883",
+            "sire": {
+              "name": "Darebin"
+            },
+            "dam": {
+              "name": "Silvermine"
+            }
+          }
+        }
+      }
+    },
+    "note": "* St. Simon 4×4×5×5のインブリード。テシオが意図的に構築した配合設計の傑作。"
+  },
+  "nameDisplayPed": "Nearco<br/><small>1935</small>",
+  "offspring": [
+    {
+      "name": "Nasrullah",
+      "year": "1940",
+      "desc": "英チャンピオンS。北米リーディングサイア5回。Bold Ruler、Secretariatへ繋がるサイアーラインの祖",
+      "link": "nasrullah"
+    },
+    {
+      "name": "Royal Charger",
+      "year": "1942",
+      "desc": "Turn-to、Hail to Reason、Halo、Sunday Silenceへ繋がるサイアーラインの祖",
+      "link": "royal-charger"
+    },
+    {
+      "name": "Dante",
+      "year": "1942",
+      "desc": "英ダービー (1945)。第二次大戦中のイギリス競馬を代表する名馬"
+    },
+    {
+      "name": "Sayajirao",
+      "year": "1944",
+      "desc": "英セントレジャー (1947)、アイリッシュダービー (1947)"
+    },
+    {
+      "name": "Masaka",
+      "year": "1945",
+      "desc": "英オークス (1948)。優秀な繁殖牝馬"
+    },
+    {
+      "name": "Hafiz",
+      "year": "1945",
+      "desc": "英2000ギニー (1948)"
+    },
+    {
+      "name": "Nimbus",
+      "year": "1946",
+      "desc": "英2000ギニー、英ダービー (1949)"
+    },
+    {
+      "name": "Mossborough",
+      "year": "1947",
+      "desc": "エクリプスS。種牡馬としてBallymossの父"
+    },
+    {
+      "name": "Narrator",
+      "year": "1951",
+      "desc": "種牡馬として複数の重賞勝ち馬を輩出"
+    },
+    {
+      "name": "Nearctic",
+      "year": "1954",
+      "desc": "カナダ年度代表馬。Northern Dancerの父として現代血統に絶大な影響",
+      "link": "nearctic"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Pharos",
+      "year": "1920",
+      "current": false,
+      "slug": "pharos"
+    },
+    {
+      "name": "Nearco",
+      "year": "1935",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Royal Charger",
+      "year": "1942",
+      "current": false,
+      "slug": "royal-charger"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Nearco — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Nearco"
+        },
+        {
+          "text": "ネアルコ — Wikipedia (JA)",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%8D%E3%82%A2%E3%83%AB%E3%82%B3"
+        },
+        {
+          "text": "Nearco — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/nearco-ity.html"
+        },
+        {
+          "text": "Tesio: Titan of the Turf — Thoroughbred Daily News",
+          "url": "https://www.thoroughbreddailynews.com/tesio-titan-of-the-turf-who-did-things-his-way/"
+        },
+        {
+          "text": "Pharos — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/Pharos.html"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Nearco"
+}

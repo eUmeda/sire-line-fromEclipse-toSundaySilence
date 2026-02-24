@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サイアーライン｜Eclipse → Sunday Silence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;900&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Noto+Serif+JP:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/shared.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-orn">&#9670; &#9670; &#9670;</div>
+  <h1>SIRE LINE</h1>
+  <p class="hero-sub">Eclipse &mdash; Sunday Silence</p>
+  <div class="hero-div"><span>&#9670;</span></div>
+  <p class="hero-desc">
+    1764年、一頭の栗毛馬が英国の競馬場を席巻した。<br>
+    その名はEclipse&mdash;&mdash;18戦全勝の不敗伝説。<br>
+    以来222年、父から子へと受け継がれた血の系譜は<br>
+    大洋を渡り、日本競馬の歴史を塗り替えるに至る。<br>
+    21頭の名馬が紡いだ、父系の物語。
+  </p>
+  <p class="hero-years">1764 &mdash; 1986</p>
+  <div class="scroll-ind"><span>SCROLL</span><div class="arrow"></div></div>
+</section>
+
+<section class="legend-sec">
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--era1)"></div><span class="legend-label">18世紀</span></div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--era2)"></div><span class="legend-label">19世紀前半</span></div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--era3)"></div><span class="legend-label">19世紀後半</span></div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--era4)"></div><span class="legend-label">20世紀前半</span></div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--era5)"></div><span class="legend-label">20世紀後半</span></div>
+  </div>
+</section>
+
+<section class="tl-sec">
+  <div class="tl">
+{% for h in horses %}
+    <div class="tl-item {{ h.era }}"><div class="tl-node"></div><div class="tl-conn"></div>
+      <div class="tl-content"><div class="tl-card">
+        <div class="card-gen">Generation {{ h.generation }}</div>
+        <h2 class="card-name"><a href="horses/{{ h.id }}.html">{{ h.name }}</a></h2>
+        <div class="card-yr">{{ h.birthYear }}</div>
+        <p class="card-desc">{{ h.cardDesc }}</p>
+      </div></div>
+    </div>
+{% endfor %}
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-orn">&#9670; &#9670; &#9670;</div>
+  <p class="footer-text">
+    Eclipseから222年&mdash;&mdash;21世代にわたる父系の系譜は、<br>
+    英国からアイルランド、イタリア、北米、そして日本へと渡り、<br>
+    サラブレッドの歴史そのものを形作ってきた。
+  </p>
+</footer>
+
+</body>
+</html>

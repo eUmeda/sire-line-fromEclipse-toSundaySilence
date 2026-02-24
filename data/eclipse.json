@@ -1,0 +1,439 @@
+{
+  "id": "eclipse",
+  "era": "e1",
+  "generation": "I",
+  "nav": {
+    "prev": null,
+    "next": {
+      "slug": "pot-8-os",
+      "name": "Pot-8-Os"
+    }
+  },
+  "eraLabel": "18世紀",
+  "name": "Eclipse",
+  "dates": "1764 – 1789",
+  "epithet": "Eclipse first, the rest nowhere — 近代サラブレッドの始祖",
+  "birthYear": 1764,
+  "cardDesc": "「Eclipse first, the rest nowhere」——18戦全勝の偉業を成し遂げた近代サラブレッドの始祖。その圧倒的な走りは競馬の歴史を根底から変えた。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1764年4月1日"
+    },
+    {
+      "label": "没年月日",
+      "value": "1789年2月26日（24歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "栗毛（Chestnut）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス（バークシャー州イースト・イルズリー近郊）"
+    },
+    {
+      "label": "生産者",
+      "value": "Prince William Augustus, Duke of Cumberland"
+    },
+    {
+      "label": "馬主",
+      "value": "William Wildman → Dennis O'Kelly"
+    },
+    {
+      "label": "調教師",
+      "value": "Sullivan（詳細不詳）",
+      "unknown": true
+    }
+  ],
+  "biography": [
+    "Eclipseは1764年4月1日、日食（Eclipse）の日にバークシャー州で誕生した。生産者はカンバーランド公ウィリアム・オーガスタスであったが、翌1765年に公が死去すると、競売にかけられ羊商人のウィリアム・ワイルドマンが75ギニーで購入した。",
+    "1769年5月3日、5歳にしてデビューしたEclipseは初戦から他馬を圧倒した。当時の競馬はヒート制（同日に複数回走る方式）で行われ、4マイルの距離が標準であったが、Eclipseは常に他馬を完全に突き放した。デニス・オケリーがワイルドマンから持分の半分を650ギニーで購入し、翌年残りの半分を1,100ギニーで取得した。わずか17か月の競走生活で全18戦18勝という完璧な戦績を残し、「Eclipse first, the rest nowhere」という表現が英語の慣用句として定着した。",
+    "対戦相手が見つからなくなったため1770年10月に引退し種牡馬となった。種牡馬としても空前の成功を収め、344頭の勝馬を輩出。エプソムダービー優勝馬Young Eclipse、Saltram、Serjeantの3頭を送り出した。特にPot-8-OsとKing Fergusの2頭の系統が後世に大きな影響を与え、現代のサラブレッドの推定95%がEclipseの父系子孫とされる。三大始祖（ダーレーアラビアン、ゴドルフィンアラビアン、バイアリーターク）の血を統合し、近代サラブレッドの実質的な始祖と呼ぶべき存在である。",
+    "1789年2月26日、24歳で死亡。死後の解剖において、獣医師たちは14ポンド（約6.4kg）に達する巨大な心臓を発見した。通常の馬の心臓の約1.5倍にあたるこの異常な大きさは、後に「X因子」として知られる遺伝的形質と関連付けられた。20世紀にはセクレタリアト（22ポンド）、ファーラップ（14ポンド）といった名馬にも同様の巨大心臓が確認されており、いずれもEclipseの子孫である。"
+  ],
+  "extraSections": [
+    {
+      "title": "学術的評価",
+      "subsections": [
+        {
+          "title": "遺伝的支配力",
+          "text": "Cunningham et al.（2001）によるY染色体マイクロサテライト解析は、現代サラブレッドの約95%がダーレーアラビアンのY染色体を保有していることを示した。EclipseはダーレーアラビアンからBartlett's Childers→Squirt→Marskeを経由する直系4代目であり、この父系の支配的拡散はEclipseの卓越した遺伝力（prepotency）に負うところが大きい。同研究では、サラブレッドの遺伝物質の78%がわずか30頭の創始個体に由来し、上位10頭の祖先が全遺伝子の45%を占めることも明らかにされた。"
+        },
+        {
+          "title": "ミオスタチン遺伝子と速度の起源",
+          "text": "Bower et al.（2012）はミオスタチン遺伝子（MSTN）のC変異が短距離での爆発的スピードと相関することを発見した。C/C型は1,000〜1,600mで優位性を示し、T/T型は2,000m以上で優位性を示す。この研究は、速度に関する遺伝子が英国在来馬に由来する可能性を示唆しており、EclipseおよびNorthern Dancerのラインを通じて世界に拡散したことが示された。"
+        },
+        {
+          "title": "閉鎖育種と遺伝的多様性",
+          "text": "1791年のジェネラル・スタッドブック創設以降、サラブレッドは閉鎖品種として維持されてきた。Todd et al.（2018）は、過去50年間で近交係数が約5倍に上昇し、有効集団サイズが93〜330と推定されることを報告した。McGivney et al.（2020）の研究では現代サラブレッドの97%がNorthern Dancerの血統を持つことが示されており、Eclipseに始まる遺伝的集中が250年以上にわたって強化され続けていることを示している。"
+        }
+      ]
+    }
+  ],
+  "raceRecord": {
+    "stats": {
+      "starts": "18",
+      "wins": "18",
+      "seconds": "0",
+      "thirds": "0"
+    },
+    "narrative": "全18戦無敗。King's Plate 11勝を含む。1769年5月〜1770年10月の17か月間に全戦を消化。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1769 Noblemen and Gentlemen's Plate（Epsom）",
+          "1769 King's Plate（Winchester）",
+          "1769 King's Plate（Salisbury）",
+          "1769 King's Plate（Canterbury）",
+          "1769 King's Plate（Lewes）",
+          "1770 King's Plate（Newmarket）",
+          "1770 King's Plate（Guildford）",
+          "1770 King's Plate（Nottingham）",
+          "1770 King's Plate（York）",
+          "1770 King's Plate（Lincoln）"
+        ]
+      }
+    ],
+    "historicalNote": "※ 18世紀の競走馬のため、一部の記録は現存する史料に基づく推定値です"
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Marske",
+      "year": "1750",
+      "sireLine": true,
+      "sire": {
+        "name": "Squirt",
+        "year": "1732",
+        "sireLine": true,
+        "sire": {
+          "name": "Bartlett's Childers",
+          "year": "c.1716",
+          "sireLine": true,
+          "sire": {
+            "name": "Darley Arabian",
+            "sireLine": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "A Natural Barb Mare",
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "Snake Mare",
+          "sire": {
+            "name": "Snake",
+            "year": "c.1705",
+            "sire": {
+              "name": "Lister Turk"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Ruby Mare",
+        "sire": {
+          "name": "Hutton's Blacklegs",
+          "year": "c.1725",
+          "sire": {
+            "name": "Bay Bolton",
+            "sire": {
+              "name": "Grey Hautboy"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "Fox Cub Mare",
+          "sire": {
+            "name": "Fox Cub",
+            "sire": {
+              "name": "Clumsey"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "Coneyskins Mare",
+            "sire": {
+              "name": "Coneyskins"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Spilletta",
+      "year": "1749",
+      "sire": {
+        "name": "Regulus",
+        "year": "1739",
+        "sire": {
+          "name": "Godolphin Arabian",
+          "sire": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "Grey Robinson",
+          "sire": {
+            "name": "Bald Galloway",
+            "sire": {
+              "name": "St Victor Barb"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "Snake Mare",
+            "sire": {
+              "name": "Snake"
+            },
+            "dam": {
+              "name": "Grey Wilkes"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Mother Western",
+        "sire": {
+          "name": "Easby Snake",
+          "year": "c.1725",
+          "sire": {
+            "name": "Snake",
+            "year": "c.1705",
+            "sire": {
+              "name": "Lister Turk"
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        },
+        "dam": {
+          "name": "Old Montagu Mare",
+          "sire": {
+            "name": "Old Montagu",
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          },
+          "dam": {
+            "name": "不詳",
+            "unknown": true,
+            "sire": {
+              "name": "不詳",
+              "unknown": true
+            },
+            "dam": {
+              "name": "不詳",
+              "unknown": true
+            }
+          }
+        }
+      }
+    },
+    "note": "※ 18世紀の競走馬のため、一部の記録は現存する史料に基づく推定値です。父系はDarley Arabianに遡り、母父RegulusはGodolphin Arabian直仔。三大始祖のうち二頭の血を直接受け継ぐ"
+  },
+  "nameDisplayPed": "Eclipse<br/><small>1764</small>",
+  "offspring": [
+    {
+      "name": "Pot-8-Os",
+      "year": "1773",
+      "desc": "30勝以上。Waxyの父。サイアーラインを現代に繋いだ最重要後継種牡馬",
+      "link": "pot-8-os"
+    },
+    {
+      "name": "King Fergus",
+      "year": "1775",
+      "desc": "Hambletonianの父。もう一つの重要なサイアーライン"
+    },
+    {
+      "name": "Young Eclipse",
+      "year": "1772",
+      "desc": "Epsom Derby (1781)"
+    },
+    {
+      "name": "Saltram",
+      "year": "1780",
+      "desc": "Epsom Derby (1783)"
+    },
+    {
+      "name": "Serjeant",
+      "year": "1784",
+      "desc": "Epsom Derby (1784)"
+    },
+    {
+      "name": "Dungannon",
+      "year": "1780",
+      "desc": "優秀な競走馬。種牡馬として成功"
+    },
+    {
+      "name": "Mercury",
+      "year": "1778",
+      "desc": "複数のKing's Plate勝ち。種牡馬としても活躍"
+    },
+    {
+      "name": "Annette",
+      "year": "1779",
+      "desc": "Epsom Oaks (1787)"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Eclipse",
+      "year": "1764",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Pot-8-Os",
+      "year": "1773",
+      "current": false,
+      "slug": "pot-8-os"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Eclipse (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Eclipse_(horse)"
+        },
+        {
+          "text": "Eclipse — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/Eclipse.htm"
+        },
+        {
+          "text": "Eclipse — Thoroughbred Heritage",
+          "url": "https://www.tbheritage.com/Portraits/Eclipse.html"
+        },
+        {
+          "text": "Eclipse — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/eclipse.html"
+        }
+      ]
+    },
+    {
+      "title": "学術文献",
+      "items": [
+        {
+          "text": "Cunningham, E. P., et al. (2001). Microsatellite diversity, pedigree relatedness and the contributions of founder lineages to thoroughbred horses. <em>Animal Genetics</em>, 32(6), 360–364."
+        },
+        {
+          "text": "Bower, M. A., et al. (2012). The genetic origin and history of speed in the Thoroughbred racehorse. <em>Nature Communications</em>, 3, 643."
+        },
+        {
+          "text": "Bower, M. A., et al. (2011). The cosmopolitan maternal heritage of the Thoroughbred racehorse breed shows a significant contribution from British and Irish native mares. <em>Biology Letters</em>, 7(2), 316–320."
+        },
+        {
+          "text": "Todd, E. T., et al. (2018). Founder-specific inbreeding depression affects racing performance in Thoroughbred horses. <em>Scientific Reports</em>, 8, 6167."
+        },
+        {
+          "text": "McGivney, B. A., et al. (2020). Genomic inbreeding trends, influential sire lines and selection in the global Thoroughbred horse population. <em>Scientific Reports</em>, 10, 466."
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Sunday Silence"
+}

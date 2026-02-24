@@ -1,0 +1,379 @@
+{
+  "id": "the-baron",
+  "era": "e2",
+  "generation": "VII",
+  "nav": {
+    "prev": {
+      "slug": "birdcatcher",
+      "name": "Birdcatcher"
+    },
+    "next": {
+      "slug": "stockwell",
+      "name": "Stockwell"
+    }
+  },
+  "eraLabel": "19世紀前半",
+  "name": "The Baron",
+  "dates": "1842 – 1860",
+  "epithet": "アイルランドから海を渡り、英仏の血統を繋いだ「痩身で凶暴な男爵」",
+  "birthYear": 1842,
+  "cardDesc": "1845年セントレジャーS優勝。後にフランスへ輸出され、欧州大陸における血統発展にも大きく寄与した。",
+  "profile": [
+    {
+      "label": "生年",
+      "value": "1842年"
+    },
+    {
+      "label": "没年",
+      "value": "1860年（18歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "栃栗毛（Dark Chestnut）— 星・鼻梁白、左後白靴"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "アイルランド"
+    },
+    {
+      "label": "生産者",
+      "value": "George Watts（獣医師）"
+    },
+    {
+      "label": "馬主",
+      "value": "George Watts → John Scott → E.R. Clark → John Theobald → フランス国立種馬場"
+    },
+    {
+      "label": "調教師",
+      "value": "John Scott（マルトン）"
+    }
+  ],
+  "biography": [
+    "The Baronは1842年、アイルランドで獣医師George Wattsによって生産された。父Birdcatcher、母Echidnaという血統を持つ栃栗毛の牡馬で、星と鼻梁白、左後脚に白靴という特徴的な白斑を持っていた。「痩身で凶暴な男爵（The slim and savage Baron）」というあだ名が示す通り、その気性は激しく手に負えないものだった。",
+    "3歳時、アイルランドのカラ競馬場で4戦3勝の成績を収めた後、1845年に生産者Wattsの手によってイングランドに渡った。名伯楽John Scottに売却されると、1845年のセントレジャーSを制覇。続くシザレウィッチH（2マイル1/4）も7ストーン9ポンドの斤量で勝利し、3歳馬としては当時最高額となる3,200ギニーの賞金を獲得した。",
+    "4歳時にも出走したが、蹄の不調に悩まされ本来の力を発揮できなかった。引退後はEdward Rawson Clarkに購入され、その後John Theobaldに譲渡されてストックウェル種馬場で種牡馬入りした。Theobaldの死後、フランス国立種馬場のPerrot de Thaunbergに売却され、渡仏。フランスでは粗末な扱いを受けたとされるが、それでもフランス競馬の血統に大きな影響を残した。産駒はオーストラリアにも輸出されている。",
+    "The Baronの最大の功績は、名牝Pocahontasとの間に「種牡馬の帝王」Stockwellと42勝の名馬Rataplanという全兄弟を送り出したことである。1860年に18歳で死亡した。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "7",
+      "wins": "5",
+      "seconds": "0",
+      "thirds": "0"
+    },
+    "narrative": "アイルランドで4戦3勝の後、渡英してセントレジャーとシザレウィッチを制覇。3歳時の賞金額は当時の最高記録。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1845 St Leger Stakes（ドンカスター、1¾マイル）",
+          "1845 Cesarewitch Handicap（ニューマーケット、2¼マイル）"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Birdcatcher",
+      "year": "1833",
+      "sireLine": true,
+      "link": "birdcatcher",
+      "sire": {
+        "name": "Sir Hercules",
+        "year": "1826",
+        "sireLine": true,
+        "sire": {
+          "name": "Whalebone",
+          "year": "1807",
+          "sireLine": true,
+          "sire": {
+            "name": "Waxy",
+            "year": "1790",
+            "sireLine": true,
+            "sire": {
+              "name": "Pot-8-Os",
+              "sireLine": true
+            },
+            "dam": {
+              "name": "Maria"
+            }
+          },
+          "dam": {
+            "name": "Penelope",
+            "year": "1798",
+            "sire": {
+              "name": "Trumpator"
+            },
+            "dam": {
+              "name": "Prunella"
+            }
+          }
+        },
+        "dam": {
+          "name": "Peri",
+          "year": "1822",
+          "sire": {
+            "name": "Wanderer",
+            "year": "1811",
+            "sire": {
+              "name": "Giles Scroggins"
+            },
+            "dam": {
+              "name": "by Beningbrough"
+            }
+          },
+          "dam": {
+            "name": "Thalestris",
+            "year": "1809",
+            "sire": {
+              "name": "Alexander"
+            },
+            "dam": {
+              "name": "Rival"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Guiccioli",
+        "year": "1823",
+        "sire": {
+          "name": "Bob Booty",
+          "year": "1804",
+          "sire": {
+            "name": "Chanticleer",
+            "year": "1787",
+            "sire": {
+              "name": "Woodpecker"
+            },
+            "dam": {
+              "name": "by Dux"
+            }
+          },
+          "dam": {
+            "name": "Ierne",
+            "year": "1790",
+            "sire": {
+              "name": "Bagot"
+            },
+            "dam": {
+              "name": "Gamahoe"
+            }
+          }
+        },
+        "dam": {
+          "name": "Flight",
+          "year": "1809",
+          "sire": {
+            "name": "Escape",
+            "year": "1802",
+            "sire": {
+              "name": "Commodore"
+            },
+            "dam": {
+              "name": "by Dorimant"
+            }
+          },
+          "dam": {
+            "name": "Y. Heroine",
+            "year": "1797",
+            "sire": {
+              "name": "Bagot"
+            },
+            "dam": {
+              "name": "Heroine"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Echidna",
+      "year": "1838",
+      "sire": {
+        "name": "Economist",
+        "year": "1825",
+        "sire": {
+          "name": "Whisker",
+          "year": "1812",
+          "sire": {
+            "name": "Waxy",
+            "year": "1790",
+            "sire": {
+              "name": "Pot-8-Os"
+            },
+            "dam": {
+              "name": "Maria"
+            }
+          },
+          "dam": {
+            "name": "Penelope",
+            "year": "1798",
+            "sire": {
+              "name": "Trumpator"
+            },
+            "dam": {
+              "name": "Prunella"
+            }
+          }
+        },
+        "dam": {
+          "name": "Floranthe",
+          "year": "1818",
+          "sire": {
+            "name": "Octavian",
+            "year": "1807",
+            "sire": {
+              "name": "Stripling"
+            },
+            "dam": {
+              "name": "by Shuttle"
+            }
+          },
+          "dam": {
+            "name": "Caprice",
+            "year": "1797",
+            "sire": {
+              "name": "Anvil"
+            },
+            "dam": {
+              "name": "Madcap"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Miss Pratt",
+        "year": "1825",
+        "sire": {
+          "name": "Blacklock",
+          "year": "1814",
+          "sire": {
+            "name": "Whitelock",
+            "year": "1803",
+            "sire": {
+              "name": "Hambletonian"
+            },
+            "dam": {
+              "name": "Rosalind"
+            }
+          },
+          "dam": {
+            "name": "Coriander Mare",
+            "sire": {
+              "name": "Coriander"
+            },
+            "dam": {
+              "name": "Wildgoose"
+            }
+          }
+        },
+        "dam": {
+          "name": "Gadabout",
+          "year": "1812",
+          "sire": {
+            "name": "Orville",
+            "year": "1799",
+            "sire": {
+              "name": "Beningbrough"
+            },
+            "dam": {
+              "name": "Evelina"
+            }
+          },
+          "dam": {
+            "name": "Minstrel Mare",
+            "sire": {
+              "name": "Minstrel"
+            },
+            "dam": {
+              "name": "by Dorimant"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Waxy 4S×4D、Penelope 4S×4Dのインブリード（父系Whalebone経由 × 母系Whisker経由）。近代サラブレッドの基盤となる血統構成。"
+  },
+  "nameDisplayPed": "The Baron<br/><small>1842</small>",
+  "offspring": [
+    {
+      "name": "Stockwell",
+      "year": "1849",
+      "desc": "2000 Guineas, St Leger Stakes。「種牡馬の帝王」— 英国リーディングサイアー7回。母Pocahontas"
+    },
+    {
+      "name": "Rataplan",
+      "year": "1850",
+      "desc": "通算42勝、Doncaster Cup。Stockwellの全弟。母Pocahontas。優秀な母父としても活躍"
+    },
+    {
+      "name": "Donatrice",
+      "year": "1852",
+      "desc": "フランスで種牡馬として活躍"
+    },
+    {
+      "name": "La Toucques",
+      "year": "1860",
+      "desc": "Prix du Jockey Club（仏ダービー）、Prix Royal-Oak（仏セントレジャー）、Grosser Preis von Baden"
+    },
+    {
+      "name": "Barbillon",
+      "year": "1857",
+      "desc": "フランスで活躍した産駒の一頭"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Birdcatcher",
+      "year": "1833",
+      "current": false,
+      "slug": "birdcatcher"
+    },
+    {
+      "name": "The Baron",
+      "year": "1842",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Stockwell",
+      "year": "1849",
+      "current": false,
+      "slug": "stockwell"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "The Baron (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/The_Baron_(horse)"
+        },
+        {
+          "text": "The Baron — Bloodlines.net",
+          "url": "https://www.bloodlines.net/TB/Bios/TheBaron.htm"
+        },
+        {
+          "text": "The Baron — TB Heritage",
+          "url": "https://www.tbheritage.com/Portraits/TheBaron.html"
+        },
+        {
+          "text": "Birdcatcher: the 19th century sire — Thoroughbred Racing Commentary",
+          "url": "https://www.thoroughbredracing.com/articles/5597/birdcatcher-19th-century-sire-who-transformed-reputation-irish-racing/"
+        },
+        {
+          "text": "The Baron — Pedigree Query",
+          "url": "https://www.pedigreequery.com/the+baron"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → The Baron"
+}

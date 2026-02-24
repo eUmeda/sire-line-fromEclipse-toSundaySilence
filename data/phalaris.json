@@ -1,0 +1,404 @@
+{
+  "id": "phalaris",
+  "era": "e4",
+  "generation": "XIV",
+  "nav": {
+    "prev": {
+      "slug": "polymelus",
+      "name": "Polymelus"
+    },
+    "next": {
+      "slug": "pharos",
+      "name": "Pharos"
+    }
+  },
+  "eraLabel": "20世紀前半",
+  "name": "Phalaris",
+  "dates": "1913 – 1931",
+  "epithet": "現代サラブレッドの90%以上が父系で遡る20世紀最大の種牡馬",
+  "birthYear": 1913,
+  "cardDesc": "競走成績は平凡だったが、種牡馬としてPharosとFairwayの二大系統を確立。現代サラブレッドへの影響は計り知れない。",
+  "profile": [
+    {
+      "label": "生年月日",
+      "value": "1913年5月16日"
+    },
+    {
+      "label": "没年月日",
+      "value": "1931年2月28日（17歳）"
+    },
+    {
+      "label": "毛色",
+      "value": "鹿毛（Bay / Brown）"
+    },
+    {
+      "label": "性別",
+      "value": "牡馬"
+    },
+    {
+      "label": "生産国",
+      "value": "イギリス"
+    },
+    {
+      "label": "生産者",
+      "value": "Edward Stanley, 17th Earl of Derby"
+    },
+    {
+      "label": "馬主",
+      "value": "Edward Stanley, 17th Earl of Derby"
+    },
+    {
+      "label": "調教師",
+      "value": "George Lambton"
+    }
+  ],
+  "biography": [
+    "Phalarisは1913年5月16日、第17代ダービー伯爵エドワード・スタンリーの牧場で生まれた。父Polymelusはチャンピオンステークス勝ち馬にして5度の英リーディングサイアー。母Bromusはエプソムダービー馬Sainfoinの娘で、2歳時にシートンデラヴァルプレートを勝ったのみの平凡な競走馬だった。額に白星を持つ小柄な鹿毛馬は、生まれた時にはさしたる注目を集めなかった。",
+    "第一次世界大戦の影響で競馬がニューマーケットのみに制限されていた時代、Phalarisは2歳から5歳までの全24戦をニューマーケットで走り16勝を挙げた。1917年と1918年にはイギリス最優秀スプリンターと評されたが、当時のトップステイヤーには及ばず、クラシックレースへの出走はなかった。Challenge Stakesを2年連続で制したのが最大の実績であった。",
+    "1919年、200ギニーの種付け料で種牡馬入り。しかし平凡な競走成績と目立たない血統から当初は人気が出ず、ダービー伯爵自身も手放すことを考えていたという。転機は1925年。産駒Mannaが2000ギニーとエプソムダービーの二冠を達成し、Phalarisは初のリーディングサイアーに輝いた。翌年以降も2歳リーディングサイアーを3年連続で獲得し、種付け料は500ギニーにまで高騰した。",
+    "特にダービー伯爵所有の名牝Scapa Flowとの間に、Pharos（1920年生）とFairway（1925年生）という2頭の偉大な種牡馬を輩出。さらにSickle、Pharamond IIもアメリカで成功を収めた。PharosからNearco、NasrullahからNorthern Dancerへと連なる父系は、現代北半球のサラブレッドの90%以上に及ぶ。1931年2月28日、種付け直後に心臓発作で急死。競走馬としては凡庸だったが、種牡馬として20世紀最大の影響力を持つ馬となった。"
+  ],
+  "extraSections": [],
+  "raceRecord": {
+    "stats": {
+      "starts": "24",
+      "wins": "16",
+      "seconds": "2",
+      "thirds": "1"
+    },
+    "narrative": "全24戦をニューマーケットで出走。生涯獲得賞金 £5,748。",
+    "subsections": [
+      {
+        "title": "主な勝鞍",
+        "items": [
+          "1915 Stud Produce Stakes",
+          "1916 Beaufort Stakes",
+          "1916 Royal Stakes",
+          "1917 Challenge Stakes",
+          "1917 The Whip",
+          "1917 Snailwell Stakes",
+          "1918 Challenge Stakes（2回目）",
+          "1918 Abingdon Plate"
+        ]
+      },
+      {
+        "title": "種牡馬成績",
+        "items": [
+          "英リーディングサイアー 2回（1925年、1928年）",
+          "英リーディング2歳サイアー 3回（1925年、1926年、1927年）",
+          "英リーディングブルードメアサイアー 3回（1937年、1941年、1942年）"
+        ]
+      }
+    ]
+  },
+  "pedigree": {
+    "sire": {
+      "name": "Polymelus",
+      "year": "1902",
+      "sireLine": true,
+      "link": "polymelus",
+      "sire": {
+        "name": "Cyllene",
+        "year": "1895",
+        "sireLine": true,
+        "link": "cyllene",
+        "sire": {
+          "name": "Bona Vista",
+          "year": "1889",
+          "sireLine": true,
+          "link": "bona-vista",
+          "sire": {
+            "name": "Bend Or",
+            "year": "1877",
+            "sireLine": true,
+            "link": "bend-or",
+            "sire": {
+              "name": "Doncaster",
+              "sireLine": true,
+              "link": "doncaster"
+            },
+            "dam": {
+              "name": "Rouge Rose"
+            }
+          },
+          "dam": {
+            "name": "Vista",
+            "year": "1879",
+            "sire": {
+              "name": "Macaroni"
+            },
+            "dam": {
+              "name": "Doralice"
+            }
+          }
+        },
+        "dam": {
+          "name": "Arcadia",
+          "year": "1887",
+          "sire": {
+            "name": "Isonomy",
+            "year": "1875",
+            "sire": {
+              "name": "Sterling"
+            },
+            "dam": {
+              "name": "Isola Bella"
+            }
+          },
+          "dam": {
+            "name": "Distant Shore",
+            "year": "1880",
+            "sire": {
+              "name": "Hermit"
+            },
+            "dam": {
+              "name": "Land's End"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Maid Marian",
+        "year": "1886",
+        "sire": {
+          "name": "Hampton",
+          "year": "1872",
+          "sire": {
+            "name": "Lord Clifden",
+            "year": "1860",
+            "sire": {
+              "name": "Newminster"
+            },
+            "dam": {
+              "name": "The Slave"
+            }
+          },
+          "dam": {
+            "name": "Lady Langden",
+            "year": "1868",
+            "sire": {
+              "name": "Kettledrum"
+            },
+            "dam": {
+              "name": "Haricot"
+            }
+          }
+        },
+        "dam": {
+          "name": "Quiver",
+          "year": "1872",
+          "sire": {
+            "name": "Toxophilite",
+            "year": "1855",
+            "sire": {
+              "name": "Longbow"
+            },
+            "dam": {
+              "name": "Legerdemain"
+            }
+          },
+          "dam": {
+            "name": "The Arrow",
+            "year": "1856",
+            "sire": {
+              "name": "Slane"
+            },
+            "dam": {
+              "name": "Dorigen"
+            }
+          }
+        }
+      }
+    },
+    "dam": {
+      "name": "Bromus",
+      "year": "1905",
+      "sire": {
+        "name": "Sainfoin",
+        "year": "1887",
+        "sire": {
+          "name": "Springfield",
+          "year": "1873",
+          "sire": {
+            "name": "St. Albans",
+            "year": "1857",
+            "sire": {
+              "name": "Stockwell"
+            },
+            "dam": {
+              "name": "Bribery"
+            }
+          },
+          "dam": {
+            "name": "Viridis",
+            "year": "1864",
+            "sire": {
+              "name": "Marsyas"
+            },
+            "dam": {
+              "name": "Doralice"
+            }
+          }
+        },
+        "dam": {
+          "name": "Sanda",
+          "year": "1878",
+          "sire": {
+            "name": "Wenlock",
+            "year": "1869",
+            "sire": {
+              "name": "Lord Clifden"
+            },
+            "dam": {
+              "name": "Mineral"
+            }
+          },
+          "dam": {
+            "name": "Sandal",
+            "year": "1861",
+            "sire": {
+              "name": "Wethersfield"
+            },
+            "dam": {
+              "name": "Lady Evelyn"
+            }
+          }
+        }
+      },
+      "dam": {
+        "name": "Cheery",
+        "year": "1897",
+        "sire": {
+          "name": "St. Simon",
+          "year": "1881",
+          "sire": {
+            "name": "Galopin",
+            "year": "1872",
+            "sire": {
+              "name": "Vedette"
+            },
+            "dam": {
+              "name": "Flying Duchess"
+            }
+          },
+          "dam": {
+            "name": "St. Angela",
+            "year": "1865",
+            "sire": {
+              "name": "King Tom"
+            },
+            "dam": {
+              "name": "Adeline"
+            }
+          }
+        },
+        "dam": {
+          "name": "Sunrise",
+          "year": "1889",
+          "sire": {
+            "name": "Springfield",
+            "year": "1873",
+            "sire": {
+              "name": "St. Albans"
+            },
+            "dam": {
+              "name": "Viridis"
+            }
+          },
+          "dam": {
+            "name": "Rosy Morn",
+            "year": "1883",
+            "sire": {
+              "name": "Speculum"
+            },
+            "dam": {
+              "name": "Roseberry"
+            }
+          }
+        }
+      }
+    },
+    "note": "* Lord Clifden 4×5のインブリード（Hampton × Wenlock経由）。Springfield 3×3のインブリード（Sainfoin × Sunrise経由）"
+  },
+  "nameDisplayPed": "Phalaris<br/><small>1913</small>",
+  "offspring": [
+    {
+      "name": "Pharos",
+      "year": "1920",
+      "desc": "Champion Stakes。Nearcoの父として現代サイアーラインの主流を確立"
+    },
+    {
+      "name": "Manna",
+      "year": "1922",
+      "desc": "2000 Guineas, Epsom Derby。Phalaris産駒初のクラシック馬"
+    },
+    {
+      "name": "Colorado",
+      "year": "1923",
+      "desc": "2000 Guineas, Eclipse Stakes"
+    },
+    {
+      "name": "Sickle",
+      "year": "1924",
+      "desc": "米国リーディングサイアー2回（1936年、1938年）。Native Dancerの曽祖父"
+    },
+    {
+      "name": "Fairway",
+      "year": "1925",
+      "desc": "St. Leger Stakes, Eclipse Stakes, Champion Stakes ×2。英リーディングサイアー4回"
+    },
+    {
+      "name": "Pharamond II",
+      "year": "1925",
+      "desc": "渡米後に種牡馬として成功。Menowの父、Tom Foolの祖父"
+    }
+  ],
+  "sireLine": [
+    {
+      "name": "Polymelus",
+      "year": "1902",
+      "current": false,
+      "slug": "polymelus"
+    },
+    {
+      "name": "Phalaris",
+      "year": "1913",
+      "current": true,
+      "slug": null
+    },
+    {
+      "name": "Pharos",
+      "year": "1920",
+      "current": false,
+      "slug": "pharos"
+    }
+  ],
+  "references": [
+    {
+      "title": null,
+      "items": [
+        {
+          "text": "Phalaris (horse) — Wikipedia (EN)",
+          "url": "https://en.wikipedia.org/wiki/Phalaris_(horse)"
+        },
+        {
+          "text": "Phalaris (GB) — American Classic Pedigrees",
+          "url": "https://www.americanclassicpedigrees.com/phalaris-gb.html"
+        },
+        {
+          "text": "Phalaris: An Unlikely Super Sire — Thoroughbred Daily News",
+          "url": "https://www.thoroughbreddailynews.com/phalaris-an-unlikely-super-sire/"
+        },
+        {
+          "text": "Phalaris — Bloodlines.net",
+          "url": "https://bloodlines.net/TB/Bios/Phalaris.htm"
+        },
+        {
+          "text": "Phalaris — netkeiba",
+          "url": "https://en.netkeiba.com/db/horse/000a001149/"
+        }
+      ]
+    }
+  ],
+  "footerText": "サイアーライン｜Eclipse → Phalaris"
+}
